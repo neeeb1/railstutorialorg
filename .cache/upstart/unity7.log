@@ -1,0 +1,7 @@
+[2011:2046:1026/131639:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -106
+[1,1021437760:20:34:22.691116] Native Client module will be loaded at base address 0x00004c7500000000
+[2011:2046:1026/133455:ERROR:pnacl_host.cc(452)] TranslationFinished: TranslationID 92,1534463805 not found.
+[1,1021437760:20:35:00.363613] Native Client module will be loaded at base address 0x00007baf00000000
+[1,1021437760:20:36:07.907189] Native Client module will be loaded at base address 0x000051dc00000000
+[2011:2046:1026/133611:ERROR:pnacl_host.cc(452)] TranslationFinished: TranslationID 99,1858916593 not found.
+[1,1021437760:20:36:16.152034] Native Client module will be loaded at base address 0x00006a5600000000

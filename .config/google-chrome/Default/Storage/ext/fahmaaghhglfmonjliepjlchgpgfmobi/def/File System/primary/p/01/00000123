@@ -1,0 +1,34 @@
+
+
+-------session starts-------
+
+[10-26 20:1:5.272] INFO: progress update for genres: 1
+[10-26 20:1:5.287] INFO: progress update for stations: 1
+[10-26 20:1:5.435] INFO: Got the drag_and_drop directory
+[10-26 20:1:5.774] INFO: App upgraded, previous version: 1.337.0
+[10-26 20:1:5.810] INFO: MediaGallery: name=/home/neeeb/Music, galleryId=1, isMediaDevice=false, deviceId=undefined
+[10-26 20:1:5.811] INFO: MediaGallery: name=/home/neeeb/Pictures, galleryId=2, isMediaDevice=false, deviceId=undefined
+[10-26 20:1:5.811] INFO: MediaGallery: name=/home/neeeb/Videos, galleryId=3, isMediaDevice=false, deviceId=undefined
+[10-26 20:1:5.814] INFO: Starts a quick scan on /home/neeeb/Music
+[10-26 20:1:5.814] INFO: Iterating over dir / from source /home/neeeb/Music
+[10-26 20:1:5.818] INFO: Starts a quick scan on /home/neeeb/Pictures
+[10-26 20:1:5.820] INFO: Iterating over dir / from source /home/neeeb/Pictures
+[10-26 20:1:5.820] INFO: Starts a quick scan on /home/neeeb/Videos
+[10-26 20:1:5.820] INFO: Iterating over dir / from source /home/neeeb/Videos
+[10-26 20:1:5.834] INFO: /home/neeeb/Music does not contain music file
+[10-26 20:1:5.856] INFO: /home/neeeb/Pictures does not contain music file
+[10-26 20:1:5.857] INFO: /home/neeeb/Videos does not contain music file
+[10-26 20:1:6.34] INFO: lsVolume=null
+[10-26 20:1:6.35] INFO: lsUserAddedMusicSourceIds=null
+[10-26 20:1:6.36] INFO: lsLastTrackFailureLoggingTime=null
+[10-26 20:1:6.36] INFO: lsUserSelectedDownloadDirId=null
+[10-26 20:1:6.44] INFO: lsDefaultDownloadLocationId=null
+[10-26 20:1:6.45] INFO: Setting is already: lsAlwaysUseDefaultDownloadLocation = false
+[10-26 20:1:6.45] INFO: Setting is already: lsDefaultDownloadLocationId = null
+[10-26 20:1:6.423] SEVERE: User has a different tier, but showSubscriptionTierPromptFn not provided
+[10-26 20:1:6.424] INFO: Fetched user settings from server.
+[10-26 20:1:6.436] INFO: chromeapp:J ready
+[10-26 20:1:7.619] INFO: lsAppActivated=false
+[10-26 20:1:7.620] INFO: lsDragAndDropActivated=false
+[10-26 20:1:7.620] INFO: Nacl version: 1.0.257.2084
+[10-26 20:1:7.622] INFO: lsAppActivated=false

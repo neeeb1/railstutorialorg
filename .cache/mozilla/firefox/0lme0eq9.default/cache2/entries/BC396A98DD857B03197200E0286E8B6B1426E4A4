@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"17c82925e3","applicationID":"2418536","transactionName":"d1xcEEpcDg1RS05FQlVHWwdnQwMGUUpOXllZVg==","queueTime":0,"applicationTime":10,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Odin Project empowers aspiring web developers to learn together">
+    <meta name="keywords" content="learn web development, learn ruby on rails, ruby on rails, ruby, rails">
+    <title>Learn Web Development for Free Using Ruby on Rails  |  The Odin Project</title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="nWyOW2BkVl41+xCQtbvtNey9qtKmnng7jkkyLEx5Oaoe1/gS5bM8EoxULzq4SVpFXLyOoOFErnVGwpnZAJPeaA==" />
+
+
+    <!-- Grabbing the Open Sand Condensed web fonts from Google -->
+    <!-- NOTE: THIS IS A MAJOR CAUSE OF PAGE SLOWNESS!!!  -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Open+Sans:300,300italic,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" media="all" href="/assets/application-e0179b97c23a0189174b1eba0434498bdecb537714925a85dd6f6ce413cdbfb5.css" />
+
+    <!-- Pull in any custom style mods from subordinate layouts -->
+    <style type="text/css"> </style>
+
+    <!-- Javascripts
+    ================================================== -->
+    <!-- SHOULD BE Placed at the end of the document so the pages load faster BUT then my page-specific JS wouldn't run -->
+    <script src="/assets/application-dcc7127f83f7822e0b156910fa2e3bf4361f5476a08246c6e0642b244abccb3b.js"></script>
+
+    <!-- Google Analytics Tracking Snippet -->
+<!-- Only load it if we're in a production environment! -->
+  
+  
+
+  <script type="text/javascript">  
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-41005438-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+
+    <!-- Include the moot.it forums code if we're on the forums page -->
+
+  </head>
+
+  <body>
+    <div id="global-content-wrapper">
+      <!-- turn off "global" navbar if directed to (e.g. on home page) -->
+      
+        
+        <div id="home-page">
+
+  <div class="above-the-fold">
+    <div class="shield">
+      <div class="navbar">
+        <div class="nav-narrow">
+          <div class="logo-wrapper">
+            <div class="brand-box">
+  <a href=http://www.theodinproject.com/home>
+    <img class="logo-img" src="/assets/odin_head_silhouette_2_circle_simple_transparent-b2ee08a8bcec81a04d793cc3e151d6a0c261be84f9830705bfa78587f57026dc.gif" alt="Odin head silhouette 2 circle simple transparent" />
+    <span class="logo-text">
+      The Odin Project
+    </span>
+  </a>
+</div>
+
+          </div>
+          <div class="menu-wrapper">
+            <a href="/courses?ref=homenav">Curriculum</a> |
+              <a href="/login?ref=homenav">Login</a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="container narrow">
+        <div class="top-box-wrapper">
+          <div class="top-box">
+            <div class="headline">
+              <h1>
+                Learn Web Development for Free
+              </h1>
+            </div>
+            <div class="subheading">
+              <h2>
+                Stop wasting time...&nbsp;  Here's what you need to know.
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-box-top-wrapper">
+          <div class="cta-box-top">
+            <a href="/introduction-to-web-development/what-a-web-developer-does?ref=home">
+              <button class="btn btn-success cta-button">
+                Learn what a web developer does
+              </button>
+</a>            <a href="/courses?ref=home">
+              <button class="btn btn-success cta-button">
+                Explore the full curriculum
+              </button>
+</a>            <p>
+              ...or scroll down to learn more
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="social-buttons">
+    <div class="container narrow">
+      <div class="social">
+
+  <div class="facebook social-button">
+    <!-- asynchronously load the fb button because it can train wreck
+    the whole page otherwise. -->
+    <script>
+      $(function(){
+        var iframe = document.createElement('iframe');
+        iframe.src = "//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.theodinproject.com&width=75&amp;height=21&colorscheme=light&layout=button_count&action=like&show_faces=false&send=false";
+        iframe.scrolling = "no";
+        iframe.frameborder= "0";
+        iframe.style.border = "none"; 
+        iframe.style.overflow = "hidden";
+        iframe.style.width = "100px"; 
+        iframe.style.height = "21px";
+        iframe.allowTransparency = "true";
+        iframe.id = "fb-like";
+        $(".facebook").append(iframe);
+      });
+    </script>
+  </div>
+
+  <div class="twitter social-button">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out http://www.TheOdinProject.com, an open-source curriculum for learning web development @theodinproject" data-counturl="http://www.theodinproject.com">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+
+  <div class="google-plus social-button">
+    <!-- Place this tag where you want the +1 button to render. -->
+    <div class="g-plusone" data-href="http://www.theodinproject.com"></div>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+  <div class="what-its-about section">
+    <div class="container narrow">
+
+      <h2>Okay, what's this all about?</h2>
+      <h4>
+        Basically, this is the website we wish we'd had when we were learning on our own.  So we stitched together a curriculum from the best resources we could find online and here it is. This project is about:
+      </h4>
+
+      <div class="about-panels">
+
+        <div class="about-panel">
+          <div class="img-wrapper">
+            <img width="100px" title="A Path Forward" src="/assets/icons/compass2-5a67dea3816ebad1fe2a9cdcc1a44453688cd74454d03cba0307c23f6fbb7668.png" alt="Compass2" />
+          </div>
+          <h3>
+            Having a Path
+          </h3>
+          <p>
+            This is a proven path to successfully learn web development so you don't have to wonder if you're doing the right stuff or wasting your time.
+          </p>
+        </div>
+
+        <div class="about-panel">
+          <div class="img-wrapper">
+            <img width="100px" title="Building a Portfolio" src="/assets/icons/portfolio2-5db54436a740f344fb87c7672a07841c94e180384c5fbf1071228bffd1fd1444.png" alt="Portfolio2" />
+          </div>
+          <h3>
+            Building a Portfolio
+          </h3>
+          <p>
+            The best way to learn and get hired is to have a portfolio of work so we've laid out great projects to build along the way
+          </p>
+        </div>
+
+        <div class="about-panel">
+          <div class="img-wrapper">
+            <img width="100px" title="Learning Together" src="/assets/icons/chat-306093379eab0c0bc6f559720bdd4bbc7ffe31b4899b969d21c0314edc2c86cd.png" alt="Chat" />
+          </div>
+          <h3>
+            Learning Together
+          </h3>
+          <p>
+            We make it easy to find and work with other learners so you don't have to go it alone anymore.
+          </p>
+        </div>
+
+        <div class="clearfix"></div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="what-youll-learn dark">
+    <div class="section">
+
+      <div class="container narrow">
+
+        <h2>
+          What You'll Learn
+        </h2>
+
+        <div class="course-panels">
+
+          <a href="/introduction-to-web-development">
+            <div class="course-panel p1">
+              <div class="img-wrapper">
+                <img width="80px" title="Introduction to Web Development" src="/assets/icons/play-c5dc7a6906b13e428b55fbadbb5ef76f1f75e6d80e234185815085e2b251cb68.png" alt="Play" />
+              </div>
+
+              <div class="copy-wrapper">
+                <h3>
+                  Introduction to Web Development
+                </h3>
+                <p>
+                  A brief introduction to the practice and career of web development
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+
+          <a href="/web-development-101">
+            <div class="course-panel p2">
+              <div class="img-wrapper">
+                <img width="80px" title="Web Development" src="/assets/icons/web_development-137e804503c8ee66547559b3761191d570ee83421b3f4e2682440ba7e3cd8767.png" alt="Web development" />
+              </div>
+
+              <div class="copy-wrapper">
+                <h3>
+                  Web Development 101
+                </h3>
+                <p>
+                  Learn the basics of all the technologies you need to build websites
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+
+          <a href="/ruby-programming">
+            <div class="course-panel p3">
+              <div class="img-wrapper">
+                <img width="65px" title="Ruby Programming" src="/assets/icons/ruby-58ea21e4af66e061a562f3efcb764e9b7cc951438db55ed65a1042635688e2a7.png" alt="Ruby" />
+              </div>
+
+              <div class="copy-wrapper">
+                <h3>
+                  Ruby Programming
+                </h3>
+                <p>
+                  Learn programming fundamentals in Ruby, the language built for programmer happiness
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+
+          <a href="/ruby-on-rails">
+            <div class="course-panel p4">
+              <div class="img-wrapper">
+                <img width="80px" title="Ruby on Rails" src="/assets/icons/rails-3467eee451dc473a8527b78bac3384247d4dea9bcb3a53e4ac2f3214b7d374b4.png" alt="Rails" />
+              </div>
+
+              <div class="copy-wrapper">
+                <h3>
+                  Ruby on Rails
+                </h3>
+                <p>
+                  Learn to rapidly develop and deploy websites using Ruby on Rails
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+
+          <a href="/html5-and-css3">
+            <div class="course-panel p5">
+              <div class="img-wrapper">
+                <img width="80px" title="HTML5 and CSS3" src="/assets/icons/html5-53dd2cdff41f5e9392ff969d758cec2cfe07f21e18f7c90dac93790e2b8c643a.png" alt="Html5" />
+              </div>
+
+              <div class="copy-wrapper">
+                <h3>
+                  HTML5 and CSS3
+                </h3>
+                <p>
+                  Dive deeper and understand how to really make your websites look good
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+
+          <a href="/javascript-and-jquery">
+            <div class="course-panel p6">
+              <div class="img-wrapper">
+                <img width="80px" title="Javascript and jQuery" src="/assets/icons/javascript2-7cee624a6d545d6cf04c0bc0e7e2a5dffa690beb2d72825c245ef509ca878aab.png" alt="Javascript2" />
+              </div>
+
+              <div class="copy-wrapper">
+                <h3>
+                  Javascript and jQuery
+                </h3>
+                <p>
+                  Make your websites dynamic and smooth with Javascript and jQuery
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+
+          <a href="/getting-hired-as-a-web-developer">
+            <div class="course-panel p7">
+              <div class="img-wrapper">
+                <img width="80px" title="Getting Hired as a Web Developer" src="/assets/icons/job_button2-fbc9e9d2c6b9385c70fe8d744ccedc3d6e0ea2d831550855b444cb94b893f9a5.png" alt="Job button2" />
+              </div>
+
+              <div class="copy-wrapper">
+                <h3>
+                  Getting Hired as a Web Developer
+                </h3>
+                <p>
+                  You've got the skills and the portfolio, now how do you get the job?
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="how-it-works section">
+    <div class="container narrow">
+      <h2>How it Works</h2>
+      <div class="clearfix"></div>
+      <div class="panel-wrapper">
+        <div class="panel">
+          <div class="img-wrapper">
+            <img width="300px" height="150px" title="Learn to Code" src="/assets/learn_online3-bda261f7d5532d3789ec268fee41fb51ba29db87834e8fe333b7b917461529b5.jpg" alt="Learn online3" />
+          </div>
+          <h3>
+            Learn
+          </h3>
+          <p>
+            We'll guide you through the best videos, tutorials, blog posts, and courses on the web for learning each subject.
+          </p>
+        </div>
+
+        <div class="panel">
+          <div class="img-wrapper">
+            <img width="300px" height="150px" title="Write Code" src="/assets/writing_code2-6ee3a48e3caccb34191330a41cca6473cfaa2dc5110ba3663d6926f66ba4dc9a.jpg" alt="Writing code2" />
+          </div>
+          <h3>
+            Build
+          </h3>
+          <p>
+            You will build dozens of projects along the way, from simple scripts to full programs and deployed websites
+          </p>
+        </div>
+
+      </div>
+
+      <div class="work-together">
+        <div class="img-wrapper">
+            <img width="500px" height="200px" title="Work Together" src="/assets/work_together_blur-def102530c3ae4b84fb9373e46599b91d3ce263e8c6e73fa0dbe59662468b38c.jpg" alt="Work together blur" />
+        </div>
+        <div class="copy-wrapper">
+          <h3>
+            Work with Other Students
+          </h3>
+          <p>
+            Learning on your own sucks (we've been there).  We're building tools to connect you with other students along the way so you can pair up on the projects or just work through those annoying bugs with someone else across the world.
+          </p>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+  <div class="why-awesome section dark">
+    <div class="container narrow">
+      <h2>
+        Why This Project Rocks
+      </h2>
+      <div class="panel-wrapper">
+        <div class="panel">
+          <div class="img-wrapper">
+            <img width="150px" title="A Living Curriculum" src="/assets/icons/textedit-46daeec4466dda86f198995a27a7a3b92d8f30f68c485c43a4ca0dc3c2b4e625.png" alt="Textedit" />
+          </div>
+          <h3>
+            The Curriculum Lives
+          </h3>
+          <p>
+            The curriculum is really flexible -- when a better way to learn something comes along we can just use that instead!
+          </p>
+          <a href="https://github.com/TheOdinProject/curriculum">See the curriculum on Github >></a>
+        </div>
+
+        <div class="panel">
+          <div class="img-wrapper">
+            <img width="150px" title="Open Source" src="/assets/icons/open_source2-1e62e94938be356280f6ce10c04921d6adac5208ceade085283649de32523460.svg" alt="Open source2" />
+          </div>
+          <h3>
+            It's Open Source
+          </h3>
+          <p>
+            This website is available under an MIT license and the curriculum is Creative Commons.  Both are on Github.          </p>
+          <a href="https://github.com/TheOdinProject/theodinproject">See this site on Github >></a>
+        </div>
+
+        <div class="panel">
+          <div class="img-wrapper">
+            <img width="150px" title="Build You Own Tools" src="/assets/icons/xcode-081c84950216a6878b562afeac3dd6890cf3b2a30e5e4642f85891cf14de0525.png" alt="Xcode" />
+          </div>
+          <h3>
+            Build Your Own Tools
+          </h3>
+          <p>
+            Students are currently contributing to both the curriculum and the main website... so they build what they use.
+          </p>
+          <a href="/contributing">Learn how to contribute &gt;&gt;</a>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+    <div class="clear-div"></div>
+
+  <div class="cta-bottom section">
+    <div class="container narrow">
+      <p>
+        Are you curious yet?
+      </p>
+      <a href="/courses?ref=home_b">
+        <button class="btn btn-success cta-button">
+          Check out the curriculum!
+        </button>
+</a>    </div>
+  </div>
+</div>
+
+
+      
+
+    </div>
+      
+    <footer id="footer">
+
+  <div class="footer-links">
+    <a href="http://1000hours.io">Blog</a>
+    <a href="/about">About</a>
+    <a href="/faq">FAQ</a>
+    <a href="/studygroups">Study Groups</a>
+    <a href="/contributing">Contributing</a>
+    <br>
+    <a href="/contact">Contact</a>
+    <a href="/press">Press</a>
+    <a href="/legal">Legal</a>
+    <a href="/sitemap">Sitemap</a>
+  </div>
+  <div class="footer-form">
+    <form id="footer-suggestion-form" class="form-inline" action="/suggestion" method="post" data-remote="true">
+
+      <input type="hidden" name="pathname" value="" id="suggestion-pathname">
+
+      <input type="text" name="suggestion" id="feedback-text-box" class="input-large" placeholder="What can we do to improve this site?">
+
+      <button type="submit" class="btn" id="suggestion-button">
+        Tell Us!
+      </button>
+
+    </form>
+  </div>
+
+</footer>
+
+<script>
+  // Suggestion From Submission - 
+  // 1. Make sure empty form doesn't submit,
+  // 2. After form submission, gray out and disable the form
+  // 
+  $(document).ready(function(){
+    // Cache the jquery selection since we'll refer to it more than once
+    var $suggestionForm = $('#footer-suggestion-form');           
+
+    // Upon form submission, intercept call and check if form was empty and if so, dont submit.
+    $suggestionForm.submit(function( event ) {
+      if ( $("#feedback-text-box").val().length === 0 ) {
+        event.preventDefault();                 // Cancel the submit action 
+        return false;                           // Preven't the disabling of the form
+      }
+    });
+    
+    
+    $suggestionForm.bind("ajax:complete", function(event, xhr, status){
+      //console.log($("#footer-suggestion-form input"));
+      $("#footer-suggestion-form input").attr("disabled","disabled");
+      $("#footer-suggestion-form button").attr("disabled","disabled").html("Thanks!");
+      //console.log("did it!");
+    });
+    $("#suggestion-pathname").val(location.pathname);
+  });
+</script>
+ 
+
+  </body>
+  
+
+</html>
+  <!-- Render the normal application layout template -->
+
+<!-- Put any static-pages-specific code here -->
+
+µF4Ù      W¾züW¾zÿ<ÑÎ           :http://www.theodinproject.com/ necko:classified 1 request-method GET response-head HTTP/1.1 200 OK
+Server: Cowboy
+Date: Thu, 25 Aug 2016 18:58:33 GMT
+X-Frame-Options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+Content-Type: text/html; charset=utf-8
+Etag: W/"0cf1893356b439b03bf6390c2f508424"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: dca60d61-777d-4e36-bc0f-4f9487b1d1ad
+X-Runtime: 0.010363
+Content-Length: 24255
+Via: 1.1 vegur
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 34 predictor::https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Open+Sans:300,300italic,400,700 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/application-e0179b97c23a0189174b1eba0434498bdecb537714925a85dd6f6ce413cdbfb5.css 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/application-dcc7127f83f7822e0b156910fa2e3bf4361f5476a08246c6e0642b244abccb3b.js 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/odin_head_silhouette_2_circle_simple_transparent-b2ee08a8bcec81a04d793cc3e151d6a0c261be84f9830705bfa78587f57026dc.gif 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/icons/compass2-5a67dea3816ebad1fe2a9cdcc1a44453688cd74454d03cba0307c23f6fbb7668.png 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/icons/portfolio2-5db54436a740f344fb87c7672a07841c94e180384c5fbf1071228bffd1fd1444.png 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/icons/chat-306093379eab0c0bc6f559720bdd4bbc7ffe31b4899b969d21c0314edc2c86cd.png 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/icons/play-c5dc7a6906b13e428b55fbadbb5ef76f1f75e6d80e234185815085e2b251cb68.png 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/icons/web_development-137e804503c8ee66547559b3761191d570ee83421b3f4e2682440ba7e3cd8767.png 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/icons/ruby-58ea21e4af66e061a562f3efcb764e9b7cc951438db55ed65a1042635688e2a7.png 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/icons/rails-3467eee451dc473a8527b78bac3384247d4dea9bcb3a53e4ac2f3214b7d374b4.png 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/icons/html5-53dd2cdff41f5e9392ff969d758cec2cfe07f21e18f7c90dac93790e2b8c643a.png 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/icons/javascript2-7cee624a6d545d6cf04c0bc0e7e2a5dffa690beb2d72825c245ef509ca878aab.png 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/icons/job_button2-fbc9e9d2c6b9385c70fe8d744ccedc3d6e0ea2d831550855b444cb94b893f9a5.png 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/learn_online3-bda261f7d5532d3789ec268fee41fb51ba29db87834e8fe333b7b917461529b5.jpg 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/writing_code2-6ee3a48e3caccb34191330a41cca6473cfaa2dc5110ba3663d6926f66ba4dc9a.jpg 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/work_together_blur-def102530c3ae4b84fb9373e46599b91d3ce263e8c6e73fa0dbe59662468b38c.jpg 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/icons/textedit-46daeec4466dda86f198995a27a7a3b92d8f30f68c485c43a4ca0dc3c2b4e625.png 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/icons/open_source2-1e62e94938be356280f6ce10c04921d6adac5208ceade085283649de32523460.svg 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/icons/xcode-081c84950216a6878b562afeac3dd6890cf3b2a30e5e4642f85891cf14de0525.png 1,1,1472101116,0 predictor::http://www.google-analytics.com/ga.js 1,1,1472101116,0 predictor::http://platform.twitter.com/widgets.js 1,1,1472101116,0 predictor::https://apis.google.com/js/plusone.js 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/home_background_blur-500877bc61fa605d4b3e8ca87bb4082f10923d3338d5a6b66fe0bc64bcfd405a.jpg 1,1,1472101116,0 predictor::http://www.theodinproject.com/assets/patterns/subtle_dark_vertical-21737627e7ce510f7c824b1b94a80fd2ff5ebcd614309b227752493ec92c7b5f.png 1,1,1472101116,0 predictor::https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2 1,1,1472101116,0 predictor::https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xBEur64QvLD-0IbiAdTUNXE.woff2 1,1,1472101116,0 predictor::https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2 1,1,1472101116,0 predictor::https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xIF8zhZCJ7x9Pr62cRgaVUA.woff2 1,1,1472101116,0 predictor::https://platform.twitter.com/js/button.a1287ca71ce6e06bb8d64fd87cd04244.js 1,1,1472101116,0 predictor::https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.fqZMfxr-Cfw.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCOt4kfK0Dvc0dysopon_18xavPApA/cb=gapi.loaded_0 1,1,1472101116,0 predictor::https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.fqZMfxr-Cfw.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCOt4kfK0Dvc0dysopon_18xavPApA/cb=gapi.loaded_1 1,1,1472101116,0 predictor::http://js-agent.newrelic.com/nr-974.min.js 1,1,1472101116,0 predictor::http://bam.nr-data.net/1/17c82925e3?a=2418536&v=974.7d740e1&to=d1xcEEpcDg1RS05FQlVHWwdnQwMGUUpOXllZVg%3D%3D&rst=1309&ref=http://www.theodinproject.com/&ap=10&be=270&fe=980&dc=434&perf=%7B%22timing%22:%7B%22of%22:1472101116473,%22n%22:0,%22f%22:4,%22dn%22:4,%22dne%22:73,%22c%22:73,%22ce%22:73,%22rq%22:152,%22rp%22:248,%22rpe%22:331,%22dl%22:248,%22di%22:639,%22ds%22:703,%22de%22:711,%22dc%22:1250,%22l%22:1250,%22le%22:1251%7D,%22navigation%22:%7B%7D%7D&jsonp=NREUM.setToken 1,1,1472101116,0   ^¿

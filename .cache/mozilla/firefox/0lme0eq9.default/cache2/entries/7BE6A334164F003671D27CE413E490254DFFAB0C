@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Deploy A Rails App - Installfest</title>
+<script src="/assets/application.js"></script><link href="/assets/application.css" rel="stylesheet">
+</head>
+<body>
+<nav class="top cf" role="navigation"><div class="navbar-header cf title"><a href="/installfest"><span class="brand">RailsBridge </span>Installfest</a></div>
+<ul class="navbar-nav nav">
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="/flags/US.png"></a><ul class="flags dropdown-menu">
+<li><a href="http://docs.railsbridge.org"><img src="/flags/US.png"></a></li>
+<li><a href="http://es.railsbridge.org"><img src="/flags/ES.png"></a></li>
+<li><a href="http://zh-tw.railsbridge.org"><img src="/flags/ZH-TW.png"></a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">sites</a><ul class="dropdown-menu">
+<li class="category">Setup</li>
+<li class="current">Installfest</li>
+<li class="category">Rails</li>
+<li><a href="/intro-to-rails/">Intro To Rails</a></li>
+<li><a href="/job-board/">Job Board</a></li>
+<li><a href="/message-board/">Message Board</a></li>
+<li class="category">Frontend</li>
+<li><a href="/frontend/">Frontend</a></li>
+<li><a href="/javascript-snake-game/">Javascript Snake Game</a></li>
+<li><a href="/javascript-to-do-list/">Javascript To Do List</a></li>
+<li><a href="/javascript-to-do-list-with-react/">Javascript To Do List With React</a></li>
+<li class="category">Ruby</li>
+<li><a href="/learn-to-code/">Learn To Code</a></li>
+<li><a href="/ruby/">Ruby</a></li>
+<li class="category">Other stuff</li>
+<li><a href="/docs/">Docs</a></li>
+<li><a href="/workshop/">Workshop</a></li>
+</ul>
+</li>
+<li class="show-when-small"><a data-toggle-selector="#table_of_contents" href="#">toc</a></li>
+<li class="hidden-sm"><a href="deploy_a_rails_app/src">src</a></li>
+<li class="hidden-sm"><a href="https://github.com/railsbridge/docs/blob/master/sites/en/installfest/deploy_a_rails_app.step">git</a></li>
+</ul></nav><div class="toc page-list" id="table_of_contents">
+<ul>
+<li class="collapsable closed">
+<a href="/installfest/installfest"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Installfest</a><ul><li class=""><a href="/installfest/editors">Editors</a></li></ul>
+</li>
+<li class="collapsable closed">
+<a href="/installfest/choose_your_operating_system"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Choose Your Operating System</a><ul>
+<li class="collapsable closed">
+<a href="/installfest/macintosh"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Macintosh</a><ul><li class="collapsable closed">
+<a href="/installfest/osx_rvm"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>OS X RVM</a><ul><li class="collapsable closed">
+<a href="/installfest/install_xcode"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Install Xcode</a><ul>
+<li class=""><a href="/installfest/install_xcode_command_line_tools">Install Xcode Command Line Tools</a></li>
+<li class=""><a href="/installfest/install_xcode_from_app_store">Install Xcode From App Store</a></li>
+<li class=""><a href="/installfest/install_xcode_from_dvd">Install Xcode From DVD</a></li>
+</ul>
+</li></ul>
+</li></ul>
+</li>
+<li class="collapsable closed">
+<a href="/installfest/windows"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Windows</a><ul><li class=""><a href="/installfest/configure_the_windows_terminal">Configure The Windows Terminal</a></li></ul>
+</li>
+<li class=""><a href="/installfest/linux">Linux</a></li>
+</ul>
+</li>
+<li class=""><a href="/installfest/configure_git">Configure Git</a></li>
+<li class=""><a href="/installfest/create_an_ssh_key">Create An SSH Key</a></li>
+<li class="collapsable closed">
+<a href="/installfest/create_a_heroku_account"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Create A Heroku Account</a><ul><li class=""><a href="/installfest/create_a_github_account">Create A Github Account</a></li></ul>
+</li>
+<li class=""><a href="/installfest/create_a_rails_app">Create A Rails App</a></li>
+<li class=""><span class="current">Deploy A Rails App</span></li>
+<li class=""><a href="/installfest/get_a_sticker">Get A Sticker</a></li>
+<li class=""><a href="/installfest/clean_up">Clean Up</a></li>
+</ul>
+<h1>Other Pages</h1>
+<ul><li class=""><a href="/installfest/glossary">Glossary</a></li></ul>
+<span class="expand-all"><i class="fa fa-arrows-alt"></i>Expand All</span>
+</div>
+<main><h1 class="doc_title">Deploy A Rails App</h1>
+<div class="doc">
+<a name="step1"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4323" name="big_checkbox_4323" type="checkbox" value="valuable"><label for="big_checkbox_4323"></label><span class="prefix">Step 1: </span>Use git</h1>
+<blockquote>
+<div class="message tip vertical-centerer">
+<i class="fa fa-info-circle fa-3x"></i><div class="vertically-centered">
+<p><strong>If your prompt doesn't already show that you are (still) in the test_app folder</strong></p>
+<div class="console">
+<span>Type this in the terminal:</span><pre>cd test_app</pre>
+</div>
+</div>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>git init
+</pre>
+</div>
+<div class="result">
+<span>Expected result:</span><pre>Initialized empty Git repository in c:/Sites/railsbridge/test_app/.git/</pre>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>git add -A</pre>
+</div>
+<div class="message tip vertical-centerer">
+<i class="fa fa-info-circle fa-3x"></i><div class="vertically-centered"><div class="message">
+<p>With Git, there are usually many ways to do very similar things.</p>
+
+<ul>
+<li>
+<code>git add foo.txt</code> adds a file named <code>foo.txt</code>
+</li>
+<li>
+<code>git add .</code> ("git add dot") adds all new files and changed files, but <em>keeps</em> files that you've deleted</li>
+<li>
+<code>git add -A</code> adds everything, including deletions</li>
+</ul>
+
+<p>"Adding deletions" may sound weird, but if you think of a version control system as keeping track of <em>changes</em>, it might make more sense.</p>
+</div></div>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>git commit -m "initial commit"</pre>
+</div>
+<div class="result">
+<span>Expected result:</span><pre>a lot of lines like create mode 100644 Gemfile</pre>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>git log</pre>
+</div>
+<div class="result">
+<span>Expected result:</span><pre>(Your git name and "initial commit" message.)</pre>
+</div>
+</blockquote>
+</div>
+<a name="step2"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4324" name="big_checkbox_4324" type="checkbox" value="valuable"><label for="big_checkbox_4324"></label><span class="prefix">Step 2: </span>Deploy your app to Heroku</h1>
+<blockquote>
+<a name="step2-1"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4325" name="big_checkbox_4325" type="checkbox" value="valuable"><label for="big_checkbox_4325"></label><span class="prefix">Step 2.1: </span>Create a Heroku application from this local Rails application.</h1>
+<blockquote>
+<div class="message">
+<p>The very first time you use <code>heroku</code> you must enter your Heroku email address and password. Your password may not be shown as you type it, but don't worry, it's being entered! If you have already provided your credentials before, you won't be prompted for them again.</p>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>heroku create</pre>
+</div>
+<div class="result">
+<span>Expected result:</span><pre>Enter your Heroku credentials.
+Email: myemail@example.com
+Password:
+Uploading ssh public key /Users/smei/.ssh/id_rsa.pub
+Creating floating-winter-18... done, stack is cedar
+http://floating-winter-18.heroku.com/ | git@heroku.com:floating-winter-18.git
+Git remote heroku added
+</pre>
+</div>
+<div class="message">
+<p>Heroku apps are automatically given lyrical names that look like '[adjective]-[noun]-[number]'.  Each name is different.</p>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>git remote show</pre>
+</div>
+<div class="result">
+<span>Expected result:</span><pre>heroku</pre>
+</div>
+<div class="message">
+<p>If you get messages here complaining about public keys it's probably due to some confusion with SSH key usage by another app on your computer.  Call a volunteer over to help you figure it out.  Luckily this only needs to be done the first time you create a Heroku app.</p>
+</div>
+</blockquote>
+</div>
+<a name="step2-2"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4326" name="big_checkbox_4326" type="checkbox" value="valuable"><label for="big_checkbox_4326"></label><span class="prefix">Step 2.2: </span>Prepare your rails app for deploying to Heroku</h1>
+<blockquote>
+<div class="message">
+<p>Launch your text editor and open the "Gemfile" file located inside of your test_app folder. (On Windows, this should be in <code>C:\Sites\railsbridge\test_app</code> and on Linux/OS X, it should be under <code>~/railsbridge/test_app</code>.)</p>
+
+<p>Inside this file, change the line:</p>
+</div>
+<pre class="CodeRay">gem <span class="string"><span class="delimiter">'</span><span class="content">sqlite3</span><span class="delimiter">'</span></span>
+</pre>
+<div class="message">
+<p>To this:</p>
+</div>
+<pre class="CodeRay">group <span class="symbol">:development</span>, <span class="symbol">:test</span> <span class="keyword">do</span>
+  gem <span class="string"><span class="delimiter">'</span><span class="content">sqlite3</span><span class="delimiter">'</span></span>
+<span class="keyword">end</span>
+
+group <span class="symbol">:production</span> <span class="keyword">do</span>
+  gem <span class="string"><span class="delimiter">'</span><span class="content">pg</span><span class="delimiter">'</span></span>
+<span class="keyword">end</span>
+</pre>
+<div class="message">
+<p>Save the file.</p>
+</div>
+<div class="message tip vertical-centerer">
+<i class="fa fa-info-circle fa-3x"></i><div class="vertically-centered"><div class="message">
+<p>When you saved the file, your text editor may have added colors to the code, much like the example above.  It recognizes the file contains Ruby, and will mark up different kinds of words with different colors. This is called "syntax highlighting", which makes it easier to read code.</p>
+</div></div>
+</div>
+<div class="message tip vertical-centerer">
+<i class="fa fa-info-circle fa-3x"></i><div class="vertically-centered">
+<p><strong>Why Sqlite (sqlite3) and PostgreSQL (pg)?</strong></p>
+<div class="message">
+<p>SQLite and PostgreSQL are different kinds of databases.  We're using SQLite for our development and test environments because it's simple to install.  We're using PostgreSQL in our production environment because Heroku has done the hard work of installing it for us and it's more powerful than SQLite. We have separate test, development and production databases by default in Rails.</p>
+</div>
+</div>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>gem install bundler
+bundle install --without production
+</pre>
+</div>
+<div class="message">
+<p>Again, wait for the console prompt, and look for the 'Bundle complete!' message just above.</p>
+</div>
+</blockquote>
+</div>
+<a name="step2-3"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4327" name="big_checkbox_4327" type="checkbox" value="valuable"><label for="big_checkbox_4327"></label><span class="prefix">Step 2.3: </span>Set the root route</h1>
+<blockquote>
+<div class="message">
+<p>Use your editor to open the file routes.rb  (<code>C:\sites\railsbridge\test_app\config\routes.rb</code> or <code>~/railsbridge/test_app/config/routes.rb</code>) and find the line containing:</p>
+</div>
+<pre class="CodeRay"><span class="constant">Rails</span>.application.routes.draw <span class="keyword">do</span>
+</pre>
+<div class="message">
+<p>After this line, add a new line with the following:</p>
+</div>
+<pre class="CodeRay">root <span class="string"><span class="delimiter">'</span><span class="content">drinks#index</span><span class="delimiter">'</span></span>
+</pre>
+<div class="message">
+<p>Save the file.</p>
+</div>
+</blockquote>
+</div>
+<a name="step2-4"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4328" name="big_checkbox_4328" type="checkbox" value="valuable"><label for="big_checkbox_4328"></label><span class="prefix">Step 2.4: </span>Add the changes to git</h1>
+<blockquote>
+<div class="message">
+<p>Before running the following command (to add to your local git repository), make sure that you are in the <code>test_app</code> directory.</p>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>git add .
+git commit -m "Updates for heroku deployment"
+</pre>
+</div>
+</blockquote>
+</div>
+<a name="step2-5"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4329" name="big_checkbox_4329" type="checkbox" value="valuable"><label for="big_checkbox_4329"></label><span class="prefix">Step 2.5: </span>Deploy (push) to heroku</h1>
+<blockquote>
+<div class="console">
+<span>Type this in the terminal:</span><pre>git push heroku master</pre>
+</div>
+<div class="message">
+<p>It may ask: "The authenticity of host 'heroku.com (75.101.145.87)' can't be established. RSA key fingerprint is 8b:48:5e:67:0e:c9:16:47:32:f2:87:0c:1f:c8:60:ad. Are you sure you want to continue connecting (yes/no)?" Type <code>yes</code> and hit <em>enter</em>.</p>
+</div>
+<div class="result">
+<span>Expected result:</span><pre>The authenticity of host 'heroku.com (75.101.145.87)' can't be established.
+RSA key fingerprint is 8b:48:5e:67:0e:c9:16:47:32:f2:87:0c:1f:c8:60:ad.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'heroku.com,75.101.145.87' (RSA) to the list of known hosts.
+Counting objects: 60, done.
+Compressing objects: 100% (54/54), done.
+Writing objects: 100% (60/60), 79.03 KiB, done.
+Total 60 (delta 10), reused 0 (delta 0)
+
+-----&gt; Heroku receiving push
+-----&gt; Rails app detected
+       Compiled slug size is 080K
+-----&gt; Launching...... done
+       App deployed to Heroku
+
+To git@heroku.com:floating-winter-18.git
+ * [new branch]      master -&gt; master
+</pre>
+</div>
+<div class="message important vertical-centerer">
+<i class="fa fa-exclamation-circle fa-3x"></i><div class="vertically-centered">
+<p>Be sure to find and learn your Heroku application name in the output.</p>
+</div>
+</div>
+<div class="message">
+<p>This process will probably take about twice as long as your 'bundle install' and then will return you to your console prompt.  If it takes longer than that, talk to a TA.</p>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>heroku run rake db:migrate</pre>
+</div>
+<div class="result">
+<span>Expected result:</span><pre>Migrating to CreateDrinks (20160706063236)
+==  20160706063236 CreateDrinks: migrating =====================================
+-- create_table(:drinks)
+   -&gt; 0.0084s
+==  20160706063236 CreateDrinks: migrated (0.0085s) ============================
+</pre>
+</div>
+<div class="message">
+<p>The long number after CreateDrinks is a timestamp. Yours will be different!</p>
+</div>
+</blockquote>
+</div>
+<a name="step2-6"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4330" name="big_checkbox_4330" type="checkbox" value="valuable"><label for="big_checkbox_4330"></label><span class="prefix">Step 2.6: </span>Visit your new application</h1>
+<blockquote>
+<div class="message">
+<p>Now that the app is deployed, you can visit it in a browser.</p>
+</div>
+<div class="message tip vertical-centerer">
+<i class="fa fa-info-circle fa-3x"></i><div class="vertically-centered">
+<p><strong>To quickly open your heroku application in a browser</strong></p>
+<div class="console">
+<span>Type this in the terminal:</span><pre>heroku open</pre>
+</div>
+</div>
+</div>
+<div class="message">
+<p>The URL for your app is <code><em>application-name</em>.heroku.com</code> -- something like <code>floating-winter-18.heroku.com</code>.</p>
+</div>
+<div class="message">
+<p>Verify you see the welcome page. Leave this browser window open.</p>
+</div>
+<div class="message">
+<p>Create and save a new drink to verify you can write to the database on Heroku.</p>
+</div>
+<div class="message">
+<p>If you want to see a little more info about your app, you can run <code>heroku info</code>.</p>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+<div class="step next_step">
+<h1><span class="prefix">Next Step:</span></h1>
+<p class="link">Go on to <a class="link" href="get_a_sticker">Get A Sticker</a></p>
+</div>
+</div>
+<div class="back">Back to <a class="back" href="create_a_rails_app">Create A Rails App</a>
+</div></main><footer><p>Going through this curriculum on your own? Get help on <a href="http://discourse.bridgefoundry.org/c/railsbridge-help" target="_blank">our Discourse forum</a>, where RailsBridge volunteers can answer your questions.</p>
+<p>If you have a suggestion for improving the docs, please make a <a href="https://github.com/railsbridge/docs">pull request </a>or <a href="https://github.com/railsbridge/docs/issues/new">drop us a note </a>via GitHub Issues (no technical knowledge required).</p>
+<p>Source: <a href="https://github.com/railsbridge/docs">https://github.com/railsbridge/docs</a></p></footer>
+</body>
+</html>
+æô2%
+      W¿GpW¿Gp<Ò[ÉW¿U   B    :http://installfest.railsbridge.org/installfest/deploy_a_rails_app necko:classified 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 25 Aug 2016 19:30:55 GMT
+Content-Type: text/html;charset=utf-8
+Cache-Control: public, max-age=3600
+Expires: Thu, 25 Aug 2016 20:30:56 GMT
+Content-Length: 17768
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: thin
+Via: 1.1 vegur
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 9 predictor::http://installfest.railsbridge.org/assets/application.js 1,1,1472153456,0 predictor::http://installfest.railsbridge.org/assets/application.css 1,1,1472153456,0 predictor::http://www.google-analytics.com/analytics.js 1,1,1472153456,0 predictor::http://installfest.railsbridge.org/flags/US.png 1,1,1472153456,0 predictor::http://installfest.railsbridge.org/flags/ES.png 1,1,1472153456,0 predictor::http://installfest.railsbridge.org/flags/ZH-TW.png 1,1,1472153456,0 predictor::http://installfest.railsbridge.org/img/navbar_texture.gif 1,1,1472153456,0 predictor::http://installfest.railsbridge.org/assets/opensans-italic.woff 1,1,1472153456,0 predictor::http://www.google-analytics.com/collect?v=1&_v=j46&a=780788052&t=pageview&_s=1&dl=http%3A%2F%2Finstallfest.railsbridge.org%2Finstallfest%2Fdeploy_a_rails_app&ul=en-us&de=UTF-8&dt=Deploy%20A%20Rails%20App%20-%20Installfest&sd=24-bit&sr=1920x1080&vp=1270x879&je=0&_u=AACAAEABI~&jid=&cid=854949526.1472101155&tid=UA-40977319-4&z=860187569 1,1,1472153456,0   Eh

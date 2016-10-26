@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Get A Sticker - Installfest</title>
+<script src="/assets/application.js"></script><link href="/assets/application.css" rel="stylesheet">
+</head>
+<body>
+<nav class="top cf" role="navigation"><div class="navbar-header cf title"><a href="/installfest"><span class="brand">RailsBridge </span>Installfest</a></div>
+<ul class="navbar-nav nav">
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="/flags/US.png"></a><ul class="flags dropdown-menu">
+<li><a href="http://docs.railsbridge.org"><img src="/flags/US.png"></a></li>
+<li><a href="http://es.railsbridge.org"><img src="/flags/ES.png"></a></li>
+<li><a href="http://zh-tw.railsbridge.org"><img src="/flags/ZH-TW.png"></a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">sites</a><ul class="dropdown-menu">
+<li class="category">Setup</li>
+<li class="current">Installfest</li>
+<li class="category">Rails</li>
+<li><a href="/intro-to-rails/">Intro To Rails</a></li>
+<li><a href="/job-board/">Job Board</a></li>
+<li><a href="/message-board/">Message Board</a></li>
+<li class="category">Frontend</li>
+<li><a href="/frontend/">Frontend</a></li>
+<li><a href="/javascript-snake-game/">Javascript Snake Game</a></li>
+<li><a href="/javascript-to-do-list/">Javascript To Do List</a></li>
+<li><a href="/javascript-to-do-list-with-react/">Javascript To Do List With React</a></li>
+<li class="category">Ruby</li>
+<li><a href="/learn-to-code/">Learn To Code</a></li>
+<li><a href="/ruby/">Ruby</a></li>
+<li class="category">Other stuff</li>
+<li><a href="/docs/">Docs</a></li>
+<li><a href="/workshop/">Workshop</a></li>
+</ul>
+</li>
+<li class="show-when-small"><a data-toggle-selector="#table_of_contents" href="#">toc</a></li>
+<li class="hidden-sm"><a href="get_a_sticker/src">src</a></li>
+<li class="hidden-sm"><a href="https://github.com/railsbridge/docs/blob/master/sites/en/installfest/get_a_sticker.step">git</a></li>
+</ul></nav><div class="toc page-list" id="table_of_contents">
+<ul>
+<li class="collapsable closed">
+<a href="/installfest/installfest"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Installfest</a><ul><li class=""><a href="/installfest/editors">Editors</a></li></ul>
+</li>
+<li class="collapsable closed">
+<a href="/installfest/choose_your_operating_system"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Choose Your Operating System</a><ul>
+<li class="collapsable closed">
+<a href="/installfest/macintosh"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Macintosh</a><ul><li class="collapsable closed">
+<a href="/installfest/osx_rvm"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>OS X RVM</a><ul><li class="collapsable closed">
+<a href="/installfest/install_xcode"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Install Xcode</a><ul>
+<li class=""><a href="/installfest/install_xcode_command_line_tools">Install Xcode Command Line Tools</a></li>
+<li class=""><a href="/installfest/install_xcode_from_app_store">Install Xcode From App Store</a></li>
+<li class=""><a href="/installfest/install_xcode_from_dvd">Install Xcode From DVD</a></li>
+</ul>
+</li></ul>
+</li></ul>
+</li>
+<li class="collapsable closed">
+<a href="/installfest/windows"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Windows</a><ul><li class=""><a href="/installfest/configure_the_windows_terminal">Configure The Windows Terminal</a></li></ul>
+</li>
+<li class=""><a href="/installfest/linux">Linux</a></li>
+</ul>
+</li>
+<li class=""><a href="/installfest/configure_git">Configure Git</a></li>
+<li class=""><a href="/installfest/create_an_ssh_key">Create An SSH Key</a></li>
+<li class="collapsable closed">
+<a href="/installfest/create_a_heroku_account"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Create A Heroku Account</a><ul><li class=""><a href="/installfest/create_a_github_account">Create A Github Account</a></li></ul>
+</li>
+<li class=""><a href="/installfest/create_a_rails_app">Create A Rails App</a></li>
+<li class=""><a href="/installfest/deploy_a_rails_app">Deploy A Rails App</a></li>
+<li class=""><span class="current">Get A Sticker</span></li>
+<li class=""><a href="/installfest/clean_up">Clean Up</a></li>
+</ul>
+<h1>Other Pages</h1>
+<ul><li class=""><a href="/installfest/glossary">Glossary</a></li></ul>
+<span class="expand-all"><i class="fa fa-arrows-alt"></i>Expand All</span>
+</div>
+<main><h1 class="doc_title">Get A Sticker</h1>
+<div class="doc">
+<a name="step1"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4386" name="big_checkbox_4386" type="checkbox" value="valuable"><label for="big_checkbox_4386"></label><span class="prefix">Step 1: </span>Have a volunteer check your tool versions</h1>
+<blockquote>
+<div class="message">
+<p>Find a volunteer and have them watch the next steps.</p>
+</div>
+<div class="verify">
+<h1>Verify tool installation</h1>
+<blockquote>
+<div class="message tip vertical-centerer">
+<i class="fa fa-info-circle fa-3x"></i><div class="vertically-centered">
+<p>Most of the time, the version numbers don't have to match exactly. In general, if the <em>first two</em> numbers match, or if the full number you have is <em>greater</em> than the one below, then you're cool.</p>
+</div>
+</div>
+<h3>If you're on OSX or Linux:</h3>
+<div class="console">
+<span>Type this in the terminal:</span><pre>rvm -v</pre>
+</div>
+<div class="result fuzzy-result">
+<span>Approximate expected result:</span><pre>rvm 1<span class="fuzzy-lightened">.x.x by Wayne E. Seguin (wayneeseguin@gmail.com) [https://rvm.io/]</span></pre>
+<div class="fuzzy-hint">The greyed-out text may differ and is not important.</div>
+</div>
+<h3>On all operating systems:</h3>
+<div class="console">
+<span>Type this in the terminal:</span><pre>ruby -v</pre>
+</div>
+<div class="result fuzzy-result">
+<span>Approximate expected result:</span><pre>ruby 2.2<span class="fuzzy-lightened">.4p230 (2015-12-16 revision 53155) [x86_64-darwin13]</span></pre>
+<div class="fuzzy-hint">The greyed-out text may differ and is not important.</div>
+</div>
+<div class="message tip vertical-centerer">
+<i class="fa fa-info-circle fa-3x"></i><div class="vertically-centered">
+<p>Depending on your environment, your Ruby version might be <strong>2.2</strong> or <strong>2.3</strong>. As long as it's 2.2.2 or above, you're good to go.</p>
+</div>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>bundle -v</pre>
+</div>
+<div class="result fuzzy-result">
+<span>Approximate expected result:</span><pre>Bundler version 1<span class="fuzzy-lightened">.x.x</span></pre>
+<div class="fuzzy-hint">The greyed-out text may differ and is not important.</div>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>rails -v</pre>
+</div>
+<div class="result fuzzy-result">
+<span>Approximate expected result:</span><pre>Rails 5.0<span class="fuzzy-lightened">.x</span></pre>
+<div class="fuzzy-hint">The greyed-out text may differ and is not important.</div>
+</div>
+<div class="message tip vertical-centerer">
+<i class="fa fa-info-circle fa-3x"></i><div class="vertically-centered">
+<p>The RailsBridge curriculum is written for Rails 5, so if you still have Rails 4.x or earlier, you need to install Rails 5 with <code>gem install rails</code>.</p>
+</div>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+<a name="step2"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4387" name="big_checkbox_4387" type="checkbox" value="valuable"><label for="big_checkbox_4387"></label><span class="prefix">Step 2: </span>Show your Heroku app to a volunteer</h1>
+<blockquote><div class="message">
+<p>Visit the heroku site you made on the previous page and create a new drink.</p>
+</div></blockquote>
+</div>
+<a name="step3"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4388" name="big_checkbox_4388" type="checkbox" value="valuable"><label for="big_checkbox_4388"></label><span class="prefix">Step 3: </span>Congratulations!</h1>
+<blockquote><div class="message">
+<p>You get a sticker! (Or a high-five if there aren't any stickers).</p>
+</div></blockquote>
+</div>
+<div class="step next_step">
+<h1><span class="prefix">Next Step:</span></h1>
+<p class="link">Go on to <a class="link" href="clean_up">Clean Up</a></p>
+</div>
+</div>
+<div class="back">Back to <a class="back" href="deploy_a_rails_app">Deploy A Rails App</a>
+</div></main><footer><p>Going through this curriculum on your own? Get help on <a href="http://discourse.bridgefoundry.org/c/railsbridge-help" target="_blank">our Discourse forum</a>, where RailsBridge volunteers can answer your questions.</p>
+<p>If you have a suggestion for improving the docs, please make a <a href="https://github.com/railsbridge/docs">pull request </a>or <a href="https://github.com/railsbridge/docs/issues/new">drop us a note </a>via GitHub Issues (no technical knowledge required).</p>
+<p>Source: <a href="https://github.com/railsbridge/docs">https://github.com/railsbridge/docs</a></p></footer>
+</body>
+</html>
+J#æ-é      W¿IÃW¿IÃ<Ò]fW¿WÓ   =    :http://installfest.railsbridge.org/installfest/get_a_sticker necko:classified 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 25 Aug 2016 19:40:51 GMT
+Content-Type: text/html;charset=utf-8
+Cache-Control: public, max-age=3600
+Expires: Thu, 25 Aug 2016 20:40:51 GMT
+Content-Length: 9415
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: thin
+Via: 1.1 vegur
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 8 predictor::http://installfest.railsbridge.org/assets/application.js 1,1,1472154051,0 predictor::http://installfest.railsbridge.org/assets/application.css 1,1,1472154051,0 predictor::http://www.google-analytics.com/analytics.js 1,1,1472154051,0 predictor::http://installfest.railsbridge.org/flags/US.png 1,1,1472154051,0 predictor::http://installfest.railsbridge.org/flags/ES.png 1,1,1472154051,0 predictor::http://installfest.railsbridge.org/flags/ZH-TW.png 1,1,1472154051,0 predictor::http://installfest.railsbridge.org/img/navbar_texture.gif 1,1,1472154051,0 predictor::http://www.google-analytics.com/r/collect?v=1&_v=j46&a=581279710&t=pageview&_s=1&dl=http%3A%2F%2Finstallfest.railsbridge.org%2Finstallfest%2Fget_a_sticker&ul=en-us&de=UTF-8&dt=Get%20A%20Sticker%20-%20Installfest&sd=24-bit&sr=1920x1080&vp=1270x879&je=0&_u=AACAAEABI~&jid=1826572134&cid=854949526.1472101155&tid=UA-40977319-4&_r=1&z=1749389459 1,1,1472154051,0   $Ç

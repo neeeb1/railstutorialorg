@@ -1,0 +1,27 @@
+2016/10/26-13:01:04.854 2042 Reusing MANIFEST /home/neeeb/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2016/10/26-13:01:04.854 2042 Recovering log #445
+2016/10/26-13:01:04.854 2042 Reusing old log /home/neeeb/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000445.log 
+2016/10/26-13:02:15.250 2843 Level-0 table #450: started
+2016/10/26-13:02:15.304 2843 Level-0 table #450: 2023199 bytes OK
+2016/10/26-13:02:15.310 2843 Delete type=0 #445
+2016/10/26-13:02:16.455 2843 Level-0 table #452: started
+2016/10/26-13:02:16.509 2843 Level-0 table #452: 2022989 bytes OK
+2016/10/26-13:02:16.515 2843 Delete type=0 #449
+2016/10/26-13:02:18.425 2843 Level-0 table #454: started
+2016/10/26-13:02:18.648 2843 Level-0 table #454: 2022747 bytes OK
+2016/10/26-13:02:18.654 2843 Delete type=0 #451
+2016/10/26-13:02:19.218 2843 Level-0 table #456: started
+2016/10/26-13:02:19.266 2843 Level-0 table #456: 2023771 bytes OK
+2016/10/26-13:02:19.272 2843 Delete type=0 #453
+2016/10/26-13:02:19.273 2843 Compacting 4@0 + 1@1 files
+2016/10/26-13:02:19.373 2843 Generated table #457@0: 4 keys, 2024064 bytes
+2016/10/26-13:02:19.373 2843 Compacted 4@0 + 1@1 files => 2024064 bytes
+2016/10/26-13:02:19.379 2843 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/10/26-13:02:19.379 2843 Delete type=2 #447
+2016/10/26-13:02:19.379 2843 Delete type=2 #456
+2016/10/26-13:02:19.379 2843 Delete type=2 #454
+2016/10/26-13:02:19.380 2843 Delete type=2 #452
+2016/10/26-13:02:19.380 2843 Delete type=2 #450
+2016/10/26-13:03:21.223 2843 Level-0 table #459: started
+2016/10/26-13:03:21.290 2843 Level-0 table #459: 2023771 bytes OK
+2016/10/26-13:03:21.297 2843 Delete type=0 #455

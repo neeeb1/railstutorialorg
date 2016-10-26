@@ -1,0 +1,24 @@
+logrotate state -- version 2
+"/home/neeeb/.cache/upstart/update-notifier-crash-_var_crash__opt_google_chrome_chrome.1000.crash.log" 2016-10-26-13:1:31
+"/home/neeeb/.cache/upstart/dbus.log" 2016-10-26-13:1:31
+"/home/neeeb/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_zeitgeist-daemon.1000.crash.log" 2016-10-5-12:47:31
+"/home/neeeb/.cache/upstart/indicator-sound.log" 2016-10-26-13:1:31
+"/home/neeeb/.cache/upstart/indicator-keyboard.log" 2016-10-8-9:53:58
+"/home/neeeb/.cache/upstart/window-stack-bridge.log" 2016-10-26-13:1:31
+"/home/neeeb/.cache/upstart/unity-settings-daemon.log" 2016-10-26-13:1:31
+"/home/neeeb/.cache/upstart/unity7.log" 2016-10-26-13:1:31
+"/home/neeeb/.cache/upstart/hud.log" 2016-10-26-13:1:31
+"/home/neeeb/.cache/upstart/ssh-agent.log" 2016-10-26-13:1:31
+"/home/neeeb/.cache/upstart/indicator-printers.log" 2016-10-7-9:37:34
+"/home/neeeb/.cache/upstart/bamfdaemon.log" 2016-10-25-8:27:42
+"/home/neeeb/.cache/upstart/at-spi2-registryd.log" 2016-10-25-8:27:42
+"/home/neeeb/.cache/upstart/gpg-agent.log" 2016-10-26-13:1:31
+"/home/neeeb/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_nm-applet.1000.crash.log" 2016-9-4-9:36:52
+"/home/neeeb/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_unity-scope-loader.1000.crash.log" 2016-9-4-9:36:52
+"/home/neeeb/.cache/upstart/upstart-event-bridge.log" 2016-10-26-13:1:31
+"/home/neeeb/.cache/upstart/update-notifier-release.log" 2016-10-26-13:1:31
+"/home/neeeb/.cache/upstart/unity-panel-service.log" 2016-10-26-13:1:31
+"/home/neeeb/.cache/upstart/indicator-session.log" 2016-10-4-8:24:26
+"/home/neeeb/.cache/upstart/gnome-keyring-ssh.log" 2016-10-26-13:1:31
+"/home/neeeb/.cache/upstart/unity-panel-service-lockscreen.log" 2016-10-26-13:1:31
+"/home/neeeb/.cache/upstart/update-notifier-cds.log" 2016-9-4-22:48:43

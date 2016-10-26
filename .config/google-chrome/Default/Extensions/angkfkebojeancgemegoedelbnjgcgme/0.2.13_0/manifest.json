@@ -1,0 +1,24 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "codeschool_background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "codeschool_content.js" ],
+      "matches": [ "http://devtools-codeschool.dev/", "http://discover-devtools.codeschool.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "codeschool_devtools.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4r/pUHVPYQTn7vu3YHT52I0SKM15OBOTi0Jii4q5Koxd3Gdc/WXdqC2YgMA25J5PRiSubu/nHFf12Ubp3OZyNqB3j45ZscQ+tH1bwcV+cqdvv/Ik6VQaS6/qLmenLdFPKOCg/g1L1iKZu6Jjny6GlovpBj+7gjWQZBIoGBd70HQIDAQAB",
+   "manifest_version": 2,
+   "name": "Discover DevTools Companion",
+   "permissions": [ "http://devtools-codeschool.dev/", "http://discover-devtools.codeschool.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.13",
+   "web_accessible_resources": [ "codeschool_content.js", "codeschool_devtools_injected.js", "codeschool.png" ]
+}

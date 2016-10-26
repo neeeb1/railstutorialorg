@@ -1,0 +1,1666 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"17c82925e3","applicationID":"2418536","transactionName":"d1xcEEpcDg1RS05aU0dAXQpLHAsPUFwZ","queueTime":2,"applicationTime":170,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Odin Project empowers aspiring web developers to learn together">
+    <meta name="keywords" content="learn web development, learn ruby on rails, ruby on rails, ruby, rails">
+    <title>Learn Web Development 101 for Free</title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="mIZ9SLXUgG/iNjvP4eIb3G9vxE/tYSJ7Q3fFmIr34pcbPQsBMAPqI1uZBGXsEKys327gPaq79DWL/G5txh0FVQ==" />
+
+
+    <!-- Grabbing the Open Sand Condensed web fonts from Google -->
+    <!-- NOTE: THIS IS A MAJOR CAUSE OF PAGE SLOWNESS!!!  -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Open+Sans:300,300italic,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" media="all" href="/assets/application-e0179b97c23a0189174b1eba0434498bdecb537714925a85dd6f6ce413cdbfb5.css" />
+
+    <!-- Pull in any custom style mods from subordinate layouts -->
+    <style type="text/css"> </style>
+
+    <!-- Javascripts
+    ================================================== -->
+    <!-- SHOULD BE Placed at the end of the document so the pages load faster BUT then my page-specific JS wouldn't run -->
+    <script src="/assets/application-dcc7127f83f7822e0b156910fa2e3bf4361f5476a08246c6e0642b244abccb3b.js"></script>
+
+    <!-- Google Analytics Tracking Snippet -->
+<!-- Only load it if we're in a production environment! -->
+  
+  
+
+  <script type="text/javascript">  
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-41005438-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+
+    <!-- Include the moot.it forums code if we're on the forums page -->
+
+  </head>
+
+  <body>
+    <div id="global-content-wrapper">
+      <!-- turn off "global" navbar if directed to (e.g. on home page) -->
+      
+            <div class="navbar navbar-fixed-top" id="top-navbar">
+
+
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <div class="brand-box">
+  <a href=http://www.theodinproject.com/home>
+    <img class="logo-img" src="/assets/odin_head_silhouette_2_circle_simple_transparent-b2ee08a8bcec81a04d793cc3e151d6a0c261be84f9830705bfa78587f57026dc.gif" alt="Odin head silhouette 2 circle simple transparent" />
+    <span class="logo-text">
+      The Odin Project
+    </span>
+  </a>
+</div>
+
+          <div class="container nav-collapse">
+            <ul class="nav pull-right nav-links">
+              <li class="top-link nav-search"><form>
+  <input type="text" id="st-search-input" class="st-search-input" />
+</form>
+<script type="text/javascript">
+    var Swiftype = window.Swiftype || {};
+    
+    (function() {
+
+      Swiftype.renderStyle = 'inline';            // Tell swiftype we don't want their default modal
+      /** DO NOT EDIT BELOW THIS LINE **/
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = "//s.swiftypecdn.com/embed.js";
+      var entry = document.getElementsByTagName('script')[0];
+      entry.parentNode.insertBefore(script, entry);
+    }());  
+</script>
+</li>              
+              <li class="top-link"><a href="/curriculum">Curriculum</a></li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Social <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/chat">Chat</a></li>
+                    <li><a href="/studygroup">Study Groups</a></li>
+                  </ul>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>Neeeb <b class="caret"></b></strong></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/students">Students</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/users/56254">Profile</a></li>
+                    <li><a href="/users/edit">Account</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/logout">Logout</a></li>
+                  </ul>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+        <div class="nav-spacer"></div>
+        
+        <!-- Admin Flash is only meant to render if NOT homepage  -->
+          
+
+      
+        <div class="container">
+          <div class="row">
+            
+            <div id="search-results-modal" class="modal hide fade" data-backdrop="static">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>Search Results</h3>
+  </div>
+  <div id="st-results-container" class="modal-body" >
+  </div>
+  <div class="modal-footer">
+    <a class="btn" id="search-results-close" data-dismiss="modal" aria-hidden="true">Close</a>
+  </div>
+</div>
+                 
+            <div id="lesson-nav">
+  <div class="inner-nav">
+    <a href="/courses">Course List</a> >>
+    Web Development 101
+  </div>
+</div>
+<div class="CoursesController">
+  <div class="container">
+
+
+
+    <div class="heading-box">
+
+        <div class="lc-percent-completion">
+          <!--  This sets up the bar at the top of the lessons index page
+      which shows how far along the user is through the lessons
+      It may be called either on initial render or via EJS -->
+  17% Completed
+
+        </div>
+
+      <div class="heading">
+        <h1>Web Development 101</h1>
+      </div>
+      <div class="subheading">
+        <p>
+          Now that you know what web developers do, it&#39;s time to start thinking about how they actually do it. In this course, you&#39;ll learn the foundational concepts of web programming. By the end, you will be able to build a simple webpage, style it, and add elements of interactivity while working comfortably from the command line.  You will be comfortable with basic scripting in Ruby and Javascript as well as more unfamiliar things like Git and databases.  We will cover a lot of knowledge and you&#39;ll be able to get your hands dirty with all the topics that we&#39;re going to learn in the deep-dive courses that follow.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="sections-list">
+
+        <div class="section" id="section-the-basics">
+          <div class="section-title">
+            <h2>
+              The Basics
+            </h2>
+          </div>
+          <div class="section-description">
+            <p>
+              This section will cover the baseline knowledge you need before getting into the more &#39;programming&#39; aspects of web development.  You&#39;ll also get a chance to install the necessary software on your computer.
+            </p>
+          </div>
+
+          <div class="lessons-list">
+            <!-- <h2>lessons:</h2> -->
+
+                <div class="lesson ">
+
+                      <div id="lc-id-337" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form action="/lesson_completions/337" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="DELETE" />
+      <a href="#" class="lc-checkbox lc-checked" title="Uncheck to mark lesson not completed">
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/how-this-course-will-work" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 1: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          How this Course Will Work
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          Before you dive in, get familiar with the lay of the land up ahead.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-504" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form action="/lesson_completions/504" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="DELETE" />
+      <a href="#" class="lc-checkbox lc-checked" title="Uncheck to mark lesson not completed">
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/gearing-up" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 2: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Gearing Up
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          Some advice about how to approach learning to program.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-338" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form action="/lesson_completions/338" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="DELETE" />
+      <a href="#" class="lc-checkbox lc-checked" title="Uncheck to mark lesson not completed">
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/how-does-the-web-work" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 3: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          How Does the Web Work?
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          It&#39;s tough to program web sites without understanding how the web actually works!
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-339" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form action="/lesson_completions/339" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="DELETE" />
+      <a href="#" class="lc-checkbox lc-checked" title="Uncheck to mark lesson not completed">
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/command-line-basics" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 4: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Command Line Basics
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          The command line: loved, hated, and feared... but no longer by you.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-340" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form action="/lesson_completions/340" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="DELETE" />
+      <a href="#" class="lc-checkbox lc-checked" title="Uncheck to mark lesson not completed">
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/terms-to-know" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 5: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Terms to Know
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          A brief look at the terms you&#39;ll need to understand going forward
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson project">
+
+                      <div id="lc-id-341" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="341" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/installations" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Project: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Installations
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          There are some things you&#39;ll need to install before you start getting your hands dirty
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+          </div>
+
+        </div>
+
+        <div class="section" id="section-the-front-end">
+          <div class="section-title">
+            <h2>
+              The Front End
+            </h2>
+          </div>
+          <div class="section-description">
+            <p>
+              In this section you&#39;ll spend a good deal of time getting familiar with the major client-side (browser-based) languages like HTML, CSS, and Javascript.  You&#39;ll get to build a webpage with HTML/CSS and learn some programming fundamentals with Javascript.
+            </p>
+          </div>
+
+          <div class="lessons-list">
+            <!-- <h2>lessons:</h2> -->
+
+                <div class="lesson ">
+
+                      <div id="lc-id-342" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="342" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/introduction-to-the-front-end" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 1: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Introduction to the Front End
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          An overview of what exactly the &#39;Front End&#39; is
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-343" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="343" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/html-and-css-basics" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 2: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          HTML and CSS Basics
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          You&#39;ll learn all about how to build and style webpages with HTML and CSS
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-508" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="508" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/developer-tools" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 3: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Developer Tools
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          Learn all about your browsers developer tools.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson project">
+
+                      <div id="lc-id-344" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="344" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/html-css" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Project: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          HTML/CSS
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          It&#39;s time to put your knowledge to work in the Wild.  Go forth and build!
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-345" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="345" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/javascript-basics" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 4: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Javascript Basics
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          You&#39;ll get a chance to start picking up the programming fundamentals you need to make your webpages dynamic
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-346" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="346" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/jquery-basics" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 5: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          jQuery Basics
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          You&#39;ll learn how to take your Javascript knowledge and seamlessly integrate it with webpages using the magic of jQuery
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson project">
+
+                      <div id="lc-id-347" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="347" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/javascript-and-jquery" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Project: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Javascript and jQuery
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          Think &#39;Etch-a-Sketch&#39; with a bit of Funk.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+          </div>
+
+        </div>
+
+        <div class="section" id="section-the-back-end">
+          <div class="section-title">
+            <h2>
+              The Back End
+            </h2>
+          </div>
+          <div class="section-description">
+            <p>
+              Here you&#39;ll learn about the back end, where we&#39;ll demystify what goes on behind the scenes on a web server.  You&#39;ll get to take a crack at Ruby, the sublimely awesome language that runs Ruby on Rails.
+            </p>
+          </div>
+
+          <div class="lessons-list">
+            <!-- <h2>lessons:</h2> -->
+
+                <div class="lesson ">
+
+                      <div id="lc-id-348" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="348" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/introduction-to-the-back-end" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 1: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Introduction to the Back End
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          A brief introduction to the wonderful world of server-side programming
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-349" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="349" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/ruby-basics" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 2: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Ruby Basics
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          A healthy dive into Ruby, where you&#39;ll spend a fair bit of time mastering the basics of this programmer-friendly language.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-350" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="350" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/testing-basics" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 3: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Testing Basics
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          A brief introduction to testing in general and RSpec, Ruby&#39;s testing language.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson project">
+
+                      <div id="lc-id-351" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="351" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/ruby" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Project: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Ruby
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          Time to apply what you&#39;ve learned about Ruby by making the tests pass on a number of exercises that range from goofy to challenging
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-352" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="352" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/databases" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 4: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Databases
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          The last foundational component is how to &#39;save&#39; your data by using a database.  You&#39;ll learn the basics of SQL, the language used to talk to most relational databases.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+          </div>
+
+        </div>
+
+        <div class="section" id="section-web-development-frameworks">
+          <div class="section-title">
+            <h2>
+              Web Development Frameworks
+            </h2>
+          </div>
+          <div class="section-description">
+            <p>
+              You&#39;ve probably heard about &#39;Ruby on Rails&#39; and &#39;Backbone.js&#39; and other sleek-sounding development frameworks.  In this section, you&#39;ll learn what a framework is, why we use them, and get acquainted with the ones we&#39;ll be covering in future courses.
+            </p>
+          </div>
+
+          <div class="lessons-list">
+            <!-- <h2>lessons:</h2> -->
+
+                <div class="lesson ">
+
+                      <div id="lc-id-353" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="353" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/introduction-to-frameworks" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 1: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Introduction to Frameworks
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          Let&#39;s figure out what all the hubbub is all about.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-354" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="354" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/ruby-on-rails-basics" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 2: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Ruby on Rails Basics
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          You&#39;ll learn the basics of the wildly popular framework that has made thousands of programmers highly productive and happy.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson project">
+
+                      <div id="lc-id-355" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="355" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/ruby-on-rails" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Project: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Ruby on Rails
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          You&#39;ve learned the basics, now let&#39;s put them to work by building a basic application.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+          </div>
+
+        </div>
+
+        <div class="section" id="section-additional-important-topics">
+          <div class="section-title">
+            <h2>
+              Additional Important Topics
+            </h2>
+          </div>
+          <div class="section-description">
+            <p>
+              This section has a bunch of short lessons that will introduce you to a variety of essential supporting technologies for your journey into web development.
+            </p>
+          </div>
+
+          <div class="lessons-list">
+            <!-- <h2>lessons:</h2> -->
+
+                <div class="lesson ">
+
+                      <div id="lc-id-357" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="357" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/git-basics" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 1: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Git Basics
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          Git is the version control system used by developers... like &#39;saving&#39; meets &#39;time machine&#39;
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-358" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="358" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/the-cloud-hosting-and-software-as-a-service-saas" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 2: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          The Cloud, Hosting, and Software as a Service (SAAS)
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          It&#39;s time to bust through some of the buzzwords you&#39;ve heard and see how they actually apply to you.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-359" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="359" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/security-ssl-and-best-practices" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 3: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Security, SSL, and Best Practices
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          A brief introduction to security concepts and best practices.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-360" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="360" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/ftp-basics" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 4: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          FTP Basics
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          A very brief look at the File Transfer Protocol which is often used to upload files to your webserver.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+          </div>
+
+        </div>
+
+        <div class="section" id="section-tying-it-all-together">
+          <div class="section-title">
+            <h2>
+              Tying it All Together
+            </h2>
+          </div>
+          <div class="section-description">
+            <p>
+              Now that you&#39;ve had a healthy taste of all the major components in a web application, we&#39;ll take a step back and remember where they all fit into the bigger picture.
+            </p>
+          </div>
+
+          <div class="lessons-list">
+            <!-- <h2>lessons:</h2> -->
+
+                <div class="lesson ">
+
+                      <div id="lc-id-361" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="361" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/how-are-websites-built-in-the-real-world" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 1: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          How are Websites Built in the Real World?
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          A look at the macro level workflow from the client to the developer and then a closer look at what exactly the developer does.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-362" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="362" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/principles-of-good-programming" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 2: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Principles of Good Programming
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          A look at some of the guiding principles of being a good programmer.  Basically: Be lazy
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <div class="lesson ">
+
+                      <div id="lc-id-363" class="lc-checkbox-wrapper">
+                        <!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+
+  
+    <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <input type="hidden" name="lesson_id" id="lesson_id" value="363" />
+      </a>
+</form>  
+
+                      </div>
+
+                  <a href="/web-development-101/conclusion" class="lesson-link">
+                    <div class="lesson-number">
+                      <h3>
+                        Step 3: &nbsp;
+                      </h3>
+                    </div>
+
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          Conclusion
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          How far you&#39;ve come already!  But this ride&#39;s only just begun...
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+          </div>
+
+        </div>
+    </div>
+    <div class="back-link">
+      <a href="/courses">Back to Courses List</a>
+    </div>
+
+    <!-- Preload the assets to avoid flickering when first used -->
+    <div class="lc-checkbox-wrapper">
+      <div class="lc-hover"></div>
+      <div class="lc-waiting"></div>
+    </div>
+  </div>
+</div>
+
+          </div><!--/row-->
+        </div> <!-- /container -->
+
+
+    </div>
+      
+    <footer id="footer">
+
+  <div class="footer-links">
+    <a href="http://1000hours.io">Blog</a>
+    <a href="/about">About</a>
+    <a href="/faq">FAQ</a>
+    <a href="/studygroups">Study Groups</a>
+    <a href="/contributing">Contributing</a>
+    <br>
+    <a href="/contact">Contact</a>
+    <a href="/press">Press</a>
+    <a href="/legal">Legal</a>
+    <a href="/sitemap">Sitemap</a>
+  </div>
+  <div class="footer-form">
+    <form id="footer-suggestion-form" class="form-inline" action="/suggestion" method="post" data-remote="true">
+
+      <input type="hidden" name="pathname" value="" id="suggestion-pathname">
+
+      <input type="text" name="suggestion" id="feedback-text-box" class="input-large" placeholder="What can we do to improve this site?">
+
+      <button type="submit" class="btn" id="suggestion-button">
+        Tell Us!
+      </button>
+
+    </form>
+  </div>
+
+</footer>
+
+<script>
+  // Suggestion From Submission - 
+  // 1. Make sure empty form doesn't submit,
+  // 2. After form submission, gray out and disable the form
+  // 
+  $(document).ready(function(){
+    // Cache the jquery selection since we'll refer to it more than once
+    var $suggestionForm = $('#footer-suggestion-form');           
+
+    // Upon form submission, intercept call and check if form was empty and if so, dont submit.
+    $suggestionForm.submit(function( event ) {
+      if ( $("#feedback-text-box").val().length === 0 ) {
+        event.preventDefault();                 // Cancel the submit action 
+        return false;                           // Preven't the disabling of the form
+      }
+    });
+    
+    
+    $suggestionForm.bind("ajax:complete", function(event, xhr, status){
+      //console.log($("#footer-suggestion-form input"));
+      $("#footer-suggestion-form input").attr("disabled","disabled");
+      $("#footer-suggestion-form button").attr("disabled","disabled").html("Thanks!");
+      //console.log("did it!");
+    });
+    $("#suggestion-pathname").val(location.pathname);
+  });
+</script>
+ 
+
+  </body>
+  
+
+</html>
+Œ”aX-ö      Wæ{Wæ{<—Œ        2    :http://www.theodinproject.com/web-development-101 necko:classified 1 request-method GET response-head HTTP/1.1 200 OK
+Server: Cowboy
+Date: Thu, 25 Aug 2016 18:58:53 GMT
+X-Frame-Options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+Content-Type: text/html; charset=utf-8
+Etag: W/"f3fc6d550d09300b4a685dccef5c613b"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: b5e099f7-3a21-4c3e-8d22-15ae4dbea7c9
+X-Runtime: 0.170334
+Content-Length: 68160
+Via: 1.1 vegur
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 13 predictor::https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Open+Sans:300,300italic,400,700 1,1,1472101137,0 predictor::http://www.theodinproject.com/assets/application-e0179b97c23a0189174b1eba0434498bdecb537714925a85dd6f6ce413cdbfb5.css 1,1,1472101137,0 predictor::http://www.theodinproject.com/assets/application-dcc7127f83f7822e0b156910fa2e3bf4361f5476a08246c6e0642b244abccb3b.js 1,1,1472101137,0 predictor::http://www.google-analytics.com/ga.js 1,1,1472101137,0 predictor::http://s.swiftypecdn.com/embed.js 1,1,1472101137,0 predictor::http://www.theodinproject.com/assets/icons/lc_checked-73c2dbf4ae5d4ead23009f143b843221a27c293cab8441041fa3d826497abb9a.svg 1,1,1472101137,0 predictor::http://www.theodinproject.com/assets/icons/lc_unchecked-12e1175665f2222797dbf7b6a93f887bafc0e88a7f15285e15916d296f62407c.svg 1,1,1472101137,0 predictor::http://s.swiftypecdn.com/assets/swiftype_onpage-b905b511f67baa9eb08825807f78b572.js 1,1,1472101137,0 predictor::http://s.swiftypecdn.com/assets/swiftype-2a59bd96cc2fb7e88e86d5cb292104e2.css 1,1,1472101137,0 predictor::http://www.theodinproject.com/assets/icons/ajax-loader-9f29309c8775b85aa988dc025ace94e826125c378d494dbaae9f761f41f54896.gif 1,1,1472101137,0 predictor::http://s.swiftypecdn.com/cc.js 1,1,1472101137,0 predictor::http://cc.swiftype.com/cc?url=http%3A%2F%2Fwww.theodinproject.com%2Fweb-development-101&engine_key=hnrKV2q8t65YYTgSyoqy&r=http%3A%2F%2Fwww.theodinproject.com%2Fcourses%3Fref%3Dlogin 1,1,1472101137,0 predictor::http://js-agent.newrelic.com/nr-974.min.js 1,1,1472101137,0  
+@

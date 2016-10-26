@@ -1,0 +1,9 @@
+plugin: shell
+category_id: 2013.com.canonical.plainbox::benchmarks
+id: benchmarks/disk/hdparm-read_sda
+estimated_duration: 15.0
+requires: device.path == "/devices/pci0000:00/0000:00:1f.2/ata4/host3/target3:0:0/3:0:0:0"
+user: root
+command: hdparm -t /dev/sda | sed -e :a -e 'N;s/\n/ /;ta' | sed 's/.*= *//'
+description: This test runs hdparm timing of device reads as a benchmark for /devices/pci0000:00/0000:00:1f.2/ata4/host3/target3:0:0/3:0:0:0
+

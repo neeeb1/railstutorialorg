@@ -1,0 +1,9 @@
+plugin: shell
+category_id: 2013.com.canonical.plainbox::graphics
+id: graphics/1_compiz_check_Broadwell-U_Integrated_Graphics
+requires: package.name == 'nux-tools'
+command: ! /usr/lib/nux/unity_support_test -c -p 2>&1 | ansi_parser | grep -e ":\(\s\+\)no$" -ie "error"
+estimated_duration: 0.130
+_description: Check that Broadwell-U Integrated Graphics hardware is able to run compiz
+_summary: Test Compiz support for Broadwell-U Integrated Graphics
+

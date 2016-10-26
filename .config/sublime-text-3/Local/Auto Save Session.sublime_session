@@ -1,0 +1,944 @@
+{
+	"folder_history":
+	[
+		"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/03_simon_says",
+		"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/04_pig_latin"
+	],
+	"last_version": 3114,
+	"last_window_id": 3,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 688.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"ca",
+						"capitalize"
+					],
+					[
+						"nu",
+						"number2"
+					],
+					[
+						"numb",
+						"number1"
+					],
+					[
+						"number",
+						"number1"
+					],
+					[
+						"n",
+						"number2"
+					],
+					[
+						"even",
+						"evenSum"
+					],
+					[
+						"problem",
+						"problem2"
+					],
+					[
+						"to",
+						"to_i"
+					],
+					[
+						"hou",
+						"hours"
+					],
+					[
+						"put",
+						"putToBed"
+					],
+					[
+						"cou",
+						"countTheOranges"
+					],
+					[
+						"one",
+						"oneYearPasses"
+					],
+					[
+						"pick",
+						"pickAnOrange"
+					],
+					[
+						"st",
+						"stuffInBelly"
+					],
+					[
+						"stuff",
+						"stuffInBowel"
+					],
+					[
+						"bir",
+						"birthdaySpankings"
+					],
+					[
+						"di",
+						"difference"
+					],
+					[
+						"b",
+						"bottles_of_beer2"
+					],
+					[
+						"bottles",
+						"bottles_of_beer"
+					],
+					[
+						"en",
+						"englishNumber"
+					],
+					[
+						"table",
+						"table_of_contents_array"
+					],
+					[
+						"Chapter",
+						"Chapter2"
+					],
+					[
+						"w",
+						"w	attr_writer .."
+					],
+					[
+						"i",
+						"i"
+					],
+					[
+						"min",
+						"min_index"
+					],
+					[
+						"last",
+						"last_index"
+					],
+					[
+						"al",
+						"alphabetical"
+					],
+					[
+						"fin",
+						"final"
+					],
+					[
+						"in",
+						"initial"
+					],
+					[
+						"up",
+						"upcase"
+					],
+					[
+						"bott",
+						"bottles_of_beer"
+					],
+					[
+						"li",
+						"li	Tag"
+					],
+					[
+						"alin",
+						"align-items"
+					],
+					[
+						"ba",
+						"background-color"
+					],
+					[
+						"a",
+						"auto"
+					],
+					[
+						"mar",
+						"margin-bottom"
+					],
+					[
+						"over",
+						"overflow-y"
+					],
+					[
+						"sl",
+						"initial_slider"
+					],
+					[
+						"next",
+						"next_slider"
+					],
+					[
+						"fade",
+						"fadeIn	.fadeIn()"
+					],
+					[
+						"max",
+						"max-width"
+					],
+					[
+						"margin",
+						"margin"
+					],
+					[
+						"fav",
+						"favorite"
+					],
+					[
+						"inpu",
+						"input_favorite_number"
+					],
+					[
+						"first",
+						"first_name"
+					],
+					[
+						"how",
+						"how_old"
+					],
+					[
+						"se",
+						"seconds_old"
+					],
+					[
+						"hours",
+						"hours"
+					],
+					[
+						"wid",
+						"width"
+					],
+					[
+						"wi",
+						"width"
+					],
+					[
+						"mou",
+						"mouseenter	.mouseenter()"
+					],
+					[
+						"co",
+						"color"
+					],
+					[
+						"font",
+						"font-family"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"for",
+						"for	for (…) {…}"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 132.0,
+				"last_filter": "Package Control: in",
+				"selected_items":
+				[
+					[
+						"Package Control: in",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 449.0
+			},
+			"console":
+			{
+				"height": 160.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/05_book_titles/book_spec.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/05_book_titles/book_titles_spec.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/05_book_titles/book_titles.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/04_pig_latin/pig_latin_spec.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/04_pig_latin/pig_latin.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/03_simon_says/simon_says.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/03_simon_says/simon_says_spec.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/02_calculator/calculator.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/02_calculator/calculator_spec.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/02_calculator/calculator.rspec.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/rspec_config.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/01_temperature/temperature.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/00_hello/hello.rb",
+				"/home/neeeb/web-dev/the-odin-project/ruby-intro/test-first.rb",
+				"/home/neeeb/web-dev/the-odin-project/ruby-intro/euler.rb",
+				"/home/neeeb/web-dev/the-odin-project/ruby-intro/chris-pine.rb",
+				"/home/neeeb/Desktop/randomSampling.rb",
+				"/home/neeeb/Desktop/10random.rb",
+				"/home/neeeb/web-dev/the-odin-project/ruby-intro/chris-pine.r",
+				"/home/neeeb/web-dev/jcphotography/styles/stylesheet.css",
+				"/home/neeeb/web-dev/jcphotography/scripts/slider.js",
+				"/home/neeeb/web-dev/jcphotography/index.html",
+				"/home/neeeb/web-dev/the-odin-project/ruby-intro/student.rb",
+				"/home/neeeb/web-dev/the-odin-project/etch-a-sketch/index.html",
+				"/home/neeeb/web-dev/the-odin-project/etch-a-sketch/style.css",
+				"/home/neeeb/web-dev/the-odin-project/etch-a-sketch/script.js",
+				"/home/neeeb/web-dev/the-odin-project/google-clone/index.html",
+				"/home/neeeb/web-dev/the-odin-project/google-clone/style.css",
+				"/home/neeeb/web-dev/the-odin-project/eulerproject/problem1.js"
+			],
+			"find":
+			{
+				"height": 21.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"last",
+					"ubl",
+					"passaageOfTime",
+					"putToBed",
+					"# puts englishNumber",
+					"puts englishNumber",
+					"puts englishNumber(\n",
+					"puts englishNumber\n",
+					"numString = numString + ' '",
+					");\n",
+					"\">\n",
+					".nav"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"passageOfTime",
+					"passaageOfTime",
+					"puts weddingNumber",
+					"numString = numString + ' and '",
+					"#nav"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 21.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 38.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 928.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"min",
+						"minutes"
+					],
+					[
+						"ca",
+						"capitalize"
+					],
+					[
+						"nu",
+						"number2"
+					],
+					[
+						"numb",
+						"number1"
+					],
+					[
+						"number",
+						"number1"
+					],
+					[
+						"n",
+						"number2"
+					],
+					[
+						"even",
+						"evenSum"
+					],
+					[
+						"problem",
+						"problem2"
+					],
+					[
+						"to",
+						"to_i"
+					],
+					[
+						"hou",
+						"hours"
+					],
+					[
+						"put",
+						"putToBed"
+					],
+					[
+						"cou",
+						"countTheOranges"
+					],
+					[
+						"one",
+						"oneYearPasses"
+					],
+					[
+						"pick",
+						"pickAnOrange"
+					],
+					[
+						"st",
+						"stuffInBelly"
+					],
+					[
+						"stuff",
+						"stuffInBowel"
+					],
+					[
+						"bir",
+						"birthdaySpankings"
+					],
+					[
+						"di",
+						"difference"
+					],
+					[
+						"b",
+						"bottles_of_beer2"
+					],
+					[
+						"bottles",
+						"bottles_of_beer"
+					],
+					[
+						"en",
+						"englishNumber"
+					],
+					[
+						"table",
+						"table_of_contents_array"
+					],
+					[
+						"Chapter",
+						"Chapter2"
+					],
+					[
+						"w",
+						"w	attr_writer .."
+					],
+					[
+						"i",
+						"i"
+					],
+					[
+						"last",
+						"last_index"
+					],
+					[
+						"al",
+						"alphabetical"
+					],
+					[
+						"fin",
+						"final"
+					],
+					[
+						"in",
+						"initial"
+					],
+					[
+						"up",
+						"upcase"
+					],
+					[
+						"bott",
+						"bottles_of_beer"
+					],
+					[
+						"li",
+						"li	Tag"
+					],
+					[
+						"alin",
+						"align-items"
+					],
+					[
+						"ba",
+						"background-color"
+					],
+					[
+						"a",
+						"auto"
+					],
+					[
+						"mar",
+						"margin-bottom"
+					],
+					[
+						"over",
+						"overflow-y"
+					],
+					[
+						"sl",
+						"initial_slider"
+					],
+					[
+						"next",
+						"next_slider"
+					],
+					[
+						"fade",
+						"fadeIn	.fadeIn()"
+					],
+					[
+						"max",
+						"max-width"
+					],
+					[
+						"margin",
+						"margin"
+					],
+					[
+						"fav",
+						"favorite"
+					],
+					[
+						"inpu",
+						"input_favorite_number"
+					],
+					[
+						"first",
+						"first_name"
+					],
+					[
+						"how",
+						"how_old"
+					],
+					[
+						"se",
+						"seconds_old"
+					],
+					[
+						"hours",
+						"hours"
+					],
+					[
+						"wid",
+						"width"
+					],
+					[
+						"wi",
+						"width"
+					],
+					[
+						"mou",
+						"mouseenter	.mouseenter()"
+					],
+					[
+						"co",
+						"color"
+					],
+					[
+						"font",
+						"font-family"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"for",
+						"for	for (…) {…}"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/neeeb/web-dev/the-odin-project/learn_ruby-master/06_timer/timer.rb",
+					"settings":
+					{
+						"buffer_size": 457,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/neeeb/web-dev/the-odin-project/learn_ruby-master/06_timer/timer_spec.rb",
+					"settings":
+					{
+						"buffer_size": 1333,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 132.0,
+				"last_filter": "Package Control: in",
+				"selected_items":
+				[
+					[
+						"Package Control: in",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 449.0
+			},
+			"console":
+			{
+				"height": 160.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/04_pig_latin"
+			],
+			"file_history":
+			[
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/05_book_titles/book_titles_spec.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/03_simon_says/simon_says.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/05_book_titles/book.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/05_book_titles/book_spec.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/05_book_titles/book_titles.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/04_pig_latin/pig_latin_spec.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/04_pig_latin/pig_latin.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/03_simon_says/simon_says_spec.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/02_calculator/calculator.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/02_calculator/calculator_spec.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/02_calculator/calculator.rspec.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/rspec_config.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/01_temperature/temperature.rb",
+				"/home/neeeb/web-dev/the-odin-project/learn_ruby-master/00_hello/hello.rb",
+				"/home/neeeb/web-dev/the-odin-project/ruby-intro/test-first.rb",
+				"/home/neeeb/web-dev/the-odin-project/ruby-intro/euler.rb",
+				"/home/neeeb/web-dev/the-odin-project/ruby-intro/chris-pine.rb",
+				"/home/neeeb/Desktop/randomSampling.rb",
+				"/home/neeeb/Desktop/10random.rb",
+				"/home/neeeb/web-dev/the-odin-project/ruby-intro/chris-pine.r",
+				"/home/neeeb/web-dev/jcphotography/styles/stylesheet.css",
+				"/home/neeeb/web-dev/jcphotography/scripts/slider.js",
+				"/home/neeeb/web-dev/jcphotography/index.html",
+				"/home/neeeb/web-dev/the-odin-project/ruby-intro/student.rb",
+				"/home/neeeb/web-dev/the-odin-project/etch-a-sketch/index.html",
+				"/home/neeeb/web-dev/the-odin-project/etch-a-sketch/style.css",
+				"/home/neeeb/web-dev/the-odin-project/etch-a-sketch/script.js",
+				"/home/neeeb/web-dev/the-odin-project/google-clone/index.html",
+				"/home/neeeb/web-dev/the-odin-project/google-clone/style.css",
+				"/home/neeeb/web-dev/the-odin-project/eulerproject/problem1.js"
+			],
+			"find":
+			{
+				"height": 34.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"last",
+					"ubl",
+					"passaageOfTime",
+					"putToBed",
+					"# puts englishNumber",
+					"puts englishNumber",
+					"puts englishNumber(\n",
+					"puts englishNumber\n",
+					"numString = numString + ' '",
+					");\n",
+					"\">\n",
+					".nav"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"passageOfTime",
+					"passaageOfTime",
+					"puts weddingNumber",
+					"numString = numString + ' and '",
+					"#nav"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/neeeb/web-dev/the-odin-project/learn_ruby-master/04_pig_latin"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/neeeb/web-dev/the-odin-project/learn_ruby-master/06_timer/timer.rb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 457,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										447,
+										447
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+								},
+								"translation.x": 58.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/neeeb/web-dev/the-odin-project/learn_ruby-master/06_timer/timer_spec.rb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1333,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 21.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,65,24,993,712,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 38.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 2,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/neeeb/web-dev/the-odin-project/eulerproject/problem1.sublime-workspace"
+		]
+	}
+}

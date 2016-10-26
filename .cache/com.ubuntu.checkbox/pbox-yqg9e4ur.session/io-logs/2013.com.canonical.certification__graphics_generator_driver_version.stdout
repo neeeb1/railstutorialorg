@@ -1,0 +1,8 @@
+plugin: shell
+category_id: 2013.com.canonical.plainbox::graphics
+id: graphics/1_driver_version_Broadwell-U_Integrated_Graphics
+command: graphics_driver
+estimated_duration: 0.500
+_description: Parses Xorg.0.Log and discovers the running X driver and version for the Broadwell-U Integrated Graphics graphics card
+_summary: Test X driver/version for Broadwell-U Integrated Graphics
+

@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"17c82925e3","applicationID":"2418536","transactionName":"d1xcEEpcDg1RS05aU0dAXQpLHBEJW04=","queueTime":2,"applicationTime":165,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Odin Project empowers aspiring web developers to learn together">
+    <meta name="keywords" content="learn web development, learn ruby on rails, ruby on rails, ruby, rails">
+    <title>Learn Web Development 101 -- Installations</title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="lcTKbx67flLWgF+ADjYxesLy8LcN+Rxr84jSVk3H/7UWf7wmm2wUHm8vYCoDxIYKcvPUxUojyiU7A3mjAS0Ydw==" />
+
+
+    <!-- Grabbing the Open Sand Condensed web fonts from Google -->
+    <!-- NOTE: THIS IS A MAJOR CAUSE OF PAGE SLOWNESS!!!  -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Open+Sans:300,300italic,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" media="all" href="/assets/application-e0179b97c23a0189174b1eba0434498bdecb537714925a85dd6f6ce413cdbfb5.css" />
+
+    <!-- Pull in any custom style mods from subordinate layouts -->
+    <style type="text/css"> </style>
+
+    <!-- Javascripts
+    ================================================== -->
+    <!-- SHOULD BE Placed at the end of the document so the pages load faster BUT then my page-specific JS wouldn't run -->
+    <script src="/assets/application-dcc7127f83f7822e0b156910fa2e3bf4361f5476a08246c6e0642b244abccb3b.js"></script>
+
+    <!-- Google Analytics Tracking Snippet -->
+<!-- Only load it if we're in a production environment! -->
+  
+  
+
+  <script type="text/javascript">  
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-41005438-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+
+    <!-- Include the moot.it forums code if we're on the forums page -->
+
+  </head>
+
+  <body>
+    <div id="global-content-wrapper">
+      <!-- turn off "global" navbar if directed to (e.g. on home page) -->
+      
+            <div class="navbar navbar-fixed-top" id="top-navbar">
+
+
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <div class="brand-box">
+  <a href=http://www.theodinproject.com/home>
+    <img class="logo-img" src="/assets/odin_head_silhouette_2_circle_simple_transparent-b2ee08a8bcec81a04d793cc3e151d6a0c261be84f9830705bfa78587f57026dc.gif" alt="Odin head silhouette 2 circle simple transparent" />
+    <span class="logo-text">
+      The Odin Project
+    </span>
+  </a>
+</div>
+
+          <div class="container nav-collapse">
+            <ul class="nav pull-right nav-links">
+              <li class="top-link nav-search"><form>
+  <input type="text" id="st-search-input" class="st-search-input" />
+</form>
+<script type="text/javascript">
+    var Swiftype = window.Swiftype || {};
+    
+    (function() {
+
+      Swiftype.renderStyle = 'inline';            // Tell swiftype we don't want their default modal
+      /** DO NOT EDIT BELOW THIS LINE **/
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = "//s.swiftypecdn.com/embed.js";
+      var entry = document.getElementsByTagName('script')[0];
+      entry.parentNode.insertBefore(script, entry);
+    }());  
+</script>
+</li>              
+              <li class="top-link"><a href="/curriculum">Curriculum</a></li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Social <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/chat">Chat</a></li>
+                    <li><a href="/studygroup">Study Groups</a></li>
+                  </ul>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>Neeeb <b class="caret"></b></strong></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/students">Students</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/users/56254">Profile</a></li>
+                    <li><a href="/users/edit">Account</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/logout">Logout</a></li>
+                  </ul>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+        <div class="nav-spacer"></div>
+        
+        <!-- Admin Flash is only meant to render if NOT homepage  -->
+          
+
+      
+        <div class="container">
+          <div class="row">
+            
+            <div id="search-results-modal" class="modal hide fade" data-backdrop="static">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>Search Results</h3>
+  </div>
+  <div id="st-results-container" class="modal-body" >
+  </div>
+  <div class="modal-footer">
+    <a class="btn" id="search-results-close" data-dismiss="modal" aria-hidden="true">Close</a>
+  </div>
+</div>
+                 
+            <div id="lesson-nav">
+  <div class="inner-nav">
+    <a href="/courses">Course List</a> >>
+    <a href="/web-development-101">Web Development 101</a> >>
+    <a href="/web-development-101#section-the-basics">The Basics</a> >>
+      Project:
+    Installations
+  </div>
+</div>
+
+<div class="alert alert-info scroll-effect-alert">
+  <strong>Scroll up</strong> or <strong>hover</strong> over the breadcrumbs to view the navigation bar
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+</div>
+
+<!-- progress-tracking bar -->
+
+<!--  This bar allows users who are signed in to view their progress
+      as they move through a course.  It is generated totally
+      using CSS and HTML (instead of Javascript) -->
+
+
+  <div id="lc-progress-bar">
+    <div class="lc-progress-wrapper">
+
+      <!-- Beginning and end cap circles (clickable!) -->
+      <a href="/web-development-101?ref=lc-pb">
+        <div  class="lc-end-circle " 
+              title="Go back to Web Development 101"
+              style="0%">
+        </div>
+</a>      <a href="/web-development-101?ref=lc-pb">
+        <div  class="lc-end-circle lc-right-end " 
+              title="Go back to Web Development 101"
+              style="0%">
+        </div>
+</a>
+      <!-- Individual lesson circles (clickable!) -->
+          <a href="/web-development-101/how-this-course-will-work?ref=lc-pb">
+            <div  class="lc-circle lc-complete lc-lesson" 
+                  title=" How this Course Will Work"
+                  style="left:3.4482758620689653%">
+            </div>
+</a>          <a href="/web-development-101/gearing-up?ref=lc-pb">
+            <div  class="lc-circle lc-complete lc-lesson" 
+                  title=" Gearing Up"
+                  style="left:6.896551724137931%">
+            </div>
+</a>          <a href="/web-development-101/how-does-the-web-work?ref=lc-pb">
+            <div  class="lc-circle lc-complete lc-lesson" 
+                  title=" How Does the Web Work?"
+                  style="left:10.344827586206897%">
+            </div>
+</a>          <a href="/web-development-101/command-line-basics?ref=lc-pb">
+            <div  class="lc-circle lc-complete lc-lesson" 
+                  title=" Command Line Basics"
+                  style="left:13.793103448275861%">
+            </div>
+</a>          <a href="/web-development-101/terms-to-know?ref=lc-pb">
+            <div  class="lc-circle lc-complete lc-lesson" 
+                  title=" Terms to Know"
+                  style="left:17.241379310344826%">
+            </div>
+</a>          <div class="pending-line"></div>
+          <div class="completed-line" style="width: 20.689655172413794%"></div>
+          <a href="#">
+            <div  class="lc-active-circle" 
+                  title="You've completed 17% of this course"
+                  style="left:20.689655172413794%">
+              <span class="lc-pct">17%</span>
+            </div>
+</a>          <a href="/web-development-101/introduction-to-the-front-end?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" Introduction to the Front End"
+                  style="left:24.137931034482758%">
+            </div>
+</a>          <a href="/web-development-101/html-and-css-basics?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" HTML and CSS Basics"
+                  style="left:27.586206896551722%">
+            </div>
+</a>          <a href="/web-development-101/developer-tools?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" Developer Tools"
+                  style="left:31.034482758620687%">
+            </div>
+</a>          <a href="/web-development-101/html-css?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-project" 
+                  title="Project: HTML/CSS"
+                  style="left:34.48275862068965%">
+            </div>
+</a>          <a href="/web-development-101/javascript-basics?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" Javascript Basics"
+                  style="left:37.93103448275862%">
+            </div>
+</a>          <a href="/web-development-101/jquery-basics?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" jQuery Basics"
+                  style="left:41.37931034482759%">
+            </div>
+</a>          <a href="/web-development-101/javascript-and-jquery?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-project" 
+                  title="Project: Javascript and jQuery"
+                  style="left:44.82758620689655%">
+            </div>
+</a>          <a href="/web-development-101/introduction-to-the-back-end?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" Introduction to the Back End"
+                  style="left:48.275862068965516%">
+            </div>
+</a>          <a href="/web-development-101/ruby-basics?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" Ruby Basics"
+                  style="left:51.72413793103448%">
+            </div>
+</a>          <a href="/web-development-101/testing-basics?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" Testing Basics"
+                  style="left:55.172413793103445%">
+            </div>
+</a>          <a href="/web-development-101/ruby?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-project" 
+                  title="Project: Ruby"
+                  style="left:58.62068965517241%">
+            </div>
+</a>          <a href="/web-development-101/databases?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" Databases"
+                  style="left:62.068965517241374%">
+            </div>
+</a>          <a href="/web-development-101/introduction-to-frameworks?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" Introduction to Frameworks"
+                  style="left:65.51724137931033%">
+            </div>
+</a>          <a href="/web-development-101/ruby-on-rails-basics?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" Ruby on Rails Basics"
+                  style="left:68.9655172413793%">
+            </div>
+</a>          <a href="/web-development-101/ruby-on-rails?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-project" 
+                  title="Project: Ruby on Rails"
+                  style="left:72.41379310344827%">
+            </div>
+</a>          <a href="/web-development-101/git-basics?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" Git Basics"
+                  style="left:75.86206896551724%">
+            </div>
+</a>          <a href="/web-development-101/the-cloud-hosting-and-software-as-a-service-saas?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" The Cloud, Hosting, and Software as a Service (SAAS)"
+                  style="left:79.3103448275862%">
+            </div>
+</a>          <a href="/web-development-101/security-ssl-and-best-practices?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" Security, SSL, and Best Practices"
+                  style="left:82.75862068965517%">
+            </div>
+</a>          <a href="/web-development-101/ftp-basics?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" FTP Basics"
+                  style="left:86.20689655172413%">
+            </div>
+</a>          <a href="/web-development-101/how-are-websites-built-in-the-real-world?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" How are Websites Built in the Real World?"
+                  style="left:89.6551724137931%">
+            </div>
+</a>          <a href="/web-development-101/principles-of-good-programming?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" Principles of Good Programming"
+                  style="left:93.10344827586206%">
+            </div>
+</a>          <a href="/web-development-101/conclusion?ref=lc-pb">
+            <div  class="lc-circle lc-pending lc-lesson" 
+                  title=" Conclusion"
+                  style="left:96.55172413793103%">
+            </div>
+</a>    </div>
+  </div>
+
+
+
+<!-- END progress-tracking bar -->
+
+<div class="individual-lesson project-lesson">
+  <div class="container">
+
+      <h3 class="lc-completion-indicator hidden" title="You've completed this lesson!">
+        &#10004;
+      </h3>
+
+    <h1>Project: Installations</h1>
+
+<!-- Improvement Ideas, Extract linux installation out into its own lesson and make sure its before this lesson,
+     Add a few more text editior options to the text editior section. Atom, brackets etc
+     Extract the join slack section to the very first lesson in this course -->
+
+<p>One step which can be unnecessarily frustrating is making sure everything is installed on your computer so you can get developing.  Just about every recent beginner has some horror story about how long they battled with their computer and Google to finally get their environment working properly.  And often you hear it used as a reason why it took people so long to get started in the first place.</p>
+
+<p>It may be a challenge, but if you&#39;re interested in being at least a half-serious web developer you <em>will</em> need to get this stuff up and running on your machine at some point and it&#39;s best to get it done early.  This lesson is devoted solely to helping you install what you need to install so we can get it over with and move on to the good stuff.  </p>
+
+<p>One option for learning development has always been to use an existing online environment.  In fact, almost all sites geared towards beginners these days have you learn on their website, where you type in some code and it will execute it for you.  Magic! Frankly, we think that&#39;s an incomplete approach.  What happens when you want to actually build something on your own? But, if it&#39;s a question of a hosted environment (like <a href="https://www.nitrous.io">Nitrous.io</a>) and no environment, do what it takes to get you going.  We&#39;ll give some alternatives below.</p>
+
+<p>If you get stuck during the installation process, do not give up!  Sign up for a meetup to find an experienced programmer that can help you and Google the error messages to troubleshoot the installation.  Find a friend somewhere who can help you out.  Everyone goes through it, so you&#39;re not crazy if your computer suddenly seems like a hostile beast.  Battle it out... there are lots of resources scattered throughout the web and someone has had your problem before.</p>
+
+<h2>Join our Slack Group</h2>
+
+<p>Learning to program can feel like a lonely and isolated journey, but it doesn&#39;t have to be. We have a Slack group that acts as the communication hub for all our students and the core team that looks after Odin. You can utilize it to:</p>
+
+<ul>
+<li>Chat and network with other people that are going through the exact same journey you are.</li>
+<li>Discuss the concepts you learn through the lessons.</li>
+<li>Get help when you are stuck.</li>
+<li>Report Broken links and other bugs.</li>
+</ul>
+
+<p>Your first assignment is to join our slack <a href="https://slackin-theodinproject.herokuapp.com/">here</a> and introduce yourself in the General channel</p>
+
+<h2>Back End vs Front End Installations</h2>
+
+<p>We&#39;ve already covered what the overall difference is between back end (server-side) and front end (client-side) programming, but you&#39;ll see it manifested again in how you install the necessary software.  Because the client-side code runs in the browser, all you really need to write some HTML, CSS and Javascript is a web browser like Chrome, Firefox or (shudder) Internet Explorer.  </p>
+
+<p>Websites like <a href="http://codepen.io/">CodePen</a> and <a href="http://jsfiddle.net/">JSFiddle</a> let you create small but dynamic webpages right in your browser.  They will become a bit cumbersome when you try to build more meaningful projects, which will require you to start writing more in your text editor, but are perfectly fine for doing smaller exercises.  The lack of any complicated installations is one reason that front-end programming is more accessible for beginners to try out.</p>
+
+<p>Server-side code is a bit different -- because each programming language (like Ruby or Python) is a different animal, you need to actually install that language onto your computer.  With Ruby, you will be installing the Ruby interpreter just like any other program. When you &quot;run&quot; your Ruby code, you are actually using the Ruby program.  In principle, this shouldn&#39;t add too much additional complexity, but it is an extra step from just running simple text files in your browser.</p>
+
+<p>Another reason things get a bit more complicated on the back end is because programmers do more than just feed a text file full of code into a program -- they also want to be able to handle running different versions of Ruby at the same time (perhaps to work on an older website one day and a newer one the next) and ultimately to deploy those websites up to their chosen web server.  Each of these workflow improvements requires another program to help out with managing it.</p>
+
+<p>So, at its core, server-side installs with Ruby are just you installing the Ruby interpreter on your machine and a couple of extra things to help manage your workflow.  It just seems like a lot of different things when you&#39;re unfamiliar with what each one is doing.  We&#39;ll give you a brief description of each thing below and then you&#39;ll get a chance to do the installations on your own.</p>
+
+<h2>Why you Should use Linux for this Course</h2>
+
+<p>You can use Windows and have no problems what so ever with learning HTML CSS and Javascript, Ruby on Rails on the other hand is where big issues will arise. The programmers who created Rails had a preference for unix based operating systems (OSX, linux) this means learning Rails on a Windows machine is a recipe for frustration. Below are some of the main reasons for using Linux when learning Rails:</p>
+
+<ul>
+<li><p>Because of the fundamental differences between unix based operating systems and Windows, installing Rails on a Windows machine is likely to give you problems that you would not encounter if you were installing on a linux system, these can be a real pain to solve.</p></li>
+<li><p>The above point extends to the different gems you will be using with Rails in the future. Most of the latest updates to gems will be targeted at unix based systems, they may eventually get patches to make them work with Windows but some may never get updated to work on Windows.</p></li>
+<li><p>Because of the instability of Rails on Windows you will probably find yourself second guessing some of the errors and bugs you encounter when developing being caused by either your system or the code you have written.</p></li>
+<li><p>Most of the examples throughout the learning process will assume you are using a linux or mac, you will have to translate these into the equivalent Windows commands yourself if you stick with Windows</p></li>
+<li><p>Most of the Rails community use unix based systems, this will make finding help with set up and configuration problems very difficult if you are installing on Windows. In fact the most common response you are likely to get is &quot;install linux&quot;.</p></li>
+<li><p><strong>Bonus</strong>  Experience with Linux will look great on your CV.</p></li>
+</ul>
+
+<p>We at Odin don&#39;t have anything against Windows, we simply want you to succeed at your goal of learning to program. We don&#39;t want to see you get majorly frustrated and giving up on this first hurdle of getting everything installed. Therefore we unequivocally recommend using linux or a Mac for this curriculum.</p>
+
+<h3>Installing Linux</h3>
+
+<p>The good news is installing linux is not as hard as you might have imagined, first of all Linux is free so you don&#39;t have to pay for anything Yay!. Secondly there are three different options that you can choose from to use linux on your machine along side Windows, so you can choose the one that suits your situation best.</p>
+
+<p>There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We wont go into any of that here and will simply recommend you use Ubuntu which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.</p>
+
+<h4>Option 1 - Dual Booting</h4>
+
+<p>You can install Ubuntu along side Windows on your machine by dual booting. This essentially means when you boot up your computer you will brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. <a href="https://www.youtube.com/watch?v=hOz66FC0pWU">Here</a> is a guide of how to set this up. </p>
+
+<p><strong>Pros</strong></p>
+
+<ul>
+<li>Gives you access to both Windows and Linux</li>
+<li>This option will yield the best performance from Ubuntu as it will be installed directly on your hard drive.</li>
+<li>You can customise as you like with different text editors etc</li>
+</ul>
+
+<p><strong>Cons</strong></p>
+
+<ul>
+<li>Messing up your Windows installation is a possibility when setting your computer up to dual boot (this is difficult to do)</li>
+<li>To switch between your two operating systems you will have to reboot your computer.</li>
+</ul>
+
+<h4>Option 2 - Use a Virtual Machine</h4>
+
+<p>A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not <a href="http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/">here</a> is a very good explanation of what a virtual machine is. You can <a href="https://www.virtualbox.org/wiki/Downloads">download VirtualBox</a> and use <a href="https://www.youtube.com/watch?v=9_DpFhT_euI">this</a> guide to set up this option.</p>
+
+<p><strong>Pros</strong></p>
+
+<ul>
+<li>You can access Windows and Linux, with the extra benefit of being able to switch between the two instantly.</li>
+<li>No risks to messing up your windows installation by doing something wrong with a dual boot</li>
+<li>You can customise as you like with different text editors etc</li>
+</ul>
+
+<p><strong>Cons</strong></p>
+
+<ul>
+<li>Performance with Ubuntu won&#39;t be as sharp as a dual booting</li>
+</ul>
+
+<h4>Option 3 - Using an Online IDE</h4>
+
+<p>There have been some great online IDE&#39;s(Integrated Development Environment) released in the past few years. These are similar to Virtual machines, in fact that&#39;s how they are set up in the background. The difference is they are websites so you can only use them in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. <a href="https://c9.io/">Cloud9</a> and <a href="https://www.nitrous.io/">Nitrous</a> are two of the most popular online IDE&#39;s.</p>
+
+<p><strong>Pros</strong></p>
+
+<ul>
+<li>You don&#39;t have to install anything on your local machine (this can be a con depending on the way you look at it, experience installing and setting stuff up on your local machine can be invaluable)</li>
+<li>Your coding environment will be available from any machine with internet access.</li>
+</ul>
+
+<p><strong>Cons</strong></p>
+
+<ul>
+<li>You have to use the text editor that their services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.</li>
+<li>The free tier&#39;s of these services have a memory limit, normally 1 gb. This can be a major limitation after a while.</li>
+</ul>
+
+<h2>What You&#39;ll Be Installing</h2>
+
+<p>Luckily, it&#39;s all free.  You&#39;ll be installing each of these using the tutorial below, but first here&#39;s a brief word about each item:</p>
+
+<h3>Ruby</h3>
+
+<p>Ruby is the back end language we&#39;ll be using to write our server code.  The Ruby interpreter is a program like any other and so you&#39;ll need to make sure it&#39;s installed on your computer and you&#39;ve got the right version (there are some big differences between, say, version 1.8.7 and 1.9.3 or 2.x).</p>
+
+<h3>Git</h3>
+
+<p>Git, the version-control system you&#39;ve read about, is another tool that requires a brief install.  You&#39;ll also be asked to create your Github account, which is very important because it&#39;ll host your portfolio.  When people visit your repo on Github (if it&#39;s public), they see all the source code files you&#39;ve uploaded.</p>
+
+<h3>Heroku</h3>
+
+<p>Heroku is the cloud hosting service which we&#39;ll be using to take our web applications &quot;live&quot;.  In some ways it acts sort of like Github because you will be pushing your code to Heroku in an almost identical way, but it&#39;s performing a very different function.  Where Github keeps repositories of your source code, Heroku actually runs that code on a server for you so your application can be visited by users.  Heroku requires a couple of helpful tools to be installed to make your life easier during the deployment process.</p>
+
+<h3>HTML, CSS and Javascript</h3>
+
+<p>Actually, we won&#39;t need to install any of these -- they come with your web browser already!  In later courses, you may actually start using Javascript on your computer as a server-programming language (Node.js), but for now you&#39;ve got nothing to worry about with these three.</p>
+
+<h3>Text Editor</h3>
+
+<p>We recommend using a text editor like <a href="http://www.sublimetext.com/">Sublime Text</a> to make sure everyone&#39;s using basically the same type of text editor and you&#39;ll all be able to work together and ask questions of each other without that getting in the way.  Sublime also has lots of handy shortcuts, code highlighting and other nifty features that&#39;ll make your life easier, and that&#39;s just on the surface.</p>
+
+<p>Check out <a href="http://jennifermann.ghost.io/a-quick-guide-to-sublime-text/">this &quot;Quick Guide to Sublime Text&quot; from Jennifer Mann</a> for some helpful hints and tricks.  She refers to <a href="https://tutsplus.com/course/improve-workflow-in-sublime-text-2/">this tutorial (~2.5 hrs of video) from NetTuts</a> which explains some of the awesomeness of Sublime Text 2 in depth.  The first chunk of the video is the most important, don&#39;t stress out about picking up the details in the rest (but you should come back to it once you&#39;ve gotten more comfortable with the editor).</p>
+
+<h3>Ruby Gems</h3>
+
+<p>There will be some Ruby gems (which are just prepackaged little libraries of code) to install to give you the tools necessary to talk to your database and install other gems easily in the future.</p>
+
+<h3>RVM</h3>
+
+<p>RVM is a way of making sure that each Ruby or Rails project on your computer is treated independently of each other one.  It allows you to install multiple versions of Ruby and multiple versions of Rails or any other gem on your computer and then you can choose which set to use for a given project.  </p>
+
+<p>This is very useful because you&#39;ll sometimes work on a project using an older version of Ruby (say 1.9.3) but simultaneously working on other projects using the newer version (2.0.0).  Since you obviously don&#39;t want to uninstall and reinstall Ruby each time, RVM just lets you say which gemset you want to use for a given project and PRESTO! your problems are solved.</p>
+
+<h3>Rails</h3>
+
+<p>What about Rails?  Rails is actually a Ruby gem of its own since it&#39;s really just a bunch of Ruby code prepackaged for you.  You &quot;install&quot; it by downloading the <code>rails</code> gem.</p>
+
+<h3>Mac: XCode</h3>
+
+<p>XCode is Apple&#39;s integrated development environment for creating Mac, iPhone and iPad applications.  Even though we won&#39;t be using it for that purpose, it&#39;s also got some command line tools that you&#39;ll be using so you&#39;re probably going to have to install it all (it&#39;s a giant package).</p>
+
+<h2>Assignment: Installfest</h2>
+
+<p>These installfests will take you through the steps to install everything on your computer.  It will probably feel like you&#39;re doing a whole bunch of things that don&#39;t really make sense and moving way too quickly.  Hopefully you&#39;ve got a basic understanding of what you&#39;re about to install, but it&#39;s also not super important that you know exactly what&#39;s going on or what all the commands mean.  You&#39;ll get more familiar with things over time.  </p>
+
+<ol>
+<li>Complete the entire <a href="http://installfest.railsbridge.org/installfest/">Railsbridge Installfest</a> for your system.
+
+<ul>
+<li><strong>Note for Windows users</strong>: As of July 2016, there is a bug in the current version of railsinstaller for windows. </li>
+<li>If you get the error <code>The system cannot find the path specified.</code> when attempting to run <code>bundle install --without production</code>:
+
+<ul>
+<li>run <code>gem install bundler</code></li>
+<li>try <code>bundle install --without production</code> again</li>
+</ul></li>
+</ul></li>
+<li>Typing <code>$ ruby -v</code> on your command line (ignore the $, it stands for the prompt) should output something that includes <code>2.2</code> or a above.  <code>$ rails -v</code> should give you something like <code>5.0.0</code> or above.</li>
+</ol>
+
+<h2>Checklist</h2>
+
+<h5>Before moving on, you should have:</h5>
+
+<ul>
+<li>Set up your <a href="http://github.com/">github</a> account</li>
+<li>Set up your <a href="http://www.heroku.com/">heroku</a> account</li>
+<li>Created and deployed a sample rails application</li>
+<li>Patted yourself on the back for accomplishing a task that has turned back many brave warriors.</li>
+</ul>
+
+<h2>Oh no! Total Failure!!!</h2>
+
+<p>If all else fails, the best web-based development environments to use for coding the back end are <a href="https://www.nitrous.io">Nitrous.io</a> or <a href="https://c9.io/">cloud9</a>.  They are free to use and give you a brand spanking new Ruby and Rails setup to start coding with.  </p>
+
+<p>They rely on having an internet connection, but they give you a command line, a text editor, and the ability to run a local server right out of the box.</p>
+
+<h2>Additional Resources</h2>
+
+<p><em>This section contains helpful links to other content. It isn&#39;t required, so consider it supplemental for if you need to dive deeper into something</em></p>
+
+<p>If you&#39;ve run into issues with your installation and are desperately looking for something else to try, take a deep breath first and go back over the instructions step-by-step to make sure you&#39;ve followed them properly.  You can run into some odd issues if you start trying to mix together different installation recommendations, because some of them use auto-installers and have you install things in slightly different places so you may end up with a couple copies of key components.  It may work fine on the surface, but some day it&#39;ll probably come back and frustrate you again.  But, if you must, here are some other people&#39;s installation recommendations:</p>
+
+<ul>
+<li>Michael Hartl describes the installation in his <a href="https://www.railstutorial.org/book/beginning#sec-up_and_running">Rails Tutorial, Chapter 1</a>, and the chapter also guides you through making and deploying your first bare-bones Rails app just to make sure everything&#39;s working properly.</li>
+<li>Treehouse has short videos describing Rails installation for various environments in their <a href="http://teamtreehouse.com/library/programming/build-a-simple-ruby-on-rails-application/getting-started-with-rails">Getting Started with Rails</a> unit.</li>
+<li><a href="http://rubyonrails.org/download">Rubyonrails.org</a> installation section.</li>
+<li><a href="http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7">Guide</a> for opening Sublime Text via command line in Windows.</li>
+<li><a href="http://railsinstaller.org/en">Rails Installer</a> goes in and forces Rails to be installed on your system.  If your computer has been behaving badly, maybe this scorched earth approach is the best.</li>
+<li><a href="https://gorails.com/setup/osx/10.10-yosemite">Gorails.com</a> also has an excellent tutorial for setting up your Rails enviornment for OSX and Ubuntu.</li>
+<li>Google Google Google</li>
+</ul>
+
+
+    <div class='slack-link-box'>
+  <a class="btn btn-success btn-block slack-link-btn" href="https://theodinproject.slack.com/messages/2-web-dev-101"><i class="fa fa-slack"></i> Discuss this Lesson on our Chat</a>
+      
+  <div class='slack-sign-up'>
+    <a href="https://slackin-theodinproject.herokuapp.com/">Don&#39;t have an account? Sign up here</a>
+  </div>
+</div>
+
+
+
+      <div id="right-box" class="adimage" data-ad-id="11">
+  <p>
+    From the creators of The Odin Project...
+  </p>
+  <a href="http://www.vikingcodeschool.com/?utm_source=theodinproject&amp;utm_medium=sideunit&amp;utm_campaign=display&amp;ref=The+Odin+Project">
+    <div class="alt-txt">
+      The Viking Code School
+    </div>
+    <img src="http://s3.amazonaws.com/viking_education/mktg/viking_ad_180x150.png" alt="Viking ad 180x150" />
+</a></div>
+
+      <div id="lower-banner" class="adimage" data-ad-id="2">
+  <a href="http://www.vikingcodeschool.com/?utm_source=theodinproject&amp;utm_medium=lowerbanner&amp;utm_campaign=display&amp;ref=The+Odin+Project">
+    <div class="alt-txt lower-alt-txt">
+      The Viking Code School
+    </div>
+    <img src="http://s3.amazonaws.com/viking_education/mktg/viking_ad_468x60.png" alt="Viking ad 468x60" />
+</a></div>
+
+    <div id="info-box">
+      <div class="social_sharing_buttons pull-left">
+  <!-- Twitter Button -->
+  <a data-toggle="tooltip" title="Tweet this lesson" href="https://twitter.com/share?text=Check out this awesome lesson from @TheOdinProject &amp;hashtags=learntocode&amp;url=http://www.theodinproject.com/web-development-101/installations"><span class="fa fa-twitter-square"></span></a>
+  <!-- Facebook Button -->
+  <a data-toggle="tooltip" title="Share on Facebook" href="https://www.facebook.com/dialog/share?app_id=1391239864499204&amp;href=http://www.theodinproject.com/web-development-101/installations&amp;redirect_uri=http://www.theodinproject.com/web-development-101/installations"><span class="fa fa-facebook-square"></span></a>
+  <!-- Google+ Button -->
+  <a data-toggle="tooltip" title="Share on Google+" href=https://plus.google.com/share?url=http://www.theodinproject.com/web-development-101/installations><span class="fa fa-google-plus-square"></span></a>
+  <!-- Pinterest Button -->
+  <a data-toggle="tooltip" title="Pin this lesson" href=//www.pinterest.com/pin/create/button/?url=http://www.theodinproject.com/web-development-101/installations&amp;media=http://www.theodinproject.com/assets/odin_big_silhouette-44fe3c8e9804811a8869034728e0b0812e7d11e02c009243f5aed70f3079261a.gif&amp;description=Installations target="__blank"><span class="fa fa-pinterest-square"></span></a>
+</div>
+
+
+      <div class="contribution-links pull-right tilt" 
+     data-toggle = "popover"
+     html = "true"
+
+     data-placement = "left"
+     data-content = 'View it on github <a target="_blank" href="https://github.com/TheOdinProject/curriculum/tree/master/web_development_101/project_installations.md">here</a>, 
+                     and learn how to contribute <a target="_blank" href="https://github.com/TheOdinProject/curriculum/blob/master/contributing.md">here</a>.'
+     >
+  
+    <img class="octocat" title="How to contribute" src="/assets/octocat-771b954fb6bda11a4f884d883078ac980aac67eee6ee66e98c9b0ee52086fa37.png" alt="Octocat" />
+</div>
+      <div class="content_license pull-right">
+  <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="View License">
+    <img src="/assets/icons/cc_license_88x31-4572dc02a05d818494227024fef400a6ed6672f2b5c2ce9d8ec16c777c496ef7.png" alt="Cc license 88x31" />
+  </a>
+</div>
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="action-box">
+      <div class="lc-end-wrapper">
+        <!--
+This partial displays the section at the bottom of the page where a user can mark
+a lesson completed or not completed.  It will also be rendered with the unobtrusive
+javscript that is used with the AJAX form which allows the user to do the checking
+and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+  
+  
+
+      <form class="new_lesson_completion" id="new_lesson_completion" action="/lesson_completions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+        <a href="#" class="checkbox-container lc-unchecked">
+          <input type="hidden" name="lesson_id" id="lesson_id" value="341" />
+          <h3>
+            Mark Project Completed
+          </h3>
+        </a>
+</form>
+  
+<div class="lc-hover"></div>
+<div class="lc-waiting"></div>
+      </div>
+
+      <div class="lnav">
+
+        <div class="lnav-prev lnav-wrap  ">
+            <a title="Go back to &quot;Terms to Know&quot;" href="/web-development-101/terms-to-know?ref=lnav">
+              <div class="lnav-prev-icon icon"></div>
+              <div class="lnav-text">
+                <p>Prev</p><p>Lesson</p>
+              </div>
+</a>        </div>
+
+        <div class="lnav-index lnav-wrap">
+          <a title="Go back to &quot;Web Development 101&quot;" href="/web-development-101?ref=lnav">
+            <div class="lnav-course-icon icon "></div>
+            <div class="lnav-text">
+              <p>View</p><p>Course</p>
+            </div>
+</a>        </div>
+
+        <div class="lnav-next lnav-wrap ">
+            <a title="Move on to &quot;Introduction to the Front End&quot;" href="/web-development-101/introduction-to-the-front-end?ref=lnav">
+              <div class="lnav-next-icon icon "></div>
+              <div class="lnav-text">
+                <p>Next</p><p>Lesson</p>
+              </div>
+</a>        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Provide support for window.lesson.applyScrollEffect() in IE8  -->
+<!--[if IE 8]>
+  <script>
+    $('.navbar-fixed-top').addClass('ie8--onScroll');
+    $('#lesson-nav').addClass('ie8--onScroll');
+    $('.scroll-effect-alert').css('display', 'inline').css('top', '25px');
+  </script>
+<![endif]-->
+
+<script>
+  $(function(){
+    $(".individual-lesson a[href^='http://']").attr("target","_blank");
+    $(".individual-lesson a[href^='https://']").attr("target","_blank");
+  });
+
+  // Invoke scroll effect, file lesson_header_onScroll.coffee
+  window.lesson.applyScrollEffect([$('.navbar-fixed-top'), $('#lesson-nav')], { showOnHover: true });
+</script>
+
+          </div><!--/row-->
+        </div> <!-- /container -->
+
+
+    </div>
+      
+    <footer id="footer">
+
+  <div class="footer-links">
+    <a href="http://1000hours.io">Blog</a>
+    <a href="/about">About</a>
+    <a href="/faq">FAQ</a>
+    <a href="/studygroups">Study Groups</a>
+    <a href="/contributing">Contributing</a>
+    <br>
+    <a href="/contact">Contact</a>
+    <a href="/press">Press</a>
+    <a href="/legal">Legal</a>
+    <a href="/sitemap">Sitemap</a>
+  </div>
+  <div class="footer-form">
+    <form id="footer-suggestion-form" class="form-inline" action="/suggestion" method="post" data-remote="true">
+
+      <input type="hidden" name="pathname" value="" id="suggestion-pathname">
+
+      <input type="text" name="suggestion" id="feedback-text-box" class="input-large" placeholder="What can we do to improve this site?">
+
+      <button type="submit" class="btn" id="suggestion-button">
+        Tell Us!
+      </button>
+
+    </form>
+  </div>
+
+</footer>
+
+<script>
+  // Suggestion From Submission - 
+  // 1. Make sure empty form doesn't submit,
+  // 2. After form submission, gray out and disable the form
+  // 
+  $(document).ready(function(){
+    // Cache the jquery selection since we'll refer to it more than once
+    var $suggestionForm = $('#footer-suggestion-form');           
+
+    // Upon form submission, intercept call and check if form was empty and if so, dont submit.
+    $suggestionForm.submit(function( event ) {
+      if ( $("#feedback-text-box").val().length === 0 ) {
+        event.preventDefault();                 // Cancel the submit action 
+        return false;                           // Preven't the disabling of the form
+      }
+    });
+    
+    
+    $suggestionForm.bind("ajax:complete", function(event, xhr, status){
+      //console.log($("#footer-suggestion-form input"));
+      $("#footer-suggestion-form input").attr("disabled","disabled");
+      $("#footer-suggestion-form button").attr("disabled","disabled").html("Thanks!");
+      //console.log("did it!");
+    });
+    $("#suggestion-pathname").val(location.pathname);
+  });
+</script>
+ 
+
+  </body>
+  
+
+</html>
+Ú’;­u      W¾{W¿J!<ÑÎ$       @    :http://www.theodinproject.com/web-development-101/installations necko:classified 1 request-method GET response-head HTTP/1.1 200 OK
+Server: Cowboy
+Date: Thu, 25 Aug 2016 18:58:59 GMT
+X-Frame-Options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+Content-Type: text/html; charset=utf-8
+Etag: W/"089710bd663211d5e2c59748cfb6fcfa"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 1016c826-9255-4ca1-81cf-798d7b230835
+X-Runtime: 0.164600
+Content-Length: 47510
+Via: 1.1 vegur
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 19 predictor::https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Open+Sans:300,300italic,400,700 1,1,1472101143,0 predictor::http://www.theodinproject.com/assets/application-e0179b97c23a0189174b1eba0434498bdecb537714925a85dd6f6ce413cdbfb5.css 1,1,1472101143,0 predictor::http://www.theodinproject.com/assets/application-dcc7127f83f7822e0b156910fa2e3bf4361f5476a08246c6e0642b244abccb3b.js 1,1,1472101143,0 predictor::http://s3.amazonaws.com/viking_education/mktg/viking_ad_180x150.png 1,1,1472101143,0 predictor::http://s3.amazonaws.com/viking_education/mktg/viking_ad_468x60.png 1,1,1472101143,0 predictor::http://www.theodinproject.com/assets/octocat-771b954fb6bda11a4f884d883078ac980aac67eee6ee66e98c9b0ee52086fa37.png 1,1,1472101143,0 predictor::http://www.theodinproject.com/assets/icons/cc_license_88x31-4572dc02a05d818494227024fef400a6ed6672f2b5c2ce9d8ec16c777c496ef7.png 1,1,1472101143,0 predictor::http://www.google-analytics.com/ga.js 1,1,1472101143,0 predictor::http://s.swiftypecdn.com/embed.js 1,1,1472101143,0 predictor::http://www.theodinproject.com/assets/icons/lc_hover-bb5f61da93f2beec8a8d6399481921d8b25dbf39c007764bf77d2337f38c117e.svg 1,1,1472101143,0 predictor::http://www.theodinproject.com/assets/icons/arrow_in_circle-147c2cbb27e32f04797b22b008a0c9264aebe7f79dd4a6dde3976a0e7dbe0b67.svg 1,1,1472101143,0 predictor::http://www.theodinproject.com/assets/icons/notebook-9a53214f27cc2106148e05e70b4fc738ab02f75eb4034cfd94643dfeff65db2b.svg 1,1,1472101143,0 predictor::http://s.swiftypecdn.com/assets/swiftype_onpage-b905b511f67baa9eb08825807f78b572.js 1,1,1472101143,0 predictor::http://s.swiftypecdn.com/assets/swiftype-2a59bd96cc2fb7e88e86d5cb292104e2.css 1,1,1472101143,0 predictor::http://js-agent.newrelic.com/nr-974.min.js 1,1,1472101143,0 predictor::http://s.swiftypecdn.com/cc.js 1,1,1472101143,0 predictor::http://cc.swiftype.com/cc?url=http%3A%2F%2Fwww.theodinproject.com%2Fweb-development-101%2Finstallations&engine_key=hnrKV2q8t65YYTgSyoqy&r=http%3A%2F%2Fwww.theodinproject.com%2Fweb-development-101 1,1,1472101143,0 predictor::http://www.theodinproject.com/assets/icons/lc_checked-73c2dbf4ae5d4ead23009f143b843221a27c293cab8441041fa3d826497abb9a.svg 1,1,1472101143,0 predictor::http://www.theodinproject.com/assets/icons/arrow_in_circle_green-cc014cfdfa4eaefff0fc73ad250820318bc202883f6fae5dbebad335aa582cd7.svg 1,1,1472101143,0   ¹–

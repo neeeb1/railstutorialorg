@@ -1,0 +1,804 @@
+path: /devices/LNXSYSTM:00/INT3420:00
+bus: pnp
+product_id: 13344
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+bus: input
+category: OTHER
+driver: button
+product_id: 1
+vendor_id: 0
+product: Power Button
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/INT33A1:00
+bus: pnp
+product_id: 13217
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/INT33D5:00
+bus: pnp
+product_id: 13269
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/INT3400:00
+bus: pnp
+product_id: 13312
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/INT3401:00
+bus: pnp
+product_id: 13313
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/INT340F:00
+bus: pnp
+product_id: 13327
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00
+bus: pnp
+product_id: 2568
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3402:00
+bus: pnp
+product_id: 13314
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3406:00
+bus: pnp
+product_id: 13318
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3430:00
+bus: pnp
+product_id: 13360
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3431:00
+bus: pnp
+product_id: 13361
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3432:00
+bus: pnp
+product_id: 13362
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3432:00/INT33C9:00
+bus: pnp
+product_id: 13257
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3432:00/INT33D1:00
+bus: pnp
+product_id: 13265
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3432:00/INT33D7:00
+bus: pnp
+product_id: 13271
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3432:00/INT3439:00
+bus: pnp
+product_id: 13369
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3432:00/INT343A:00
+bus: pnp
+product_id: 13370
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3432:00/INT343B:00
+bus: pnp
+product_id: 13371
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3433:00
+bus: pnp
+product_id: 13363
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3433:00/ALP0001:00
+bus: pnp
+vendor: ALP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3433:00/CYP0001:00
+bus: pnp
+vendor: CYP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3434:00
+bus: pnp
+product_id: 13364
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3434:00/INT33E0:00
+bus: pnp
+product_id: 13280
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3435:00
+bus: pnp
+product_id: 13365
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3435:00/BCM2E20:00
+bus: pnp
+product_id: 11808
+vendor: BCM
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3436:00
+bus: pnp
+product_id: 13366
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3437:00
+bus: pnp
+product_id: 13367
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3438:00
+bus: pnp
+product_id: 13368
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input7
+bus: input
+category: OTHER
+driver: video
+product_id: 6
+vendor_id: 0
+product: Video Bus
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:26/DLL0665:00
+bus: pnp
+product_id: 1637
+vendor: DLL
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:26/INT0800:00
+bus: pnp
+product_id: 2048
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:26/INT3F0D:00
+bus: pnp
+product_id: 16141
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:26/PNP0000:00
+bus: pnp
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:26/PNP0100:00
+bus: pnp
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:26/PNP0103:00
+bus: pnp
+product_id: 259
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:26/PNP0200:00
+bus: pnp
+product_id: 512
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:26/PNP0B00:00
+bus: pnp
+product_id: 2816
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:26/PNP0C02:00
+bus: pnp
+product_id: 3074
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:26/PNP0C04:00
+bus: pnp
+product_id: 3076
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:26/PNP0C09:00
+bus: pnp
+driver: ec
+product_id: 3081
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:26/PNP0C09:00/INT33D2:00
+bus: pnp
+driver: ec
+product_id: 13266
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:26/PNP0C09:00/INT33D6:00
+bus: pnp
+driver: ec
+product_id: 13270
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:26/PNP0C09:00/INT3403:00
+bus: pnp
+driver: ec
+product_id: 13315
+vendor: INT
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C01:00
+bus: pnp
+product_id: 3073
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0A:00
+bus: pnp
+driver: battery
+product_id: 3082
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0A:00/power_supply/BAT0
+bus: power_supply
+driver: battery
+product: DELL 0N7T653
+vendor: SMP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00
+bus: pnp
+driver: button
+product_id: 3084
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+bus: input
+category: OTHER
+driver: button
+product_id: 1
+vendor_id: 0
+product: Power Button
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00
+bus: pnp
+driver: button
+product_id: 3085
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input0
+bus: input
+category: OTHER
+driver: button
+product_id: 5
+vendor_id: 0
+product: Lid Switch
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00
+bus: pnp
+driver: button
+product_id: 3086
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2
+bus: input
+category: OTHER
+driver: button
+product_id: 3
+vendor_id: 0
+product: Sleep Button
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:00
+bus: pnp
+product_id: 3087
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C14:00
+bus: pnp
+driver: wmi
+product_id: 3092
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/LNXSYBUS:01/PNP0C0B:00
+bus: pnp
+product_id: 3083
+vendor: PNP
+
+path: /devices/LNXSYSTM:00/NXP5442:00
+bus: pnp
+product_id: 21570
+vendor: NXP
+
+path: /devices/pci0000:00/0000:00:00.0
+bus: pci
+category: OTHER
+driver: bdw_uncore
+product_id: 5636
+vendor_id: 32902
+subproduct_id: 1637
+subvendor_id: 4136
+product: Broadwell-U Host Bridge -OPI
+vendor: Intel Corporation
+
+path: /devices/pci0000:00/0000:00:02.0
+bus: pci
+category: VIDEO
+driver: i915
+product_id: 5654
+vendor_id: 32902
+subproduct_id: 1637
+subvendor_id: 4136
+product: Broadwell-U Integrated Graphics
+vendor: Intel Corporation
+
+path: /devices/pci0000:00/0000:00:03.0
+bus: pci
+category: AUDIO
+driver: snd_hda_intel
+product_id: 5644
+vendor_id: 32902
+subproduct_id: 1637
+subvendor_id: 4136
+product: Broadwell-U Audio Controller
+vendor: Intel Corporation
+
+path: /devices/pci0000:00/0000:00:03.0/sound/card0
+bus: sound
+category: AUDIO
+driver: snd_hda_intel
+product: Broadwell-U Audio Controller
+vendor: Intel Corporation
+
+path: /devices/pci0000:00/0000:00:03.0/sound/card0/input10
+bus: input
+category: OTHER
+product_id: 0
+vendor_id: 0
+product: HDA Intel HDMI HDMI/DP,pcm=3
+
+path: /devices/pci0000:00/0000:00:03.0/sound/card0/input11
+bus: input
+category: OTHER
+product_id: 0
+vendor_id: 0
+product: HDA Intel HDMI HDMI/DP,pcm=7
+
+path: /devices/pci0000:00/0000:00:03.0/sound/card0/input12
+bus: input
+category: OTHER
+product_id: 0
+vendor_id: 0
+product: HDA Intel HDMI HDMI/DP,pcm=8
+
+path: /devices/pci0000:00/0000:00:04.0
+bus: pci
+category: OTHER
+driver: proc_thermal
+product_id: 5635
+vendor_id: 32902
+subproduct_id: 1637
+subvendor_id: 4136
+product: Broadwell-U Processor Thermal Subsystem
+vendor: Intel Corporation
+
+path: /devices/pci0000:00/0000:00:14.0
+bus: pci
+category: USB
+driver: xhci_hcd
+product_id: 40113
+vendor_id: 32902
+subproduct_id: 1637
+subvendor_id: 4136
+product: Wildcat Point-LP USB xHCI Controller
+vendor: Intel Corporation
+
+path: /devices/pci0000:00/0000:00:14.0/usb2
+name: bus/usb/002/001
+bus: usb
+driver: usb
+product: 2.0 root hub
+vendor: Linux Foundation
+
+path: /devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0
+bus: usb
+category: OTHER
+driver: hub
+product_id: 2
+vendor_id: 7531
+product: 2.0 root hub
+vendor: Linux Foundation
+
+path: /devices/pci0000:00/0000:00:14.0/usb2/2-3
+name: bus/usb/002/002
+bus: usb
+driver: usb
+product: BCM20702A0 Bluetooth
+vendor: Broadcom Corp.
+
+path: /devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.0
+bus: usb
+category: OTHER
+driver: btusb
+product_id: 8559
+vendor_id: 2652
+product: BCM20702A0 Bluetooth
+vendor: Broadcom Corp.
+
+path: /devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.0/bluetooth/hci0
+bus: bluetooth
+category: BLUETOOTH
+driver: btusb
+product: BCM20702A0
+vendor: Broadcom Corp
+
+path: /devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.1
+bus: usb
+category: OTHER
+driver: btusb
+product_id: 8559
+vendor_id: 2652
+product: BCM20702A0 Bluetooth
+vendor: Broadcom Corp.
+
+path: /devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.3
+bus: usb
+category: OTHER
+driver: usb
+product_id: 8559
+vendor_id: 2652
+product: BCM20702A0 Bluetooth
+vendor: Broadcom Corp.
+
+path: /devices/pci0000:00/0000:00:14.0/usb2/2-5
+name: bus/usb/002/003
+bus: usb
+driver: usb
+vendor: Realtek Semiconductor Corp.
+
+path: /devices/pci0000:00/0000:00:14.0/usb2/2-5/2-5:1.0
+bus: usb
+category: CAPTURE
+driver: uvcvideo
+product_id: 22146
+vendor_id: 3034
+product: Integrated_Webcam_HD
+vendor: Realtek Semiconductor Corp.
+
+path: /devices/pci0000:00/0000:00:14.0/usb3
+name: bus/usb/003/001
+bus: usb
+driver: usb
+product: 3.0 root hub
+vendor: Linux Foundation
+
+path: /devices/pci0000:00/0000:00:14.0/usb3/3-0:1.0
+bus: usb
+category: OTHER
+driver: hub
+product_id: 3
+vendor_id: 7531
+product: 3.0 root hub
+vendor: Linux Foundation
+
+path: /devices/pci0000:00/0000:00:16.0
+bus: pci
+category: OTHER
+driver: mei_me
+product_id: 40122
+vendor_id: 32902
+subproduct_id: 1637
+subvendor_id: 4136
+product: Wildcat Point-LP MEI Controller
+vendor: Intel Corporation
+
+path: /devices/pci0000:00/0000:00:1b.0
+bus: pci
+category: AUDIO
+driver: snd_hda_intel
+product_id: 40096
+vendor_id: 32902
+subproduct_id: 1637
+subvendor_id: 4136
+product: Wildcat Point-LP High Definition Audio Controller
+vendor: Intel Corporation
+
+path: /devices/pci0000:00/0000:00:1b.0/sound/card1
+bus: sound
+category: AUDIO
+driver: snd_hda_intel
+product: Wildcat Point-LP High Definition Audio Controller
+vendor: Intel Corporation
+
+path: /devices/pci0000:00/0000:00:1b.0/sound/card1/input8
+bus: input
+category: OTHER
+product_id: 0
+vendor_id: 0
+product: HDA Intel PCH Headphone Mic
+
+path: /devices/pci0000:00/0000:00:1c.0
+bus: pci
+category: OTHER
+driver: pcieport
+product_id: 40080
+vendor_id: 32902
+subproduct_id: 1637
+subvendor_id: 4136
+product: Wildcat Point-LP PCI Express Root Port
+vendor: Intel Corporation
+
+path: /devices/pci0000:00/0000:00:1c.0/0000:01:00.0
+bus: pci
+category: CARDREADER
+driver: rtsx_pci
+product_id: 21065
+vendor_id: 4332
+subproduct_id: 1637
+subvendor_id: 4136
+product: RTS5249 PCI Express Card Reader
+vendor: Realtek Semiconductor Co., Ltd.
+
+path: /devices/pci0000:00/0000:00:1c.3/0000:02:00.0
+bus: pci
+category: WIRELESS
+driver: wl
+product_id: 17329
+vendor_id: 5348
+product: BCM4352 802.11ac Wireless Network Adapter
+vendor: Broadcom Corporation
+interface: wlp2s0
+
+path: /devices/pci0000:00/0000:00:1d.0
+bus: pci
+category: USB
+driver: ehci-pci
+product_id: 40102
+vendor_id: 32902
+subproduct_id: 1637
+subvendor_id: 4136
+product: Wildcat Point-LP USB EHCI Controller
+vendor: Intel Corporation
+
+path: /devices/pci0000:00/0000:00:1d.0/usb1
+name: bus/usb/001/001
+bus: usb
+driver: usb
+product: 2.0 root hub
+vendor: Linux Foundation
+
+path: /devices/pci0000:00/0000:00:1d.0/usb1/1-0:1.0
+bus: usb
+category: OTHER
+driver: hub
+product_id: 2
+vendor_id: 7531
+product: 2.0 root hub
+vendor: Linux Foundation
+
+path: /devices/pci0000:00/0000:00:1d.0/usb1/1-1
+name: bus/usb/001/002
+bus: usb
+driver: usb
+vendor: Intel Corp.
+
+path: /devices/pci0000:00/0000:00:1d.0/usb1/1-1/1-1:1.0
+bus: usb
+category: OTHER
+driver: hub
+product_id: 32769
+vendor_id: 32903
+vendor: Intel Corp.
+
+path: /devices/pci0000:00/0000:00:1f.0
+bus: pci
+category: OTHER
+driver: lpc_ich
+product_id: 40131
+vendor_id: 32902
+subproduct_id: 1637
+subvendor_id: 4136
+product: Wildcat Point-LP LPC Controller
+vendor: Intel Corporation
+
+path: /devices/pci0000:00/0000:00:1f.0/INT0800:00
+bus: pnp
+driver: lpc_ich
+product_id: 2048
+vendor: INT
+
+path: /devices/pci0000:00/0000:00:1f.0/PNP0103:00
+bus: pnp
+driver: lpc_ich
+product_id: 259
+vendor: PNP
+
+path: /devices/pci0000:00/0000:00:1f.0/PNP0C09:00
+bus: pnp
+driver: lpc_ich
+product_id: 3081
+vendor: PNP
+
+path: /devices/pci0000:00/0000:00:1f.0/PNP0C09:00/INT3403:00
+bus: pnp
+driver: int3403 thermal
+product_id: 13315
+vendor: INT
+
+path: /devices/pci0000:00/0000:00:1f.0/PNP0C09:00/INT3403:01
+bus: platform
+driver: int3403 thermal
+product_id: 13315
+vendor: INT
+
+path: /devices/pci0000:00/0000:00:1f.0/PNP0C09:00/INT3403:02
+bus: platform
+driver: int3403 thermal
+product_id: 13315
+vendor: INT
+
+path: /devices/pci0000:00/0000:00:1f.0/PNP0C09:00/INT3403:03
+bus: platform
+driver: int3403 thermal
+product_id: 13315
+vendor: INT
+
+path: /devices/pci0000:00/0000:00:1f.2
+bus: pci
+category: OTHER
+driver: ahci
+product_id: 40067
+vendor_id: 32902
+subproduct_id: 1637
+subvendor_id: 4136
+product: Wildcat Point-LP SATA Controller [AHCI Mode]
+vendor: Intel Corporation
+
+path: /devices/pci0000:00/0000:00:1f.2/ata4/host3/target3:0:0/3:0:0:0
+name: sda
+bus: scsi
+category: DISK
+driver: sd
+product: SAMSUNG SSD CM871 M.2 2280 128GB
+
+path: /devices/pci0000:00/0000:00:1f.3
+bus: pci
+category: OTHER
+product_id: 40098
+vendor_id: 32902
+subproduct_id: 1637
+subvendor_id: 4136
+product: Wildcat Point-LP SMBus Controller
+vendor: Intel Corporation
+
+path: /devices/pci0000:00/0000:00:1f.6
+bus: pci
+category: OTHER
+driver: intel_pch_thermal
+product_id: 40100
+vendor_id: 32902
+subproduct_id: 1637
+subvendor_id: 4136
+product: Wildcat Point-LP Thermal Management Controller
+vendor: Intel Corporation
+
+path: /devices/pci0000:00/INT3402:00
+bus: pnp
+driver: int3402 thermal
+product_id: 13314
+vendor: INT
+
+path: /devices/pci0000:00/INT3432:00
+bus: pnp
+driver: i2c_designware
+product_id: 13362
+vendor: INT
+
+path: /devices/pci0000:00/INT3433:00
+bus: pnp
+driver: i2c_designware
+product_id: 13363
+vendor: INT
+
+path: /devices/pci0000:00/INT3433:00/i2c-7/i2c-DLL0665:01
+bus: i2c
+driver: i2c_hid
+product_id: 1637
+vendor: DLL
+
+path: /devices/pci0000:00/INT3433:00/i2c-7/i2c-DLL0665:01/0018:06CB:76AD.0001/input/input14
+bus: input
+category: TOUCHPAD
+driver: hid-multitouch
+product_id: 30381
+vendor_id: 1739
+product: DLL0665:01 06CB:76AD Touchpad
+
+path: /devices/pci0000:00/INTL9C60:00
+bus: platform
+driver: dw_dmac
+vendor: Interphase Corporation
+
+path: /devices/platform/INT3400:00
+bus: pnp
+driver: int3400 thermal
+product_id: 13312
+vendor: INT
+
+path: /devices/platform/INT340F:00
+bus: pnp
+product_id: 13327
+vendor: INT
+
+path: /devices/platform/PNP0C0A:00
+bus: pnp
+product_id: 3082
+vendor: PNP
+
+path: /devices/platform/PNP0C0B:00
+bus: pnp
+driver: acpi-fan
+product_id: 3083
+vendor: PNP
+
+path: /devices/platform/PNP0C0B:01
+bus: platform
+driver: acpi-fan
+product_id: 3083
+vendor: PNP
+
+path: /devices/platform/PNP0C0B:02
+bus: platform
+driver: acpi-fan
+product_id: 3083
+vendor: PNP
+
+path: /devices/platform/PNP0C0B:03
+bus: platform
+driver: acpi-fan
+product_id: 3083
+vendor: PNP
+
+path: /devices/platform/PNP0C0B:04
+bus: platform
+driver: acpi-fan
+product_id: 3083
+vendor: PNP
+
+path: /devices/platform/PNP0C0C:00
+bus: pnp
+product_id: 3084
+vendor: PNP
+
+path: /devices/platform/PNP0C0D:00
+bus: pnp
+product_id: 3085
+vendor: PNP
+
+path: /devices/platform/PNP0C0E:00
+bus: pnp
+product_id: 3086
+vendor: PNP
+
+path: /devices/platform/PNP0C14:00
+bus: pnp
+product_id: 3092
+vendor: PNP
+
+path: /devices/platform/i8042/serio0/input/input4
+bus: input
+category: KEYBOARD
+driver: atkbd
+product_id: 1
+vendor_id: 9
+product: AT Translated Set 2 keyboard
+
+path: /devices/platform/i8042/serio1/input/input6
+bus: input
+category: TOUCHPAD
+driver: psmouse
+product_id: 7
+vendor_id: 9
+product: SynPS/2 Synaptics TouchPad
+
+path: /devices/virtual/input/input13
+bus: input
+category: OTHER
+product_id: 0
+vendor_id: 0
+product: Dell WMI hotkeys
+

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Create A Heroku Account - Installfest</title>
+<script src="/assets/application.js"></script><link href="/assets/application.css" rel="stylesheet">
+</head>
+<body>
+<nav class="top cf" role="navigation"><div class="navbar-header cf title"><a href="/installfest"><span class="brand">RailsBridge </span>Installfest</a></div>
+<ul class="navbar-nav nav">
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="/flags/US.png"></a><ul class="flags dropdown-menu">
+<li><a href="http://docs.railsbridge.org"><img src="/flags/US.png"></a></li>
+<li><a href="http://es.railsbridge.org"><img src="/flags/ES.png"></a></li>
+<li><a href="http://zh-tw.railsbridge.org"><img src="/flags/ZH-TW.png"></a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">sites</a><ul class="dropdown-menu">
+<li class="category">Setup</li>
+<li class="current">Installfest</li>
+<li class="category">Rails</li>
+<li><a href="/intro-to-rails/">Intro To Rails</a></li>
+<li><a href="/job-board/">Job Board</a></li>
+<li><a href="/message-board/">Message Board</a></li>
+<li class="category">Frontend</li>
+<li><a href="/frontend/">Frontend</a></li>
+<li><a href="/javascript-snake-game/">Javascript Snake Game</a></li>
+<li><a href="/javascript-to-do-list/">Javascript To Do List</a></li>
+<li><a href="/javascript-to-do-list-with-react/">Javascript To Do List With React</a></li>
+<li class="category">Ruby</li>
+<li><a href="/learn-to-code/">Learn To Code</a></li>
+<li><a href="/ruby/">Ruby</a></li>
+<li class="category">Other stuff</li>
+<li><a href="/docs/">Docs</a></li>
+<li><a href="/workshop/">Workshop</a></li>
+</ul>
+</li>
+<li class="show-when-small"><a data-toggle-selector="#table_of_contents" href="#">toc</a></li>
+<li class="hidden-sm"><a href="create_a_heroku_account/src">src</a></li>
+<li class="hidden-sm"><a href="https://github.com/railsbridge/docs/blob/master/sites/en/installfest/create_a_heroku_account.step">git</a></li>
+</ul></nav><div class="toc page-list" id="table_of_contents">
+<ul>
+<li class="collapsable closed">
+<a href="/installfest/installfest"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Installfest</a><ul><li class=""><a href="/installfest/editors">Editors</a></li></ul>
+</li>
+<li class="collapsable closed">
+<a href="/installfest/choose_your_operating_system"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Choose Your Operating System</a><ul>
+<li class="collapsable closed">
+<a href="/installfest/macintosh"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Macintosh</a><ul><li class="collapsable closed">
+<a href="/installfest/osx_rvm"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>OS X RVM</a><ul><li class="collapsable closed">
+<a href="/installfest/install_xcode"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Install Xcode</a><ul>
+<li class=""><a href="/installfest/install_xcode_command_line_tools">Install Xcode Command Line Tools</a></li>
+<li class=""><a href="/installfest/install_xcode_from_app_store">Install Xcode From App Store</a></li>
+<li class=""><a href="/installfest/install_xcode_from_dvd">Install Xcode From DVD</a></li>
+</ul>
+</li></ul>
+</li></ul>
+</li>
+<li class="collapsable closed">
+<a href="/installfest/windows"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Windows</a><ul><li class=""><a href="/installfest/configure_the_windows_terminal">Configure The Windows Terminal</a></li></ul>
+</li>
+<li class=""><a href="/installfest/linux">Linux</a></li>
+</ul>
+</li>
+<li class=""><a href="/installfest/configure_git">Configure Git</a></li>
+<li class=""><a href="/installfest/create_an_ssh_key">Create An SSH Key</a></li>
+<li class="collapsable">
+<span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span><span class="current">Create A Heroku Account</span><ul><li class=""><a href="/installfest/create_a_github_account">Create A Github Account</a></li></ul>
+</li>
+<li class=""><a href="/installfest/create_a_rails_app">Create A Rails App</a></li>
+<li class=""><a href="/installfest/deploy_a_rails_app">Deploy A Rails App</a></li>
+<li class=""><a href="/installfest/get_a_sticker">Get A Sticker</a></li>
+<li class=""><a href="/installfest/clean_up">Clean Up</a></li>
+</ul>
+<h1>Other Pages</h1>
+<ul><li class=""><a href="/installfest/glossary">Glossary</a></li></ul>
+<span class="expand-all"><i class="fa fa-arrows-alt"></i>Expand All</span>
+</div>
+<main><h1 class="doc_title">Create A Heroku Account</h1>
+<div class="doc">
+<div class="message">
+<p>We'll be using Heroku to put our apps online because it's simple and free for the tier we'll be needing.</p>
+</div>
+<a name="step1"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4264" name="big_checkbox_4264" type="checkbox" value="valuable"><label for="big_checkbox_4264"></label><span class="prefix">Step 1: </span>Visit the Heroku web site</h1>
+<blockquote><a href="http://heroku.com">http://heroku.com</a></blockquote>
+</div>
+<a name="step2"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4265" name="big_checkbox_4265" type="checkbox" value="valuable"><label for="big_checkbox_4265"></label><span class="prefix">Step 2: </span>Create an account</h1>
+<blockquote>
+<div class="message">
+<p>Click the big <strong>Sign Up</strong> button (it's about halfway down the page)</p>
+</div>
+<div class="message">
+<p>Enter your email address.</p>
+</div>
+<div class="message important vertical-centerer">
+<i class="fa fa-exclamation-circle fa-3x"></i><div class="vertically-centered">
+<p>Use the same email address for heroku, git, github, and ssh. Be sure to use an email account you can log into immediately.</p>
+</div>
+</div>
+</blockquote>
+</div>
+<a name="step3"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4266" name="big_checkbox_4266" type="checkbox" value="valuable"><label for="big_checkbox_4266"></label><span class="prefix">Step 3: </span>Activate your account</h1>
+<blockquote><div class="message">
+<p>Heroku will send you an activation email. Open it and click on the activation link. It will take you to the Heroku site. Enter and confirm your password. Hit Save.</p>
+</div></blockquote>
+</div>
+<a name="step4"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4267" name="big_checkbox_4267" type="checkbox" value="valuable"><label for="big_checkbox_4267"></label><span class="prefix">Step 4: </span>Install the Heroku toolbelt</h1>
+<blockquote>
+<div class="message">
+<p>Visit <a href="https://toolbelt.heroku.com/">https://toolbelt.heroku.com/</a>, click the download link, and install.</p>
+</div>
+<div class="verify">
+<h1>Verify </h1>
+<blockquote>
+<div class="console">
+<span>Type this in the terminal:</span><pre>heroku version</pre>
+</div>
+<div class="result fuzzy-result">
+<span>Approximate expected result:</span><pre>heroku-toolbelt/<span class="fuzzy-lightened">3.30.6 (x86_64-darwin10.8.0) ruby/1.9.3</span>
+<span class="fuzzy-lightened">You have no installed plugins.</span>
+</pre>
+<div class="fuzzy-hint">The greyed-out text may differ and is not important.</div>
+</div>
+</blockquote>
+</div>
+<div class="message">
+<p>Windows users, if <code>heroku version</code> doesn't work, open a new terminal window after the heroku installer has finished.</p>
+</div>
+</blockquote>
+</div>
+<a name="step5"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4268" name="big_checkbox_4268" type="checkbox" value="valuable"><label for="big_checkbox_4268"></label><span class="prefix">Step 5: </span>Add your SSH key to your Heroku account</h1>
+<blockquote>
+<div class="console">
+<span>Type this in the terminal:</span><pre>heroku keys:add</pre>
+</div>
+<div class="message">
+<p>Enter your Heroku email and password, if prompted, and accept the defaults.</p>
+</div>
+</blockquote>
+</div>
+<div>
+<h1>Optional Step: Create a GitHub account</h1>
+<blockquote>
+<div class="message">
+<p>Since by now you should have both Git and an SSH key, you can optionally <a href="create_a_github_account">Create a Github account</a> to share code with your friends.</p>
+</div>
+<div class="message">
+<p>You don't need a GitHub account to complete the InstallFest, or the Intro To Rails, Job Board, or Message Board courses.</p>
+</div>
+</blockquote>
+</div>
+<div class="step next_step">
+<h1><span class="prefix">Next Step:</span></h1>
+<p class="link">Go on to <a class="link" href="create_a_rails_app">Create A Rails App</a></p>
+</div>
+</div>
+<div class="back">Back to <a class="back" href="create_an_ssh_key">Create An SSH Key</a>
+</div></main><footer><p>Going through this curriculum on your own? Get help on <a href="http://discourse.bridgefoundry.org/c/railsbridge-help" target="_blank">our Discourse forum</a>, where RailsBridge volunteers can answer your questions.</p>
+<p>If you have a suggestion for improving the docs, please make a <a href="https://github.com/railsbridge/docs">pull request </a>or <a href="https://github.com/railsbridge/docs/issues/new">drop us a note </a>via GitHub Issues (no technical knowledge required).</p>
+<p>Source: <a href="https://github.com/railsbridge/docs">https://github.com/railsbridge/docs</a></p></footer>
+</body>
+</html>
+/Éç»Æ¶      W¿C{W¿Dº<ÒYW¿Q‹   G    :http://installfest.railsbridge.org/installfest/create_a_heroku_account necko:classified 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 25 Aug 2016 19:14:03 GMT
+Content-Type: text/html;charset=utf-8
+Cache-Control: public, max-age=3600
+Expires: Thu, 25 Aug 2016 20:14:03 GMT
+Content-Length: 9581
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: thin
+Via: 1.1 vegur
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 9 predictor::http://installfest.railsbridge.org/assets/application.js 1,1,1472152443,0 predictor::http://installfest.railsbridge.org/assets/application.css 1,1,1472152443,0 predictor::http://www.google-analytics.com/analytics.js 1,1,1472152443,0 predictor::http://www.google-analytics.com/collect?v=1&_v=j46&a=1094756880&t=pageview&_s=1&dl=http%3A%2F%2Finstallfest.railsbridge.org%2Finstallfest%2Fcreate_a_heroku_account&ul=en-us&de=UTF-8&dt=Create%20A%20Heroku%20Account%20-%20Installfest&sd=24-bit&sr=1920x1080&vp=1280x879&je=0&_u=AACAAEABI~&jid=&cid=854949526.1472101155&tid=UA-40977319-4&z=2117454071 1,1,1472152443,0 predictor::http://installfest.railsbridge.org/flags/US.png 1,1,1472152443,0 predictor::http://installfest.railsbridge.org/flags/ES.png 1,1,1472152443,0 predictor::http://installfest.railsbridge.org/flags/ZH-TW.png 1,1,1472152443,0 predictor::http://installfest.railsbridge.org/img/navbar_texture.gif 1,1,1472152443,0 predictor::http://installfest.railsbridge.org/img/check-dim.png 1,1,1472152443,0   %m

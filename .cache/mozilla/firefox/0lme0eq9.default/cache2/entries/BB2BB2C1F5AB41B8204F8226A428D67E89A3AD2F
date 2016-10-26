@@ -1,0 +1,1146 @@
+
+<!DOCTYPE html>
+
+<!--[if IE]> <html class="no-js ie">  <![endif]-->
+<!--[if lt IE 9]> <html class="no-js lt-ie9">  <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if gt IE 7]><html class="no-js gt-ie7"> <![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"><![endif]-->
+<!--[if !IE]> -->
+<html lang="en">
+<!-- <![endif]-->
+
+<head>
+    
+
+    <meta charset="utf-8">
+    <meta name="description" content="Boingo Landing Page">
+    <meta name="author" content="Motive">
+
+    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- X-UA-Compatible and HTML5 -->
+    <!-- Use the .htaccess and remove these lines to avoid edge case issues. More info: h5bp.com/i/378 -->
+    <!-- More info on X-UA-Compatible and HTML5: http://www.456bereastreet.com/archive/201103/x-ua-compatible_and_html5/ -->
+    <!-- This will give validation Error -->
+    <!-- On Apache, place this in the .htaccess file instead to avoid validation error: Header set X-UA-Compatible "IE=edge" -->
+    <!-- To activate, uncomment the line below: -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"4cda4b2943","applicationID":"9930578","transactionName":"YAZTN0JSCkIAURdbDVlMfDVzHDdYFVcAXRBSIF4NREELXQ1XER0rWQdUGw==","queueTime":0,"applicationTime":618,"ttGuid":"7C355A7FBE565252","agent":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script> -->
+
+    <title>Boingo Hotspot | Offers</title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+    <link rel="icon" type="image/ico" href="https://cdn.boingohotspot.net/assets/shared/img/favicon.png">
+
+    <!-- CSS: implied media=all -->
+    <link href="https://cdn.boingohotspot.net/assets/shared/css/general_styles.bundle?v=4EjDmslVLUYo4R1sqlG5iLerbUcSJhw4Ku09n9gLsvs1" rel="stylesheet">
+
+
+
+
+
+    <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+    <!-- Enable Html5 elements in legacy browsers + enable conditional classes -->
+    <script src="https://cdn.boingohotspot.net/assets/shared/js/general_scripts.bundle?v=5AUwYxgdrZc-wTmCNMe-OHu6kflBtozG08s2Jp8R7bg1"></script>
+
+
+    
+    <link href="https://cdn.boingohotspot.net/assets/sales/css/sales_styles.bundle?v=8Cw-hgmfqSK8rrPwtqveHFy53buFN35kHv4qg0JiJZQ1" rel="stylesheet">
+
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.boingohotspot.net/assets/sales/css/phx_sales.css">
+
+
+
+
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-3631941-1', 'auto');
+    </script>
+
+    
+
+</head>
+<body class="phx">
+    
+<!-- BEGIN C9W REDIRECT SNIPPET -->
+<!-- copy and paste the following into the <head> tag. -->
+<input type="hidden" id="nimbusDomain" value="nimbus.c9w.net">
+
+<script type="text/javascript" charset="utf-8">
+<!--//<![CDATA[
+    /** C9 BOINGO_PARAMS **************************************/
+
+        
+        var c9payloadObject = null;
+        var c9timespan = null;
+        
+
+    if(c9payloadObject != null  && c9timespan != null)
+    {
+        logC9ResponseTime(c9timespan);
+    }
+
+    function logC9ResponseTime(c9timespan)
+    {
+        if (c9timespan != null)
+        {
+            ga('send', {
+                'hitType': 'timing',
+                'timingCategory': 'C9API',
+                'timingVar': 'Response',
+                'timingValue': '',
+                'timingLabel': 'phx',
+            });
+
+            window.console.log("C9 Integration GA timing reporting succeeded");
+        }
+        else
+        {
+            window.console.log("C9 Integration GA timing reporting failed");
+        }
+    }
+
+    window.C9BOINGO = {
+        siteID: 'phx',
+        hotspotID: 't4',
+        sccSwitch: 'siteID'
+    };
+    /** VENUE ID **************************************/
+    window.__VENUE_ID__ = 'boingo_phx';
+    /**************************************************/
+    window.c9disable = false; // enable globally
+
+    function c9init(_c9) {
+        if (window.c9disable) { return; }
+        var $ = window.jQuery;
+        var c9options = {};
+        c9options.mac = 'C4:8E:8F:FA:92:D1'; // the client MAC address
+        c9options.lang = 'en'; // the language of the current session
+        c9options.customParams = {
+            mboxSession: 'juh3dnz1untipjhrmp5slrj1',
+            SCC: 'CCGPHX',
+            hotspotID: 't4',
+            STO: 0, // set to -1 for paid
+            SRT: 0,
+            SKP: 0 // skip time
+        };
+
+        c9options.venueId = 'boingo_phx';
+        c9options.subVenueId = 't4';
+        c9options.authmethod = 'function';
+        c9options.providerProfile = '45';
+        c9options.background = 'background_replace';
+        c9options.salesAnchorId = 'get_online';
+        c9options.icon = 'replace_icon';
+        c9options.waitForInter = function (cb) {
+            $('.__c9__sponsored').show();
+            $('.__c9__unsponsored').hide();
+            $('.__c9__sponsored_btn').click(function (e) {
+                var $checkBoxes = $(".__c9__sponsored_checkbox");
+                if (!$checkBoxes.length || $checkBoxes.filter(":checked").length > 0) {
+                    e.preventDefault();
+                    cb();
+                }
+            });
+        };
+
+        c9options.submitfn = function (widget) {
+            try {
+                widget.disable();
+            } catch(err) { }
+        };
+
+        var c9widget = new _c9.RedirectWidget(c9options);
+        c9widget.pageLoad();
+    }
+
+    function c9killLoader() { var loader = document.getElementById('c9loader'), s = document.getElementById('c9styles'); if (s) { s.parentNode.removeChild(s); } if (loader) { loader.style.display = 'none'; } } setTimeout(function () { if (!window._c9 && document.body) { document.body.style.display = 'block'; } }, 3000); setTimeout(function () { if (!window._c9 || !window._c9.pageLoaded) { c9killLoader(); } }, 9000);
+    function c9Loader() { if (!window.c9disable) { document.write('<div id="c9loader" style="display:block;z-index:9999;position:absolute;top:0;left:0;width:100%;height:100%;overflow:auto;vertical-align:middle;color:#777;font-family:arial;font-size:15px;text-align:center;background:#fff;line-height:150px;"><div id="c9loadermsg">Loading...</div></div>'); } }
+    /* display:none on body will conflicts with customSelect js library: */
+    if (!window.c9disable) { document.write('<style id="c9styles" type="text/css">body{ width:100%;height:100%;visibility:hidden;background:#fff;overflow:hidden;}</style>'); }
+//]]>-->
+</script>
+<script type="text/javascript" charset="utf-8">
+<!--//<![CDATA[
+    var QueryString = function () {
+        // This function is anonymous, is executed immediately and 
+        // the return value is assigned to QueryString!
+        var query_string = {};
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split("=");
+
+            // If first entry with this name
+            if (typeof query_string[pair[0]] === "undefined") {
+                query_string[pair[0]] = decodeURIComponent(pair[1]);
+                // If second entry with this name
+            } else if (typeof query_string[pair[0]] === "string") {
+                var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
+                query_string[pair[0]] = arr;
+                // If third or later entry with this name
+            } else {
+                query_string[pair[0]].push(decodeURIComponent(pair[1]));
+            }
+        }
+
+        return query_string;
+    }();
+
+    (function () {
+        var s, host = "https:" == document.location.protocol ? "https://nimbus.c9w.net" : "http://nimbus.c9w.net", c9 = document.createElement('script');
+        var promo = ""
+        if (QueryString.__c9p) promo = "?__fid=" + QueryString.__c9p;
+        c9.type = 'text/javascript';
+        c9.async = true;
+        c9.src = host + "/wifi/" + "boingo_phx" + "/asset.js" + promo;
+        s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(c9, s);
+    })();
+
+    window.onunload = function () { };
+//]]>-->
+</script>
+<!-- END SNIPPET -->
+<!-- BEGIN LOADER SNIPPET -->
+<!-- ==================== -->
+<script type="text/javascript">
+<!--//<![CDATA[
+    // bypass call if c9disable has not been declared in head
+    if (window.c9disable != undefined) {
+        c9Loader();
+    }
+//]]>-->
+</script>
+<!-- END LOADER SNIPPET -->
+
+    <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+    chromium.org/developers/how-tos/chrome-frame-getting-started -->
+    <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+    <!-- Off-Canvas Navigation for Mobile Users -->
+    <div class="top_page_message primary-font_heavy display_none"></div>
+    <nav id="topMenu" class="utility_menu group" role="navigation">
+        <ul>
+            
+                <li>
+                <a href="https://skyharbor.com/" target="" title="">
+                    <span aria-hidden="true" class="icon-info"></span>
+                    Airport Info
+                    <span aria-hidden="true" class="mobile_nav_indicator icon-right-arrow"></span>
+                </a>
+            </li>
+            <li>
+                <a href="/phx/Basic/Access%20Pass" target="_blank" title="">
+                    <span aria-hidden="true" class="icon-credit-card"></span>
+                    Access Pass
+                    <span aria-hidden="true" class="mobile_nav_indicator icon-right-arrow"></span>
+                </a>
+            </li>
+            <li>
+                <a href="https://my.boingo.com/selfcare/login.app?lang=en" target="" title="">
+                    <span aria-hidden="true" class="icon-bust"></span>
+                    My Account
+                    <span aria-hidden="true" class="mobile_nav_indicator icon-right-arrow"></span>
+                </a>
+            </li>
+
+
+
+        </ul>
+    </nav> <!-- #topMenu -->
+    <!-- End of Off-Canvas Navigation for Mobile Users -->
+    <!-- Main Content Section -->
+
+    <article role="main" class="group">
+        <!-- Header Section -->
+            <header class="group">
+
+                <div class="content_container">
+
+                    <h1 id="site-title">
+                            <a href="/en/phx">Boingo</a>
+                    </h1>
+
+
+                    <!-- Mobile Navigation -->
+                        <nav class="mobile_nav" role="navigation">
+                            <ul class="group">
+                                <li>
+                                    <a href="javascript:void(0)" class="__toggle_simple loginBtn" data-toggle_for=".login-form">
+                                        <p class="logIn">Log In</p>
+                                        <span aria-hidden="true" class="icon-bust"></span>
+                                    </a>
+                                </li>
+                                <li class="m_logout">
+                                    <a href="https://via.boingohotspot.net/logout" id="login-toggle_link" class="__toggle_simple" data-toggle_for=".login-form">
+                                        Log Out
+                                        <span aria-hidden="true" class="icon-wifi-signal"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="__toggle_simple" data-toggle_for="#topMenu">
+                                        <span aria-hidden="true" class="icon-menu"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    <!-- /End Mobile Navigation -->
+                    <!-- Large-Res Navigation -->
+
+                    <nav class="lrg-res_nav" role="navigation">
+                        <ul class="group">
+                            
+                <li>
+                <a href="https://skyharbor.com/" target="" title="">
+                    <span aria-hidden="true" class="icon-info"></span>
+                    Airport Info
+                    <span aria-hidden="true" class="mobile_nav_indicator icon-right-arrow"></span>
+                </a>
+            </li>
+            <li>
+                <a href="/phx/Basic/Access%20Pass" target="_blank" title="">
+                    <span aria-hidden="true" class="icon-credit-card"></span>
+                    Access Pass
+                    <span aria-hidden="true" class="mobile_nav_indicator icon-right-arrow"></span>
+                </a>
+            </li>
+            <li>
+                <a href="https://my.boingo.com/selfcare/login.app?lang=en" target="" title="">
+                    <span aria-hidden="true" class="icon-bust"></span>
+                    My Account
+                    <span aria-hidden="true" class="mobile_nav_indicator icon-right-arrow"></span>
+                </a>
+            </li>
+
+
+
+    <li>
+        <a href="javascript:void(0)" id="login-toggle_link" class="__toggle_simple" data-toggle_for=".login-form">
+            <span aria-hidden="true" class="icon-wifi-signal"></span>
+            Log In
+        </a>
+    </li>
+
+                        </ul>
+                    </nav>
+
+                    <!-- /End Large-Res Navigation -->
+
+                </div> <!-- .content_container -->
+
+            </header>
+        <!-- /End Header Section -->
+
+        <div class="inner_content">
+
+            
+    
+
+<script>
+    function roamerOnChange(currentOption) {
+        var offsiteRoamerForm = document.getElementById("offsite_roamer");
+
+        if (currentOption.title.length > 0) {
+            offsiteRoamerForm.action = $(currentOption).attr("title");
+            offsiteRoamerForm.HSPNAME.value = $(currentOption).data("roamer-hsp-name");
+            offsiteRoamerForm.VNPNAME.value = $(currentOption).data("roamer-vnp-name");
+            offsiteRoamerForm.LOCATIONNAME.value = $(currentOption).data("roamer-location-name");
+            offsiteRoamerForm.submit();
+        }
+    }
+    $(document).ready(function () {
+        if ($('#roaming_partners_dropdown').val() != 'boingo') {
+            $('.reset').hide();
+        }
+
+        $('#roaming_partners_dropdown').change(function () {
+            var item = $(this);
+            if (item.val() == 'boingo') {
+                $('.reset').show();
+            }
+            else {
+                $('.reset').hide();
+            }
+        });
+
+        var login = $('.login-form input[type=submit]');
+        var user = $('.login-form input[name=username]');
+        var pwd = $('.login-form input[name=password]');
+
+        $(login).on('click', function () {
+            user.css('border', 'solid 1px #D52B1E').addClass('input-focus').attr('placeholder', 'Username Required');
+            pwd.css('border', 'solid 1px #D52B1E').addClass('input-focus').attr('placeholder', 'Password Required');
+
+            if (navigator.userAgent.indexOf("Safari") != -1) {
+                if ((user.val().length < 1) || (pwd.val().length < 1)) {
+                    user.css('border', 'solid 1px #D52B1E').addClass('input-focus').attr('placeholder', 'Username Required');
+                    pwd.css('border', 'solid 1px #D52B1E').addClass('input-focus').attr('placeholder', 'Password Required');
+                    return false;
+                }
+            }
+
+            if (navigator.appName.indexOf("Internet Explorer") != -1) {
+                if (document.documentMode < 10) {
+                    if (user.val().length < 1) {
+                        $('.wifiLogin input').css('border', 'solid 2px #D52B1E');
+                        $('.wifiLogin input.blue.primary-font_heavy').css('border', 'none')
+                        console.log(document.documentMode);
+                        return false;
+                    }
+                }
+            }
+        });
+    });
+
+</script>
+
+<style>
+    .input-focus::-webkit-input-placeholder {
+        color: #D52B1E;
+    }
+
+    .input-focus:-moz-placeholder,
+    .input-focus::-moz-placeholder {
+        color: #D52B1E;
+    }
+
+    .input-focus:-ms-input-placeholder {
+        color: #D52B1E;
+    }
+
+    .roaming_dropdown_wrapper {
+        overflow: hidden;
+        border-radius: 4px;
+    }
+
+    #roaming_partners_dropdown {
+        width: 100%;
+    }
+
+    .login-form select {
+        background-position: 132% -73px;
+        cursor: pointer;
+    }
+
+
+    /* IE8, IE9 */
+    .roaming_dropdown_wrapper {
+        width: 216px\0/;
+    }
+
+    /* IE9 Fix */
+    @media screen\0 {
+
+        .roaming_dropdown_wrapper {
+            position: relative;
+        }
+
+        #roaming_partners_dropdown {
+            width: 241px !important;
+        }
+
+        .login-form select {
+            background-position: 182px -73px !important;
+        }
+    }
+
+    /* IE 10 Fix */
+
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        .roaming_dropdown_wrapper {
+            width: 216px;
+        }
+
+        #roaming_partners_dropdown {
+            width: 100%;
+        }
+
+        .login-form select {
+            background-position: 132% -73px;
+        }
+    }
+</style>
+
+<!-- redirect to custom login page if required -->
+<form id="offsite_roamer" method="post">
+    <input name="HSPNAME" type="hidden" value="">
+    <input name="VNPNAME" type="hidden" value="">
+    <input name="LOCATIONNAME" type="hidden" value="">
+    <input name="WISPURL" type="hidden" value="https://portal.boingohotspot.net/en/phx/login">
+    <input name="LOCATIONID" type="hidden" value="">
+    <input name="LANGUAGE" type="hidden" value="">
+    <input name="WISPURLHOME" type="hidden" value="https://portal.boingohotspot.net/en/phx/login">
+    <input name="ERRORCODE" type="hidden" value="">
+</form>
+
+
+
+<form id="wifi-login" class="login-form group wifiLogin" style="" action="https://portal.boingohotspot.net/en/phx/login" method="post">
+
+    <fieldset class="content_container group">
+        <ul class="group">
+            <li>
+                <input id="Username" type="text" name="username" placeholder="Username" required="">
+            </li>
+
+            <li>
+                <input id="Password" type="password" name="password" placeholder="Password" required="">
+            </li>
+        </ul>
+
+        <ul class="group">
+            <li id="options">
+                <div class="roaming_dropdown_wrapper">
+                    <select id="roaming_partners_dropdown" name="roamer_id" onchange="roamerOnChange(options[options.selectedIndex])">
+                            <option title="" value="boingo" data-roamer-hsp-name="" data-roamer-vnp-name="" data-roamer-location-name="">Boingo
+                            <option title="/en/data/roaming--profiles/standard/frontier" value="frontier" data-roamer-hsp-name="" data-roamer-vnp-name="" data-roamer-location-name="">Frontier
+                            <option title="" value="ipass" data-roamer-hsp-name="" data-roamer-vnp-name="" data-roamer-location-name="">IPASS
+                            <option title="/en/data/roaming--profiles/standard/linktel" value="linktel" data-roamer-hsp-name="" data-roamer-vnp-name="" data-roamer-location-name="">Linktel
+                            <option title="https://wifi.meo.pt/Style%20Library/landingPage/MeoWiFi.html?WISPURL=https://portal.boingohotspot.net/en/phx/login%3froamer_id=meowifi&amp;PARTNER=Boingo&amp;LOGOURL=https://portal.boingohotspot.net/Assets/roam/generic_roamer/img/boingo.gif&amp;URLHOME=https://portal.boingohotspot.net/en/phx" value="meowifi" data-roamer-hsp-name="" data-roamer-vnp-name="" data-roamer-location-name="Boingo">MEO WiFi
+                            <option title="/en/data/roaming--profiles/standard/nttd" value="nttd" data-roamer-hsp-name="" data-roamer-vnp-name="" data-roamer-location-name="">NTT docomo
+                            <option title="" value="oiwifi" data-roamer-hsp-name="" data-roamer-vnp-name="" data-roamer-location-name="">Oi WiFi (@oiwifi-roaming)
+                            <option title="https://wifi-rlp.mobile.orange.fr/home?WISPURL=https://portal.boingohotspot.net/en/phx/login%3froamer_id=orange" value="orange" data-roamer-hsp-name="ORANGE:FR" data-roamer-vnp-name="Boingo:US" data-roamer-location-name="Boingo:US">Orange France
+                            <option title="" value="teliasonera" data-roamer-hsp-name="" data-roamer-vnp-name="" data-roamer-location-name="">TeliaSonera
+                            <option title="/en/data/roaming--profiles/standard/twc" value="twc" data-roamer-hsp-name="" data-roamer-vnp-name="" data-roamer-location-name="">Time Warner Cable
+                            <option title="" value="verizon" data-roamer-hsp-name="" data-roamer-vnp-name="" data-roamer-location-name="">Verizon Business
+                    </select>
+                </div>
+            </li>
+
+            <li id="login-btn">
+                <input type="submit" value="Log In" class="blue primary-font_heavy">
+                <input type="hidden" name="server_name">
+                <input type="hidden" name="link_login">
+                <input type="hidden" name="link_login_only">
+                <input type="hidden" name="chap_id">
+                <input type="hidden" name="chap_challenge">
+            </li>
+        </ul>
+
+        <ul class="group reset">
+            <li class="pwreset">
+                <!-- Password reset page {6419C823-87AF-43D9-8546-9D28CA3E1288}-->
+                    <a href="/en/global/account--help" class="primary-font_heavy">Forgot Username or Password?</a>
+            </li>
+        </ul>
+    </fieldset>
+
+</form> <!-- .login-form -->
+
+<script>
+    $(document).ready(function () {
+        var venue = "https://portal.boingohotspot.net/en/phx/login";
+        if (venue.length == 0) {
+            $('.wifiLogin').hide();
+        }
+    });
+</script>
+
+
+
+
+
+            
+<div class="coloredBox" style="background-color: #ececec;"></div>
+<div class="background" style="background-image: url(https://cdn.boingohotspot.net/~/media/boingo/backgrounds/sales/thedude_lrg.ashx);"></div>
+
+<!-- Session Expiry -->
+<div class="hso lang">
+                <li>
+                <a href="https://skyharbor.com/" target="" title="">
+                    <span aria-hidden="true" class="icon-info"></span>
+                    Airport Info
+                    <span aria-hidden="true" class="mobile_nav_indicator icon-right-arrow"></span>
+                </a>
+            </li>
+            <li>
+                <a href="/phx/Basic/Access%20Pass" target="_blank" title="">
+                    <span aria-hidden="true" class="icon-credit-card"></span>
+                    Access Pass
+                    <span aria-hidden="true" class="mobile_nav_indicator icon-right-arrow"></span>
+                </a>
+            </li>
+            <li>
+                <a href="https://my.boingo.com/selfcare/login.app?lang=en" target="" title="">
+                    <span aria-hidden="true" class="icon-bust"></span>
+                    My Account
+                    <span aria-hidden="true" class="mobile_nav_indicator icon-right-arrow"></span>
+                </a>
+            </li>
+
+
+</div>
+<section class="container">
+
+    
+    <!-- OFFERPOD BLURB -->
+    <section id="blurb">
+       
+<style>
+
+article[role="main"] { background-image: none !important; }
+</style>
+
+
+<h3>Select an option to get online</h3>
+    </section>
+
+    <!-- PRIMARY OFFER -->
+        <section class="hso header">
+            <h1>Purchase a plan</h1>
+        </section>
+        <section id="intro" class="module">
+            
+            <!-- Primary Offers Dynamic Section -->
+            <hgroup class="__toggle_container">
+                <h2 class="underline __toggle_complex" data-toggle_max_width="479px" data-toggle_for=".additional">
+                    <span class="primary-font_thin">Boingo</span>
+<span class="red primary-font_heavy">Unlimited</span>
+
+                    <!-- MOBILE ONLY -->
+                    <em class="price-tog mobile">
+                        <i class="__main_toggle_marker">&#9650;</i>
+                    </em>
+                    <span id="mobile_price" class="left">
+
+  <span class="old_price">
+    <sup>$</sup><b class="primary-font_heavy">9.95</b><sub class="primary-font_thin">/mo</sub>
+  </span>
+  <span class="red">
+    <sup>$</sup><b class="primary-font_heavy">4.98</b><sub class="primary-font_thin">/1st mo</sub>
+  </span>                    </span>
+                </h2>
+                <h3 class="secondary-font red"></h3>
+                <h4 class="aligncenter"></h4>
+
+            </hgroup>
+
+            <div id="sml_intro" class="__toggle_container">
+                <style>
+
+section#intro.module {height:auto;}
+
+p.show_leading_icon {display:none;}
+
+#lrg_intro {width:auto;}
+
+#intro hgroup h2 {width:98%;}
+
+p.price {width:46%; position:relative; top:-180px; right:-329px; text-align:right;}
+
+.old_price:before {content:""; border-top:solid 2px #B4261E; display:block; position:absolute; width:3.3em; left:-1px; top:.5em;}
+
+.old_price {display:inline; font-size:100%; margin-right:.2em; position:relative;}
+
+
+@media only screen and (min-width:1025px) {
+    section#intro.module {height:185px;}
+}
+
+@media only screen and (min-width:769px) {
+    #main_cta a {position:relative; top:-100px; right:-77px;}
+}
+
+
+@media only screen and (max-width:1024px) and (min-width:768px) {
+    
+    #intro hgroup h2 {font-size:150% !important; width:100%;}
+    a.button.red {right:0px !important; width:100% !important;}
+    #main_cta {display:block; position:relative; top:87px; padding-right:0;}
+    p.price {width:auto; top:-150px; font-size:150%; text-align:right; right:0; margin-right:0;}
+}
+
+@media only screen and (max-width:767px) {
+    p.price {float:right; text-align:right; margin-right:0;}
+    #lrg_intro {border-bottom:none;}
+    #mobile_price {clear:right; float:left;}
+    #old_price {display:block;}
+    section#intro.module {height:auto;}
+    .module a.button {width:100% !important;}
+}
+        
+
+</style>
+
+
+<div class="stacked_offer_gauge">
+    <img src="https://cdn.boingohotspot.net/Assets/sales/img/offerpod_gauge_unl.png"><br><br>
+   
+</div>
+
+<div class="stacked_offer_description"> 
+Enjoy blazing fast Wi-Fi at this airport plus access to 1 million hotspots worldwide.
+</div>
+            </div>
+
+            <div id="lrg_intro" class="__toggle_container">
+                <style>
+
+section#intro.module {height:auto;}
+
+p.show_leading_icon {display:none;}
+
+#lrg_intro {width:auto;}
+
+#intro hgroup h2 {width:98%;}
+
+p.price {width:46%; position:relative; top:-180px; right:-329px; text-align:right;}
+
+.old_price:before {content:""; border-top:solid 2px #B4261E; display:block; position:absolute; width:3.3em; left:-1px; top:.5em;}
+
+.old_price {display:inline; font-size:100%; margin-right:.2em; position:relative;}
+
+
+@media only screen and (min-width:1025px) {
+    section#intro.module {height:185px;}
+}
+
+@media only screen and (min-width:769px) {
+    #main_cta a {position:relative; top:-100px; right:-77px;}
+}
+
+
+@media only screen and (max-width:1024px) and (min-width:768px) {
+    
+    #intro hgroup h2 {font-size:150% !important; width:100%;}
+    a.button.red {right:0px !important; width:100% !important;}
+    #main_cta {display:block; position:relative; top:87px; padding-right:0;}
+    p.price {width:auto; top:-150px; font-size:150%; text-align:right; right:0; margin-right:0;}
+}
+
+@media only screen and (max-width:767px) {
+    p.price {float:right; text-align:right; margin-right:0;}
+    #lrg_intro {border-bottom:none;}
+    #mobile_price {clear:right; float:left;}
+    #old_price {display:block;}
+    section#intro.module {height:auto;}
+    .module a.button {width:100% !important;}
+}
+        
+
+</style>
+
+
+<div class="stacked_offer_gauge">
+    <img src="https://cdn.boingohotspot.net/Assets/sales/img/offerpod_gauge_unl.png"><br><br>
+   
+</div>
+
+<div class="stacked_offer_description"> 
+Enjoy blazing fast Wi-Fi at this airport plus access to 1 million hotspots worldwide.
+</div>
+            </div>
+
+            <!-- Price -->
+            <p id="reg_price" class="aligncenter price">
+
+  <span class="old_price">
+    <sup>$</sup><b class="primary-font_heavy">9.95</b><sub class="primary-font_thin">/mo</sub>
+  </span>
+  <span class="red">
+    <sup>$</sup><b class="primary-font_heavy">4.98</b><sub class="primary-font_thin">/1st mo</sub>
+  </span>            </p>
+            <!-- /End Price -->
+
+            <p id="main_cta" class="aligncenter">
+                <!-- OFFER SITECORE GUID-->
+
+                <a class="button red primary-font_heavy " href="signup?offer=2D899B33-C489-4B36-927D-68FC30F7AB3A">Get Online Now</a>
+            </p>
+        </section>
+    <!-- SECONDARY OFFERS -->
+        <section class="secondary module group module_container free">
+            <h4 class="underline __toggle_simple" data-togglemaxwidth="479px">
+                <span class="primary-font_thin">Complimentary </span><span class="red primary-font_heavy">Wi-Fi</span>
+
+                <em class="price-tog">
+                    <span id=""></span>
+                        <i>‚ñ≤</i>
+                </em>
+                <br class="mobile">
+                <span class="secondaryOffers">
+                </span>
+            </h4>
+
+            <div style="display:block">
+                <p class="med show_leading_icon ">
+                    
+<style>
+p.show_leading_icon {display:none;}
+a.button {float:right; width: 160px !important; margin:0;}
+
+@media only screen and (min-width: 1025px) {
+     .clt p.price { font-size: 140%;}
+
+}
+
+</style>
+
+
+<div class="stacked_offer_gauge">
+     <img src="https://cdn.boingohotspot.net/Assets/sales/img/offerpod_gauge_complimentary.png">
+</div>
+
+<div class="stacked_offer_description"> 
+Enjoy basic complimentary Wi-Fi access, courtesy of our sponsors.
+</div>
+
+                </p>
+            </div>
+                <a href="login?roamer_id=bip" class="button grey primary-font_heavy __c9__sponsored_btn">Get Online Now!</a>
+        </section>
+        <section class="secondary module group module_container">
+            <h4 class="underline __toggle_simple" data-togglemaxwidth="479px">
+                        <span class="primary-font_thin">Boingo</span>
+        <span class="primary-font_heavy red">AsYouGo</span>
+
+                <em class="price-tog">
+                    <span id=""></span>
+                        <i>‚ñ≤</i>
+                </em>
+                <br class="mobile">
+                <span class="secondaryOffers">
+<span>
+      <sup>$</sup>
+      <b class="primary-font_heavy">6.95</b><b class="primary-font_thin">/24 hours </b>
+</span>                </span>
+            </h4>
+
+            <div style="display:block">
+                <p class="med show_leading_icon ">
+                    
+<style>
+p.show_leading_icon {display:none;}
+a.button {float:right; width:160px !important; margin:0;}
+</style>
+
+
+<div class="stacked_offer_gauge">
+     <img src="https://cdn.boingohotspot.net/Assets/sales/img/offerpod_gauge_ayg.png">
+</div>
+
+<div class="stacked_offer_description"> 
+Connect to Wi-Fi for 24 hours at this airport on this device. Additional charges apply per device and hotspot location.
+
+</div>
+
+                </p>
+            </div>
+                <a href="signup?offer=46392DE6-CF00-4754-9D3A-83CA3FD26436" class="button grey primary-font_heavy ">Get Online Now!</a>
+        </section>
+        <section class="secondary module group module_container">
+            <h4 class="underline __toggle_simple" data-togglemaxwidth="479px">
+                        <span class="primary-font_thin">Boingo</span>
+        <span class="primary-font_heavy red">Hourly</span>
+
+                <em class="price-tog">
+                    <span id=""></span>
+                        <i>‚ñ≤</i>
+                </em>
+                <br class="mobile">
+                <span class="secondaryOffers">
+<span>
+      <sup>$</sup>
+      <b class="primary-font_heavy">2.95</b><b class="primary-font_thin">/hour </b>
+</span>                </span>
+            </h4>
+
+            <div style="display:block">
+                <p class="med show_leading_icon ">
+                    
+<style>
+p.show_leading_icon {display:none;}
+a.button {float:right; width:160px !important; margin:0;}
+</style>
+
+
+<div class="stacked_offer_gauge">
+     <img src="https://cdn.boingohotspot.net/Assets/sales/img/offerpod_gauge_ayg.png">
+</div>
+
+<div class="stacked_offer_description"> 
+Enjoy 1 hour of premium Wi-Fi access at this airport on this device.
+
+</div>
+
+                </p>
+            </div>
+                <a href="signup?offer=B3981710-C069-482A-BC37-FF61E496208F" class="button grey primary-font_heavy ">Get Online Now!</a>
+        </section>
+
+    <!-- DISCLAIMERS -->
+    
+    <div class="headerz">
+        
+    </div>
+</section>
+
+
+        </div> <!-- .inner_content -->
+
+    </article> <!-- role=main -->
+    <!-- /End Main Content Section -->
+    <!-- Secondary Content Section -->
+
+    <aside role="complementary" class="group section_container">
+        
+        
+
+    </aside> <!-- role=complementary --> <!-- .section_container -->
+    <!-- /End Secondary Content Section -->
+
+    <!-- Site Footer -->
+        <footer role="contentinfo" class="content_container group">
+
+            <!-- Primary Ad -->
+            <!-- /End Primary Ad -->
+            <!-- Footer Links -->
+            <div style="color:">
+                        <p>
+            <a href="/en/phx">Home</a>
+            <a href="/en/phx/Basic/Privacy">Privacy</a>
+            <a href="http://www.boingo.com/legal/website-terms-use-acceptable-use-policy/">Terms</a>
+            <a title="Contact Us" href="/en/phx/Basic/ContactUs">Contact Us</a>
+        </p>
+        <p>
+            <span>Powered by Concourse</span>
+            <span>Toll-Free Support 1-800-880-4117</span>
+        </p>
+
+
+            </div>
+            <style>
+                footer p, footer a, footer a:visited {color:}
+            </style>
+            <!-- /End Footer Links -->
+
+        </footer>
+    <!-- /End Site Footer -->
+
+    <!-- JavaScript at the bottom for fast page loading -->
+    <script src="https://cdn.boingohotspot.net/assets/shared/js/base_scripts.bundle?v=B6Pk9HHf50raZhPcf1ak2_v9dPKQ9wZ92IogjJ-SFAQ1"></script>
+
+
+    <!-- Test For CSS3 Media Query support and load polyfill is support is not available -->
+    <script>
+        Modernizr.load({
+            test: Modernizr.mq('(only all)'),
+            nope: '/assets/shared/js/polyfills/respond.min.js'
+        });
+    </script>
+
+    <!-- Polyfill CSS3 Advanced Selector Support for IE8 and below -->
+    <!--[if (gte IE 6)&(lte IE 8)]>
+        <script type="text/javascript" src="/assets/shared/js/polyfills/selectivizr.min.js"></script>
+    <![endif]-->
+    <!-- /End Feature Testing and Polyfills for Legacy Browsers -->
+    <!-- Analytics -->
+        <script type="text/javascript">
+        //<![CDATA[
+        var _venueID = 'phx';
+        var _gaq = _gaq || [];
+
+        _gaq.push(['_setAccount', 'UA-3631941-1']);
+        _gaq.push(['_setDomainName', 'boingohotspot.net']); // comment out for testing dev machine with different domain name
+        _gaq.push(['_setAllowLinker', true]);
+
+        // Page-level Custom Variables
+        // source = https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingCustomVariables
+        _gaq.push(['_setCustomVar',
+            1,                          // This custom var is set to slot #1.  Required parameter.
+            'venue',                    // The top-level name for your online content categories.  Required parameter.
+            'PHX', // Sets the value of "Section" to "Life & Style" for this particular aricle.  Required parameter.
+            3                           // Sets the scope to page-level.  Optional parameter.
+        ]);
+        _gaq.push(['_setCustomVar', 2, 'sublocation', 't4', 3]);
+        _gaq.push(['_setCustomVar', 3, 'SCC', 'CCGPHX', 3]);
+        _gaq.push(['_setCustomVar', 5, 'SessionID', 'juh3dnz1untipjhrmp5slrj1', 3]);
+
+        // send page view event
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            //ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+        // example output:
+        // https://ssl.google-analytics.com/__utm.gif?utmwv=5.4.3&utms=7&utmn=1573638692&utmhn=nang-copt980&utme=8(venue*sublocation*SCC*MAC)9(SCH*1FD*SCH1FD001*00%3A00%3A00%3A00%3A00%3A00)&utmcs=UTF-8&utmsr=1920x1200&utmvp=1920x491&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.7%20r700&utmdt=Test&utmhid=563524365&utmr=-&utmp=%2FTestPage%2FTest.aspx&utmht=1371862242720&utmac=UA-3631941-1&utmcc=__utma%3D8671786.432047463.1371862047.1371862047.1371862047.1%3B%2B__utmz%3D8671786.1371862047.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qw~
+
+        if (window.console && window.console.log) {
+            console.log("GA enabled for venue: phx, pageTitle: " + document.getElementsByTagName("title")[0].innerHTML);
+        }
+        //]]>
+    </script>
+
+    <!-- _Splunk.cshtml -->
+
+    
+    <script src="https://cdn.boingohotspot.net/assets/sales/js/sales_scripts.bundle?v=eiS_F24S_HJCBEVVR-exXDfTW1XfgAw-_FvguRb2dEc1"></script>
+
+
+    <script>
+    $(document).ready(function () {
+        $('hgroup h2.underline').on('click', function () {
+            var arrow = $('.__main_toggle_marker').text();
+            $('#sml_intro').slideToggle();
+            if (arrow == "‚ñº") {
+                $('.__main_toggle_marker').html("&#9650;");
+            } else {
+                $('.__main_toggle_marker').html("&#9660;");
+            }
+        });
+
+        $('#closeModal').on('click', function () {
+            $("#sessionExpiredBox, .bg-overlay").hide();
+        });
+    });
+
+    //re-position popup modal to center of screen
+    //$(window).resize(function (e) {
+    //    $('#sessionExpiredBox').css('left', (window.innerWidth / 2 - $('#sessionExpiredBox').width() / 2));
+    //    $('#sessionExpiredBox').css('top', (window.innerHeight / 2 - $('#sessionExpiredBox').height() / 2));
+    //});
+
+</script>
+
+
+
+
+
+
+
+    <!-- The datasource contains a set of offers and a disclaimer. The first offer in the list is the "Primary" offer, all others are "Secondary"-->
+    <!--Get Offers Using Offers Utility-->
+
+
+
+
+
+
+
+<script>
+    function PostToPartner() {
+
+        var data = {
+            return_url: 'https://portal.boingohotspot.net/en/phx/login',
+            campaign_id: 'lgw-loyalty',
+            roamer_id: 'partner',
+            timeout: '0',
+            retake: '0',
+            connect_cap: '2',
+            timestamp: '1472850409',
+            hash: '8db9827c9a202d6b219c9005637f3aa59a06d53542a4c3ea6f4f2e497a764a94'
+        };
+
+        postForm('https://www.gatwickairport.com/api/mygatwick/boingopost', data);
+    }
+
+    function postForm(path, params, method) {
+        method = method || "post"; // Set method to post by default if not specified.
+
+        // The rest of this code assumes you are not using a library.
+        // It can be made less wordy if you use one.
+        var form = document.createElement("form");
+        form.setAttribute("method", method);
+        form.setAttribute("action", path);
+
+        for (var key in params) {
+            if (params.hasOwnProperty(key)) {
+                var hiddenField = document.createElement("input");
+                hiddenField.setAttribute("type", "hidden");
+                hiddenField.setAttribute("name", key);
+                hiddenField.setAttribute("value", params[key]);
+
+                form.appendChild(hiddenField);
+            }
+        }
+
+        document.body.appendChild(form);
+        form.submit();
+    }
+</script>
+
+    <script type="text/javascript">
+        setTimeout(function () {
+            var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0017/0862.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)
+        }, 1);
+    </script>
+    <!-- Adara Retargeting -->
+    <script type="text/javascript" src="//tag.yieldoptimizer.com/ps/ps?t=s&p=2874&pg=ot&dac=phx"></script>
+
+
+    <!-- AdRoll -->
+    <script type="text/javascript">
+    adroll_adv_id = "6DIEUOJJEFDE5BOV6GMOAG";
+    adroll_pix_id = "7ZSTIL43GBBEPO34VXQ3MF";
+        (function () {
+            var _onload = function () {
+                if (document.readyState && !/loaded|complete/.test(document.readyState)) {
+                    setTimeout(_onload, 10);
+                    return
+                }
+
+                if (!window._adroll_loaded) {
+                    _adroll_loaded = true;
+                    setTimeout(_onload, 50);
+                    return
+                }
+                var scr = document.createElement("script");
+                var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+                scr.setAttribute('async', 'true');
+                scr.type = "text/javascript";
+                scr.src = host + "/j/roundtrip.js";
+                ((document.getElementsByTagName('head') || [null])[0] ||
+                    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+            };
+            if (window.addEventListener) {
+                window.addEventListener('load', _onload, false);
+            } else {
+                window.attachEvent('onload', _onload)
+            }
+
+        }());
+
+
+    </script>
+</body>
+</html>
+
+<style>
+    article[role="main"] {
+		border-bottom: #fff;
+		background: url('https://cdn.boingohotspot.net/~/media/boingo/backgrounds/backgroundlrg15x.ashx') no-repeat center top;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+	}
+</style>
+
+9Ú¿‹Å      W…ÈÛW…ÈÙ<Ÿ∫„      ?    :https://portal.boingohotspot.net/en/phx/sales?__c9auth=1&__c9inter=%2Fwifi%2Fpromos%2F35df96c14f594c6e981cd35aeb0b6c28%2F%3F__v%3DY3A9U0tQJTNEMCUyNm1ib3hTZXNzaW9uJTNEanVoM2RuejF1bnRpcGpocm1wNXNscmoxJTI2U1RPJTNEMCUyNlNDQyUzRENDR1BIWCUyNlNSVCUzRDAlMjZob3RzcG90SUQlM0R0NCZfX3N2X2lkPXQ0Jl9fY2lkPWU2MGRmMDIyZTUyOTQ1NzE5NGJmZTYwZjkzNjc4NWIzJl9fcHZkcmNuZj00NSZfX2ZpZD0zNWRmOTZjMTRmNTk0YzZlOTgxY2QzNWFlYjBiNmMyOCZfX3ZlbnVlX2lkPWJvaW5nb19waHg%3D%26uid%3Dm1_2457e852baef5f8a554bad90be188dcc&__c9adg=e60df022e529457194bfe60f936785b3&mboxDefault=1&__c9p=35df96c14f594c6e981cd35aeb0b6c28 necko:classified 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAQAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAATqMIIE5jCCA86gAwIBAgIQa75Wtvs80b9iSOwirjh84jANBgkqhkiG9w0BAQsFADB+MQswCQYDVQQGEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRydXN0IE5ldHdvcmsxLzAtBgNVBAMTJlN5bWFudGVjIENsYXNzIDMgU2VjdXJlIFNlcnZlciBDQSAtIEc0MB4XDTE0MDgxMzAwMDAwMFoXDTE3MDgxMzIzNTk1OVowcDELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFDASBgNVBAcMC0xvcyBBbmdlbGVzMRgwFgYDVQQKDA9Cb2luZ28gV2lyZWxlc3MxHDAaBgNVBAMMEyouYm9pbmdvaG90c3BvdC5uZXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC1nsgpM6iZA1gLtN6wgGo8junCpI1tppVRyn1jl7PDWpILlO/19Sf7H/4MazszA0E6xmG97Gsa8xPWUs2gQn7fY0iMW4IamAsNfteH0Hhhkkqu8PDzp5Ba6mvETVOBfea8Wos6rl2l3BECWZofRh7Kvo1b+OrJKGnVbt1eYrscsjWrJTQDxzyP4ECvX1WU6fbZ96vhVgwD2/OsSl5Cbm2Ivjkch/V5eaIhF38+0ar3FGbPsLHX88v+NHr+RuI7cGjxDDFiV1V2TtAxHWpj8qNOVYedw5a1MFqNo15Rmf3m/EPOFeQdQQRI9glu4OxrtF7fW/QeYzFnJKlTRMHqNjJzAgMBAAGjggFsMIIBaDAeBgNVHREEFzAVghMqLmJvaW5nb2hvdHNwb3QubmV0MAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBlBgNVHSAEXjBcMFoGCmCGSAGG+EUBBzYwTDAjBggrBgEFBQcCARYXaHR0cHM6Ly9kLnN5bWNiLmNvbS9jcHMwJQYIKwYBBQUHAgIwGRoXaHR0cHM6Ly9kLnN5bWNiLmNvbS9ycGEwHwYDVR0jBBgwFoAUX2DPYZBV34RDFIpgKrL1evRDGO8wKwYDVR0fBCQwIjAgoB6gHIYaaHR0cDovL3NzLnN5bWNiLmNvbS9zcy5jcmwwVwYIKwYBBQUHAQEESzBJMB8GCCsGAQUFBzABhhNodHRwOi8vc3Muc3ltY2QuY29tMCYGCCsGAQUFBzAChhpodHRwOi8vc3Muc3ltY2IuY29tL3NzLmNydDANBgkqhkiG9w0BAQsFAAOCAQEAelom7yWP8hNxy+lFsE27G23Qz/XX+9u5gAs3OMv2mKd042t1k/zPYDBUzLKjdpArVVDOnleSPa1hwcqevKXPy52/QbyzN0tC7426bExMpfnEW1UqN+teK50YnkIKIeGRBmv8dcojMC+6L0hEvDgh6QhOe1+qFNENGYp1C4UbCcZLsqInpf4E8IXPTQ+jWfyVmYzrs1dgSNmVymNpxko2XYmPmqsxBrGznjDjDEuG/9yxrjRKRyrd/jSCQ8ydU3A4oab1N4CQOvYLJm6/p4JrA9dTNr3uLrXwGVnS+a6ugApW8YYLo6iJZSY3vT3g+ZQ29+wCr8NsqG3claNBoxsR98AvAAMAAAAAAQEAAA== request-method GET response-head HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Methods: POST,GET,OPTIONS
+Access-Control-Allow-Origin: https://portal.boingohotspot.net
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Date: Fri, 02 Sep 2016 21:06:49 GMT
+P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+Server: Microsoft-IIS/8.5
+X-Robots-Tag: noindex,nofollow,noarchive
+Content-Length: 47945
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 20 predictor::https://cdn.boingohotspot.net/assets/shared/css/general_styles.bundle?v=4EjDmslVLUYo4R1sqlG5iLerbUcSJhw4Ku09n9gLsvs1 1,1,1472850419,0 predictor::https://cdn.boingohotspot.net/assets/shared/js/general_scripts.bundle?v=5AUwYxgdrZc-wTmCNMe-OHu6kflBtozG08s2Jp8R7bg1 1,1,1472850419,0 predictor::https://cdn.boingohotspot.net/assets/sales/css/sales_styles.bundle?v=8Cw-hgmfqSK8rrPwtqveHFy53buFN35kHv4qg0JiJZQ1 1,1,1472850419,0 predictor::https://cdn.boingohotspot.net/assets/sales/css/phx_sales.css 1,1,1472850419,0 predictor::https://www.google-analytics.com/analytics.js 1,1,1472850419,0 predictor::https://cdn.boingohotspot.net/assets/shared/js/base_scripts.bundle?v=B6Pk9HHf50raZhPcf1ak2_v9dPKQ9wZ92IogjJ-SFAQ1 1,1,1472850419,0 predictor::https://cdn.boingohotspot.net/assets/sales/js/sales_scripts.bundle?v=eiS_F24S_HJCBEVVR-exXDfTW1XfgAw-_FvguRb2dEc1 1,1,1472850419,0 predictor::https://tag.yieldoptimizer.com/ps/ps?t=s&p=2874&pg=ot&dac=phx 1,1,1472850419,0 predictor::https://nimbus.c9w.net/wifi/boingo_phx/asset.js?__fid=35df96c14f594c6e981cd35aeb0b6c28 1,1,1472850419,0 predictor::https://cdn.boingohotspot.net/Assets/sales/img/offerpod_gauge_unl.png 1,1,1472850419,0 predictor::https://cdn.boingohotspot.net/Assets/sales/img/offerpod_gauge_complimentary.png 1,1,1472850419,0 predictor::https://cdn.boingohotspot.net/Assets/sales/img/offerpod_gauge_ayg.png 1,1,1472850419,0 predictor::https://stats.g.doubleclick.net/dc.js 1,1,1472850419,0 predictor::https://cdn.boingohotspot.net/assets/sales/img/sales_sprite@1x.png 1,1,1472850419,0 predictor::https://cdn.boingohotspot.net/~/media/boingo/backgrounds/sales/thedude_lrg.ashx 1,1,1472850419,0 predictor::https://cdn.boingohotspot.net/assets/shared/fonts/museo/museo_slab_500italic-webfont.woff 1,1,1472850419,0 predictor::https://dnn506yrbagrg.cloudfront.net/pages/scripts/0017/0862.js?409125 1,1,1472850419,0 predictor::https://d3t5gpcm1l1agl.cloudfront.net/web/shadow/page_load_tracker.gif?currentpage=%2Fen%2Fphx%2Fsales&mac=C4:8E:8F:FA:92:D1 1,1,1472850419,0 predictor::https://portal.boingohotspot.net/assets/shared/js/polyfills/respond.min.js 1,1,1472850419,0 predictor::https://s.adroll.com/j/roundtrip.js 1,1,1472850419,0   ªI

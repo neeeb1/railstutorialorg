@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Installfest - Installfest</title>
+<script src="/assets/application.js"></script><link href="/assets/application.css" rel="stylesheet">
+</head>
+<body>
+<nav class="top cf" role="navigation"><div class="navbar-header cf title"><a href="/installfest"><span class="brand">RailsBridge </span>Installfest</a></div>
+<ul class="navbar-nav nav">
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="/flags/US.png"></a><ul class="flags dropdown-menu">
+<li><a href="http://docs.railsbridge.org"><img src="/flags/US.png"></a></li>
+<li><a href="http://es.railsbridge.org"><img src="/flags/ES.png"></a></li>
+<li><a href="http://zh-tw.railsbridge.org"><img src="/flags/ZH-TW.png"></a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">sites</a><ul class="dropdown-menu">
+<li class="category">Setup</li>
+<li class="current">Installfest</li>
+<li class="category">Rails</li>
+<li><a href="/intro-to-rails/">Intro To Rails</a></li>
+<li><a href="/job-board/">Job Board</a></li>
+<li><a href="/message-board/">Message Board</a></li>
+<li class="category">Frontend</li>
+<li><a href="/frontend/">Frontend</a></li>
+<li><a href="/javascript-snake-game/">Javascript Snake Game</a></li>
+<li><a href="/javascript-to-do-list/">Javascript To Do List</a></li>
+<li><a href="/javascript-to-do-list-with-react/">Javascript To Do List With React</a></li>
+<li class="category">Ruby</li>
+<li><a href="/learn-to-code/">Learn To Code</a></li>
+<li><a href="/ruby/">Ruby</a></li>
+<li class="category">Other stuff</li>
+<li><a href="/docs/">Docs</a></li>
+<li><a href="/workshop/">Workshop</a></li>
+</ul>
+</li>
+<li class="show-when-small"><a data-toggle-selector="#table_of_contents" href="#">toc</a></li>
+<li class="hidden-sm"><a href="installfest/src">src</a></li>
+<li class="hidden-sm"><a href="https://github.com/railsbridge/docs/blob/master/sites/en/installfest/installfest.step">git</a></li>
+</ul></nav><div class="toc page-list" id="table_of_contents">
+<ul>
+<li class="collapsable">
+<span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span><span class="current">Installfest</span><ul><li class=""><a href="/installfest/editors">Editors</a></li></ul>
+</li>
+<li class="collapsable closed">
+<a href="/installfest/choose_your_operating_system"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Choose Your Operating System</a><ul>
+<li class="collapsable closed">
+<a href="/installfest/macintosh"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Macintosh</a><ul><li class="collapsable closed">
+<a href="/installfest/osx_rvm"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>OS X RVM</a><ul><li class="collapsable closed">
+<a href="/installfest/install_xcode"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Install Xcode</a><ul>
+<li class=""><a href="/installfest/install_xcode_command_line_tools">Install Xcode Command Line Tools</a></li>
+<li class=""><a href="/installfest/install_xcode_from_app_store">Install Xcode From App Store</a></li>
+<li class=""><a href="/installfest/install_xcode_from_dvd">Install Xcode From DVD</a></li>
+</ul>
+</li></ul>
+</li></ul>
+</li>
+<li class="collapsable closed">
+<a href="/installfest/windows"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Windows</a><ul><li class=""><a href="/installfest/configure_the_windows_terminal">Configure The Windows Terminal</a></li></ul>
+</li>
+<li class=""><a href="/installfest/linux">Linux</a></li>
+</ul>
+</li>
+<li class=""><a href="/installfest/configure_git">Configure Git</a></li>
+<li class=""><a href="/installfest/create_an_ssh_key">Create An SSH Key</a></li>
+<li class="collapsable closed">
+<a href="/installfest/create_a_heroku_account"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Create A Heroku Account</a><ul><li class=""><a href="/installfest/create_a_github_account">Create A Github Account</a></li></ul>
+</li>
+<li class=""><a href="/installfest/create_a_rails_app">Create A Rails App</a></li>
+<li class=""><a href="/installfest/deploy_a_rails_app">Deploy A Rails App</a></li>
+<li class=""><a href="/installfest/get_a_sticker">Get A Sticker</a></li>
+<li class=""><a href="/installfest/clean_up">Clean Up</a></li>
+</ul>
+<h1>Other Pages</h1>
+<ul><li class=""><a href="/installfest/glossary">Glossary</a></li></ul>
+<span class="expand-all"><i class="fa fa-arrows-alt"></i>Expand All</span>
+</div>
+<main><h1 class="doc_title">Installfest</h1>
+<div class="doc">
+<div class="message">
+<p>This is a set of step-by-step instructions for installing Ruby, Rails, and other important tools on Mac, Windows, or Linux computers. Originally developed for the <a href="http://railsbridge.org">Railsbridge Workshops</a>, it is a community-supported open-source documentation project. If you want to contribute, click the [git] link at the top-right corner of any page and submit your change on GitHub.</p>
+</div>
+<div class="message">
+<p><strong>You'll repeat all these steps tomorrow, but more slowly so you can better understand what's going on under the hood.</strong> Today we just want to check that everything's set up and ready for tomorrow.</p>
+</div>
+<a name="step1"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4150" name="big_checkbox_4150" type="checkbox" value="valuable"><label for="big_checkbox_4150"></label><span class="prefix">Step 1: </span>Prepare for the Installfest</h1>
+<blockquote><div class="message">
+<h2>You must bring:</h2>
+
+<ul>
+<li>
+<strong>Your laptop.</strong> You need to have a working wifi connection, a browser and an email account you can readily access.
+
+<ul>
+<li>If you have a choice between a Mac and a Windows laptop, please bring the Mac.</li>
+<li>Linux is an acceptable alternative, but the Installfest is only tested on Ubuntu.</li>
+</ul>
+</li>
+<li><strong>Power cord for your laptop</strong></li>
+<li>If you already have accounts on Heroku or GitHub, make sure you know your username and password.</li>
+</ul>
+
+<h2>Possibly also helpful to bring:</h2>
+
+<ul>
+<li>Extension cord</li>
+<li>Power strip</li>
+<li>Camera</li>
+<li>Snacks</li>
+</ul>
+</div></blockquote>
+</div>
+<a name="step2"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4151" name="big_checkbox_4151" type="checkbox" value="valuable"><label for="big_checkbox_4151"></label><span class="prefix">Step 2: </span>Don't Panic!</h1>
+<blockquote><div class="message">
+<p>Even if you get stuck, please go through the rest of the instructions and download all the things you'll need. Bandwidth will be at a premium during the workshop, so it will help immensely to have everything on your laptop already.</p>
+
+<p>There are a lot of steps, and the instructions may seem like they're in a foreign language, but: <strong>don't panic!</strong> By the end of the workshop, you'll know what everything is and how to use it.</p>
+</div></blockquote>
+</div>
+<a name="step3"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4152" name="big_checkbox_4152" type="checkbox" value="valuable"><label for="big_checkbox_4152"></label><span class="prefix">Step 3: </span>Read This Overview</h1>
+<blockquote><div class="message">
+<p>Here's a list of tools you'll be installing. As you go through the workshop, we'll explain what each one is for and how to use it.</p>
+
+<ul>
+<li>
+<strong>Ruby</strong>. A programming language.</li>
+<li>
+<strong>Rails</strong>. A framework for making web applications with Ruby. It does a lot of the setting up work for you and creates a model-view-controller structure for your web application. We'll go into more detail about that later.</li>
+<li>
+<strong>Git</strong>. A revision or source control system. It creates a repository, which is a complete history of your programming changes, so you can undo changes and roll back to previous versions of your work if something has gone wrong.</li>
+<li>
+<strong>GitHub</strong>. (optional)</li>
+<li>
+<strong>Heroku</strong>. An application server, which hosts your application during development. This allows you to get your application online and interact with it from any browser, instead of just on your local machine.</li>
+<li>
+<strong>Sublime Text 2</strong> (or <a href="editors">some other editor</a>). To write programs in Ruby, you need a text editor to create, edit and save Ruby files.</li>
+<li>Various useful "<strong>Ruby gems</strong>". Ruby gems are useful bits of Ruby code that someone has created for reuse, so you don't have to write it yourself. Including...
+
+<ul>
+<li>bundler</li>
+<li>sqlite</li>
+</ul>
+</li>
+</ul>
+
+<p>You will also create an account on Heroku, an application hosting platform.</p>
+
+<p>If you already have an account on Heroku, make sure you know your username and password.</p>
+
+<p>If you've already installed the above tools and are confident they are setup correctly, skip ahead to the <a href="get_a_sticker">Get a Sticker</a> step.</p>
+</div></blockquote>
+</div>
+<div class="step next_step">
+<h1><span class="prefix">Next Step:</span></h1>
+<p class="link">Go on to <a class="link" href="choose_your_operating_system">Choose Your Operating System</a></p>
+</div>
+</div></main><footer><p>Going through this curriculum on your own? Get help on <a href="http://discourse.bridgefoundry.org/c/railsbridge-help" target="_blank">our Discourse forum</a>, where RailsBridge volunteers can answer your questions.</p>
+<p>If you have a suggestion for improving the docs, please make a <a href="https://github.com/railsbridge/docs">pull request </a>or <a href="https://github.com/railsbridge/docs/issues/new">drop us a note </a>via GitHub Issues (no technical knowledge required).</p>
+<p>Source: <a href="https://github.com/railsbridge/docs">https://github.com/railsbridge/docs</a></p></footer>
+</body>
+</html>
+ý^†;      W¾{!W¾{"<ÑÎ,W¾‰1   0    :http://installfest.railsbridge.org/installfest/ necko:classified 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 25 Aug 2016 18:59:10 GMT
+Content-Type: text/html;charset=utf-8
+Cache-Control: public, max-age=3600
+Expires: Thu, 25 Aug 2016 19:59:10 GMT
+Content-Length: 10151
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: thin
+Via: 1.1 vegur
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 13 predictor::http://installfest.railsbridge.org/assets/application.js 1,1,1472101153,0 predictor::http://installfest.railsbridge.org/assets/application.css 1,1,1472101153,0 predictor::http://installfest.railsbridge.org/flags/US.png 1,1,1472101153,0 predictor::http://installfest.railsbridge.org/flags/ES.png 1,1,1472101153,0 predictor::http://installfest.railsbridge.org/flags/ZH-TW.png 1,1,1472101153,0 predictor::http://www.google-analytics.com/analytics.js 1,1,1472101153,0 predictor::http://www.google-analytics.com/r/collect?v=1&_v=j46&a=8385230&t=pageview&_s=1&dl=http%3A%2F%2Finstallfest.railsbridge.org%2Finstallfest%2F&dr=http%3A%2F%2Fwww.theodinproject.com%2Fweb-development-101%2Finstallations&ul=en-us&de=UTF-8&dt=Installfest%20-%20Installfest&sd=24-bit&sr=1920x1080&vp=1280x879&je=0&_u=AEAAAEABI~&jid=1832791374&cid=854949526.1472101155&tid=UA-40977319-4&_r=1&z=2084240129 1,1,1472101153,0 predictor::http://installfest.railsbridge.org/img/navbar_texture.gif 1,1,1472101153,0 predictor::http://installfest.railsbridge.org/assets/opensans.woff 1,1,1472101153,0 predictor::http://installfest.railsbridge.org/assets/aleo-regular-webfont.woff 1,1,1472101153,0 predictor::http://installfest.railsbridge.org/fonts/font-awesome/fontawesome-webfont.woff2?v=4.6.2 1,1,1472101153,0 predictor::http://installfest.railsbridge.org/assets/opensans-bold.woff 1,1,1472101153,0 predictor::http://installfest.railsbridge.org/assets/aleo-bold-webfont.woff 1,1,1472101153,0   '§

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Create A Github Account - Installfest</title>
+<script src="/assets/application.js"></script><link href="/assets/application.css" rel="stylesheet">
+</head>
+<body>
+<nav class="top cf" role="navigation"><div class="navbar-header cf title"><a href="/installfest"><span class="brand">RailsBridge </span>Installfest</a></div>
+<ul class="navbar-nav nav">
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="/flags/US.png"></a><ul class="flags dropdown-menu">
+<li><a href="http://docs.railsbridge.org"><img src="/flags/US.png"></a></li>
+<li><a href="http://es.railsbridge.org"><img src="/flags/ES.png"></a></li>
+<li><a href="http://zh-tw.railsbridge.org"><img src="/flags/ZH-TW.png"></a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">sites</a><ul class="dropdown-menu">
+<li class="category">Setup</li>
+<li class="current">Installfest</li>
+<li class="category">Rails</li>
+<li><a href="/intro-to-rails/">Intro To Rails</a></li>
+<li><a href="/job-board/">Job Board</a></li>
+<li><a href="/message-board/">Message Board</a></li>
+<li class="category">Frontend</li>
+<li><a href="/frontend/">Frontend</a></li>
+<li><a href="/javascript-snake-game/">Javascript Snake Game</a></li>
+<li><a href="/javascript-to-do-list/">Javascript To Do List</a></li>
+<li><a href="/javascript-to-do-list-with-react/">Javascript To Do List With React</a></li>
+<li class="category">Ruby</li>
+<li><a href="/learn-to-code/">Learn To Code</a></li>
+<li><a href="/ruby/">Ruby</a></li>
+<li class="category">Other stuff</li>
+<li><a href="/docs/">Docs</a></li>
+<li><a href="/workshop/">Workshop</a></li>
+</ul>
+</li>
+<li class="show-when-small"><a data-toggle-selector="#table_of_contents" href="#">toc</a></li>
+<li class="hidden-sm"><a href="create_a_github_account/src">src</a></li>
+<li class="hidden-sm"><a href="https://github.com/railsbridge/docs/blob/master/sites/en/installfest/create_a_github_account.step">git</a></li>
+</ul></nav><div class="toc page-list" id="table_of_contents">
+<ul>
+<li class="collapsable closed">
+<a href="/installfest/installfest"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Installfest</a><ul><li class=""><a href="/installfest/editors">Editors</a></li></ul>
+</li>
+<li class="collapsable closed">
+<a href="/installfest/choose_your_operating_system"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Choose Your Operating System</a><ul>
+<li class="collapsable closed">
+<a href="/installfest/macintosh"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Macintosh</a><ul><li class="collapsable closed">
+<a href="/installfest/osx_rvm"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>OS X RVM</a><ul><li class="collapsable closed">
+<a href="/installfest/install_xcode"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Install Xcode</a><ul>
+<li class=""><a href="/installfest/install_xcode_command_line_tools">Install Xcode Command Line Tools</a></li>
+<li class=""><a href="/installfest/install_xcode_from_app_store">Install Xcode From App Store</a></li>
+<li class=""><a href="/installfest/install_xcode_from_dvd">Install Xcode From DVD</a></li>
+</ul>
+</li></ul>
+</li></ul>
+</li>
+<li class="collapsable closed">
+<a href="/installfest/windows"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Windows</a><ul><li class=""><a href="/installfest/configure_the_windows_terminal">Configure The Windows Terminal</a></li></ul>
+</li>
+<li class=""><a href="/installfest/linux">Linux</a></li>
+</ul>
+</li>
+<li class=""><a href="/installfest/configure_git">Configure Git</a></li>
+<li class=""><a href="/installfest/create_an_ssh_key">Create An SSH Key</a></li>
+<li class="collapsable">
+<a href="/installfest/create_a_heroku_account"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Create A Heroku Account</a><ul><li class=""><span class="current">Create A Github Account</span></li></ul>
+</li>
+<li class=""><a href="/installfest/create_a_rails_app">Create A Rails App</a></li>
+<li class=""><a href="/installfest/deploy_a_rails_app">Deploy A Rails App</a></li>
+<li class=""><a href="/installfest/get_a_sticker">Get A Sticker</a></li>
+<li class=""><a href="/installfest/clean_up">Clean Up</a></li>
+</ul>
+<h1>Other Pages</h1>
+<ul><li class=""><a href="/installfest/glossary">Glossary</a></li></ul>
+<span class="expand-all"><i class="fa fa-arrows-alt"></i>Expand All</span>
+</div>
+<main><h1 class="doc_title">Create A Github Account</h1>
+<div class="doc">
+<div class="message">
+<p>You can use GitHub to store your code online and access it from anywhere. This step isn't necessary to deploy your apps to the web though.</p>
+</div>
+<a name="step1"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4298" name="big_checkbox_4298" type="checkbox" value="valuable"><label for="big_checkbox_4298"></label><span class="prefix">Step 1: </span>Visit the GitHub web site</h1>
+<blockquote><a href="https://github.com/">https://github.com/</a></blockquote>
+</div>
+<a name="step2"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4299" name="big_checkbox_4299" type="checkbox" value="valuable"><label for="big_checkbox_4299"></label><span class="prefix">Step 2: </span>Create an account</h1>
+<blockquote>
+<div class="message">
+<p>Click the green <strong>Sign Up for GitHub</strong> button (it's about halfway down the page)</p>
+</div>
+<div class="message">
+<p>Enter a username, your email address and a password.</p>
+</div>
+<div class="message important vertical-centerer">
+<i class="fa fa-exclamation-circle fa-3x"></i><div class="vertically-centered">
+<p>Use the same email address for heroku, git, github, and ssh. Be sure to use an email account you can log into immediately.</p>
+</div>
+</div>
+</blockquote>
+</div>
+<a name="step3"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4300" name="big_checkbox_4300" type="checkbox" value="valuable"><label for="big_checkbox_4300"></label><span class="prefix">Step 3: </span>Select a plan</h1>
+<blockquote><div class="message">
+<p>GitHub provides several levels of account plans but you can create unlimited public repositories with a free plan so for now, you can select that one. Hit <strong>Finish sign up</strong>.</p>
+</div></blockquote>
+</div>
+<a name="step4"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4301" name="big_checkbox_4301" type="checkbox" value="valuable"><label for="big_checkbox_4301"></label><span class="prefix">Step 4: </span>Set up SSH authentication with GitHub</h1>
+<blockquote>
+<div class="message">
+<p>Adding an SSH key to GitHub allows you to pull and push data without typing in your password all the time. First we'll copy the key we generated in the <strong>Create an SSH Key</strong> step and add it to your GitHub account. We'll use a terminal command to do that, so that we don't add any newlines or whitespace that could cause an error.</p>
+</div>
+<h2>Mac users</h2>
+<div class="console">
+<span>Type this in the terminal:</span><pre>pbcopy &lt; ~/.ssh/id_rsa.pub</pre>
+</div>
+<h2>Linux users</h2>
+<div class="console">
+<span>Type this in the terminal:</span><pre>sudo apt-get install xclip
+xclip -sel clip &lt; ~/.ssh/id_rsa.pub
+</pre>
+</div>
+<div class="message">
+<p><code>sudo apt-get install xclip</code> installs a tiny application, xclip, that lets us copy the contents of a file without opening it. Mac and Windows users have similar things already installed (<code>pbcopy</code> and <code>clip</code>).</p>
+</div>
+<h2>Windows users</h2>
+<div class="console">
+<span>Type this in the terminal:</span><pre>clip &lt; "%userprofile%\.ssh\id_rsa.pub"</pre>
+</div>
+<div class="message">
+<p>Now that you have copied the key to your clipboard, you can add it to the GitHub account you created earlier.</p>
+</div>
+<h1>Add your SSH key to GitHub</h1>
+<div class="message">
+<p>Navigate to github.com and make sure you are logged in. On any page on the GitHub site, click your profile photo in the top right corner to the right of the plus sign. In the dropdown menu, click <strong>Settings</strong> to go to the account settings page.</p>
+</div>
+<div class="message">
+<p>On the account settings page, select <strong>SSH and GPG keys</strong> from the column on the left.</p>
+</div>
+<div class="message">
+<p>At the top right of this page, click the button that says <strong>New SSH key</strong>. In the title field, give a name for your SSH key, you might call it <strong>My PC</strong> or <strong>Personal MacBook</strong>. In the key field, paste the key you copied.</p>
+</div>
+<div class="message">
+<p>Click <strong>Add SSH key</strong></p>
+</div>
+<div class="message">
+<p>Confirm the action by providing your GitHub Password</p>
+</div>
+</blockquote>
+</div>
+<a name="step5"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4302" name="big_checkbox_4302" type="checkbox" value="valuable"><label for="big_checkbox_4302"></label><span class="prefix">Step 5: </span>Confirm SSH Authentication</h1>
+<blockquote>
+<div class="message">
+<p>Confirm that you have successfully set up SSH Authentication for GitHub</p>
+</div>
+<div class="message">
+<p>Windows users cannot perform this step.</p>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>ssh -T git@github.com</pre>
+</div>
+<div class="result">
+<span>Expected result:</span><pre>The authenticity of host 'github.com (207.97.227.239)' can't be established.
+RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)?
+</pre>
+</div>
+<div class="message">
+<p>You might see a message like this to confirm your key, if it's your correct key continue connecting by typing yes</p>
+</div>
+<div class="result">
+<span>Expected result:</span><pre>Hi username! You've successfully authenticated, but GitHub does not
+provide shell access.
+</pre>
+</div>
+<div class="message">
+<p>If the username is your username, you've successfully authenticated GitHub with SSH!</p>
+</div>
+<div class="step next_step">
+<h1><span class="prefix">Next Step:</span></h1>
+<p class="link">Go on to <a class="link" href="create_a_rails_app">Create A Rails App</a></p>
+</div>
+</blockquote>
+</div>
+</div>
+<div class="back">Back to <a class="back" href="create_a_heroku_account">Create A Heroku Account</a>
+</div></main><footer><p>Going through this curriculum on your own? Get help on <a href="http://discourse.bridgefoundry.org/c/railsbridge-help" target="_blank">our Discourse forum</a>, where RailsBridge volunteers can answer your questions.</p>
+<p>If you have a suggestion for improving the docs, please make a <a href="https://github.com/railsbridge/docs">pull request </a>or <a href="https://github.com/railsbridge/docs/issues/new">drop us a note </a>via GitHub Issues (no technical knowledge required).</p>
+<p>Source: <a href="https://github.com/railsbridge/docs">https://github.com/railsbridge/docs</a></p></footer>
+</body>
+</html>
+ž'Òf4      W¿E†W¿E†<ÒZvW¿S–   G    :http://installfest.railsbridge.org/installfest/create_a_github_account necko:classified 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 25 Aug 2016 19:22:46 GMT
+Content-Type: text/html;charset=utf-8
+Cache-Control: public, max-age=3600
+Expires: Thu, 25 Aug 2016 20:22:46 GMT
+Content-Length: 11360
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: thin
+Via: 1.1 vegur
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 8 predictor::http://installfest.railsbridge.org/assets/application.js 1,1,1472152966,0 predictor::http://installfest.railsbridge.org/assets/application.css 1,1,1472152966,0 predictor::http://www.google-analytics.com/analytics.js 1,1,1472152966,0 predictor::http://www.google-analytics.com/r/collect?v=1&_v=j46&a=740141072&t=pageview&_s=1&dl=http%3A%2F%2Finstallfest.railsbridge.org%2Finstallfest%2Fcreate_a_github_account&ul=en-us&de=UTF-8&dt=Create%20A%20Github%20Account%20-%20Installfest&sd=24-bit&sr=1920x1080&vp=1280x879&je=0&_u=AACAAEABI~&jid=480446313&cid=854949526.1472101155&tid=UA-40977319-4&_r=1&z=1735654487 1,1,1472152966,0 predictor::http://installfest.railsbridge.org/flags/US.png 1,1,1472152966,0 predictor::http://installfest.railsbridge.org/flags/ES.png 1,1,1472152966,0 predictor::http://installfest.railsbridge.org/flags/ZH-TW.png 1,1,1472152966,0 predictor::http://installfest.railsbridge.org/img/navbar_texture.gif 1,1,1472152966,0   ,`

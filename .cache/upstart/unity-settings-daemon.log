@@ -1,0 +1,14 @@
+
+(unity-settings-daemon:1576): color-plugin-WARNING **: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/cups_iP4300
+
+(unity-settings-daemon:1576): color-plugin-WARNING **: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/cups_Samsung_ML_1865W_Series
+
+(unity-settings-daemon:1576): color-plugin-WARNING **: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/cups_iP4300
+
+(unity-settings-daemon:1576): color-plugin-WARNING **: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/cups_Samsung_ML_1865W_Series
+X Error of failed request:  XI_BadDevice (invalid Device parameter)
+  Major opcode of failed request:  131 (XInputExtension)
+  Minor opcode of failed request:  39 (X_GetDeviceProperty)
+  Device id in failed request: 0x17
+  Serial number of failed request:  245
+  Current serial number in output stream:  245

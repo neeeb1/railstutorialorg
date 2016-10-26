@@ -1,0 +1,21 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://folding.stanford.edu/nacl/"
+      },
+      "urls": [ "http://folding.stanford.edu/nacl/" ]
+   },
+   "author": "Stanford University",
+   "description": "Help scientists fight diseases, such as cancer, by donating your unused\ncomputing power by running Folding@home in a browser window.",
+   "homepage_url": "http://folding.stanford.edu/",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzx8Z8auFFRvCOtbjlzkjWBpaxQUBncjSafEMkhn0TOiyhUq+ZHRHNkPIkyOYgXeoeC5kiNMa6Yal8kZrJ+66HjfqTqtwT5j3Rs9n7OqpN92GIm8alQlRCqFwhDilaS0V/nhl9XQDCQCHYPRcNyShfHnXmbWFONb3h6O3hq+8GrvNdSy6uEuFr7NMLF7KUSGKuWLeHsleZPV4i3wCcLYlLLc82YtvInPoa1SMR1I0jaLRlq0qE5+m1/rKP7OdBSpSeGz8MF+W6foHmM0OivEyR8eLnDSFWPF80YSxTxglGiwxTMj9Ypq3FCK8i5q+geT283Lk0d5dBIlJc7s0m8nFVQIDAQAB",
+   "manifest_version": 2,
+   "name": "Folding@home",
+   "offline_enabled": false,
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1"
+}

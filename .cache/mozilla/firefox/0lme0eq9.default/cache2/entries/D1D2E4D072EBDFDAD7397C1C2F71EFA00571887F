@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Linux - Installfest</title>
+<script src="/assets/application.js"></script><link href="/assets/application.css" rel="stylesheet">
+</head>
+<body>
+<nav class="top cf" role="navigation"><div class="navbar-header cf title"><a href="/installfest"><span class="brand">RailsBridge </span>Installfest</a></div>
+<ul class="navbar-nav nav">
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="/flags/US.png"></a><ul class="flags dropdown-menu">
+<li><a href="http://docs.railsbridge.org"><img src="/flags/US.png"></a></li>
+<li><a href="http://es.railsbridge.org"><img src="/flags/ES.png"></a></li>
+<li><a href="http://zh-tw.railsbridge.org"><img src="/flags/ZH-TW.png"></a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">sites</a><ul class="dropdown-menu">
+<li class="category">Setup</li>
+<li class="current">Installfest</li>
+<li class="category">Rails</li>
+<li><a href="/intro-to-rails/">Intro To Rails</a></li>
+<li><a href="/job-board/">Job Board</a></li>
+<li><a href="/message-board/">Message Board</a></li>
+<li class="category">Frontend</li>
+<li><a href="/frontend/">Frontend</a></li>
+<li><a href="/javascript-snake-game/">Javascript Snake Game</a></li>
+<li><a href="/javascript-to-do-list/">Javascript To Do List</a></li>
+<li><a href="/javascript-to-do-list-with-react/">Javascript To Do List With React</a></li>
+<li class="category">Ruby</li>
+<li><a href="/learn-to-code/">Learn To Code</a></li>
+<li><a href="/ruby/">Ruby</a></li>
+<li class="category">Other stuff</li>
+<li><a href="/docs/">Docs</a></li>
+<li><a href="/workshop/">Workshop</a></li>
+</ul>
+</li>
+<li class="show-when-small"><a data-toggle-selector="#table_of_contents" href="#">toc</a></li>
+<li class="hidden-sm"><a href="linux/src">src</a></li>
+<li class="hidden-sm"><a href="https://github.com/railsbridge/docs/blob/master/sites/en/installfest/linux.step">git</a></li>
+</ul></nav><div class="toc page-list" id="table_of_contents">
+<ul>
+<li class="collapsable closed">
+<a href="/installfest/installfest"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Installfest</a><ul><li class=""><a href="/installfest/editors">Editors</a></li></ul>
+</li>
+<li class="collapsable">
+<a href="/installfest/choose_your_operating_system"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Choose Your Operating System</a><ul>
+<li class="collapsable closed">
+<a href="/installfest/macintosh"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Macintosh</a><ul><li class="collapsable closed">
+<a href="/installfest/osx_rvm"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>OS X RVM</a><ul><li class="collapsable closed">
+<a href="/installfest/install_xcode"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Install Xcode</a><ul>
+<li class=""><a href="/installfest/install_xcode_command_line_tools">Install Xcode Command Line Tools</a></li>
+<li class=""><a href="/installfest/install_xcode_from_app_store">Install Xcode From App Store</a></li>
+<li class=""><a href="/installfest/install_xcode_from_dvd">Install Xcode From DVD</a></li>
+</ul>
+</li></ul>
+</li></ul>
+</li>
+<li class="collapsable closed">
+<a href="/installfest/windows"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Windows</a><ul><li class=""><a href="/installfest/configure_the_windows_terminal">Configure The Windows Terminal</a></li></ul>
+</li>
+<li class=""><span class="current">Linux</span></li>
+</ul>
+</li>
+<li class=""><a href="/installfest/configure_git">Configure Git</a></li>
+<li class=""><a href="/installfest/create_an_ssh_key">Create An SSH Key</a></li>
+<li class="collapsable closed">
+<a href="/installfest/create_a_heroku_account"><span class="toggler"><i class="fa fa-plus-square-o"></i><i class="fa fa-minus-square-o"></i></span>Create A Heroku Account</a><ul><li class=""><a href="/installfest/create_a_github_account">Create A Github Account</a></li></ul>
+</li>
+<li class=""><a href="/installfest/create_a_rails_app">Create A Rails App</a></li>
+<li class=""><a href="/installfest/deploy_a_rails_app">Deploy A Rails App</a></li>
+<li class=""><a href="/installfest/get_a_sticker">Get A Sticker</a></li>
+<li class=""><a href="/installfest/clean_up">Clean Up</a></li>
+</ul>
+<h1>Other Pages</h1>
+<ul><li class=""><a href="/installfest/glossary">Glossary</a></li></ul>
+<span class="expand-all"><i class="fa fa-arrows-alt"></i>Expand All</span>
+</div>
+<main><h1 class="doc_title">Linux</h1>
+<div class="doc">
+<div class="message important vertical-centerer">
+<i class="fa fa-exclamation-circle fa-3x"></i><div class="vertically-centered">
+<p>These steps apply to <strong>Ubuntu Linux</strong> only. If you are using some other flavor of Linux, get help from a TA.</p>
+</div>
+</div>
+<div class="message">
+<p>You will need sudo access in order to complete these directions (The first user account has this by default).</p>
+</div>
+<a name="step1"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4168" name="big_checkbox_4168" type="checkbox" value="valuable"><label for="big_checkbox_4168"></label><span class="prefix">Step 1: </span>Install packaged software and libraries</h1>
+<blockquote>
+<div class="message">
+<p>Open a terminal (Applications &gt; Accessories &gt; Terminal).  You may want to right-click on the terminal icon and select "Add to panel" so the icon will appear next to the default help and Firefox icons in the top panel.</p>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>sudo apt-get install autoconf automake bison build-essential curl git-core libapr1 libaprutil1 libc6-dev libltdl-dev libreadline6 libreadline6-dev libsqlite3-0 libsqlite3-dev libssl-dev libtool libxml2-dev libxslt-dev libxslt1-dev libyaml-dev ncurses-dev nodejs openssl sqlite3 zlib1g zlib1g-dev</pre>
+</div>
+<div class="message important vertical-centerer">
+<i class="fa fa-exclamation-circle fa-3x"></i><div class="vertically-centered">
+<p>If you get an error during <code>apt-get</code> resembling</p>
+
+<p><code>Failed to fetch cdrom://Ubuntu</code>...</p>
+
+<p>it is because <code>apt-get</code> is trying to install packages from your Ubuntu install CD. If you don't have that CD on hand, you can try disabling it as a package source by following this Stack Overflow post:</p>
+
+<p><a href="http://askubuntu.com/questions/125111/failed-to-download-repository-information-due-to-missing-cdrom">http://askubuntu.com/questions/125111/failed-to-download-repository-information-due-to-missing-cdrom</a></p>
+</div>
+</div>
+</blockquote>
+</div>
+<a name="step2"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4169" name="big_checkbox_4169" type="checkbox" value="valuable"><label for="big_checkbox_4169"></label><span class="prefix">Step 2: </span>Install git</h1>
+<blockquote>
+<div class="console">
+<span>Type this in the terminal:</span><pre>sudo apt-get install git</pre>
+</div>
+<div class="message">
+<p>If this results in an error, you should be ok, as the prior step should have installed <code>git-core</code></p>
+</div>
+</blockquote>
+</div>
+<a name="step3"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4170" name="big_checkbox_4170" type="checkbox" value="valuable"><label for="big_checkbox_4170"></label><span class="prefix">Step 3: </span>Install RVM</h1>
+<blockquote>
+<div class="message important vertical-centerer">
+<i class="fa fa-exclamation-circle fa-3x"></i><div class="vertically-centered">
+<div class="message">
+<p>If you're using Ubuntu 12.04, Ubuntu 14.04 or the latest version of Mint, ensure that the Run command as login shell option is checked under the Title and Command tab in Profile Preferences (located in Terminal's Edit menu). After changing this setting, you may need to exit your console session and start a new one before the changes take effect.</p>
+</div>
+<img alt="Ubuntu 12.04 terminal settings" src="img/railsbridge_ubuntu12-checkbox.png">
+</div>
+</div>
+<div class="message">
+<p>RVM stands for Ruby Version Manager and is the easiest way to install and manage Ruby.  The <a href="https://rvm.io/rvm/install">official RVM install instructions</a> are available here, but this should work for you:</p>
+</div>
+<a name="step3-1"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4171" name="big_checkbox_4171" type="checkbox" value="valuable"><label for="big_checkbox_4171"></label><span class="prefix">Step 3.1: </span>Install RVM</h1>
+<blockquote>
+<div class="console">
+<span>Type this in the terminal:</span><pre>curl -L get.rvm.io | bash -s stable</pre>
+</div>
+<div class="message">
+<p>This will download and install RVM.</p>
+</div>
+<div class="message important vertical-centerer">
+<i class="fa fa-exclamation-circle fa-3x"></i><div class="vertically-centered"><div class="message">
+<p>You might see an error like "<strong>GPG signature verification failed</strong>"</p>
+
+<p>If so, run the suggested command to add RVM's GPG keys:</p>
+
+<p><code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3</code>"</p>
+
+<p>(the command may start with <code>gpg</code> or <code>gpg2</code> -- use whichever was provided in the RVM error message)</p>
+
+<p>Afterward, try installing RVM again:</p>
+
+<p><code>curl -L get.rvm.io | bash -s stable</code></p>
+</div></div>
+</div>
+</blockquote>
+</div>
+<a name="step3-2"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4172" name="big_checkbox_4172" type="checkbox" value="valuable"><label for="big_checkbox_4172"></label><span class="prefix">Step 3.2: </span>Configure your shell</h1>
+<blockquote>
+<div class="message">
+<p>Every time you open a new terminal window, rvm will be active inside it. Close your terminal window and open a new one.</p>
+</div>
+<div class="verify">
+<h1>Verify </h1>
+<blockquote>
+<div class="console">
+<span>Type this in the terminal:</span><pre>type rvm | head -1</pre>
+</div>
+<div class="result">
+<span>Expected result:</span><pre>rvm is a function</pre>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>rvm -v</pre>
+</div>
+<div class="result fuzzy-result">
+<span>Approximate expected result:</span><pre>rvm 1<span class="fuzzy-lightened">.x.x (stable) by Wayne E. Seguin (wayneeseguin@gmail.com), Michal Papis &lt;mpapis@gmail.com&gt; [https://rvm.io/]</span></pre>
+<div class="fuzzy-hint">The greyed-out text may differ and is not important.</div>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+<a name="step4"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4173" name="big_checkbox_4173" type="checkbox" value="valuable"><label for="big_checkbox_4173"></label><span class="prefix">Step 4: </span>Install Ruby</h1>
+<blockquote>
+<div class="console">
+<span>Type this in the terminal:</span><pre>rvm install 2.3
+</pre>
+</div>
+<div class="message">
+<p>This downloads and compiles Ruby, which takes a while.</p>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>rvm use 2.3
+rvm --default use 2.3
+</pre>
+</div>
+<div class="verify">
+<h1>Verify </h1>
+<blockquote>
+<div class="console">
+<span>Type this in the terminal:</span><pre>ruby -v</pre>
+</div>
+<div class="result fuzzy-result">
+<span>Approximate expected result:</span><pre>ruby 2.3<span class="fuzzy-lightened">.0p0 (2014-12-25 revision 49005) [x86_64-darwin13]</span></pre>
+<div class="fuzzy-hint">The greyed-out text may differ and is not important.</div>
+</div>
+</blockquote>
+</div>
+<div>
+<h1>Troubleshooting</h1>
+<div class="message important vertical-centerer">
+<i class="fa fa-exclamation-circle fa-3x"></i><div class="vertically-centered">
+<p><strong>If <code>rvm install 2.3</code> says <code>autoreconf was not found in the PATH</code></strong></p>
+<div>
+<div class="half-width">
+<strong>Mac OS</strong><div class="console">
+<span>Type this in the terminal:</span><pre>brew install automake</pre>
+</div>
+</div>
+<div class="half-width">
+<strong>Ubuntu Linux</strong><div class="console">
+<span>Type this in the terminal:</span><pre>sudo apt-get install automake</pre>
+</div>
+</div>
+</div>
+<div class="message">
+<p>Once that completes, retry <code>rvm install 2.3</code></p>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<a name="step5"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4174" name="big_checkbox_4174" type="checkbox" value="valuable"><label for="big_checkbox_4174"></label><span class="prefix">Step 5: </span>Install Rails</h1>
+<blockquote>
+<div class="message">
+<p>Using a terminal again, execute the following command to install rails.</p>
+</div>
+<div class="console">
+<span>Type this in the terminal:</span><pre>gem install rails</pre>
+</div>
+</blockquote>
+</div>
+<a name="step6"></a><div class="step">
+<h1>
+<input class="big_checkbox" id="big_checkbox_4175" name="big_checkbox_4175" type="checkbox" value="valuable"><label for="big_checkbox_4175"></label><span class="prefix">Step 6: </span>Sublime Text 2</h1>
+<blockquote>
+<div class="message">
+<p>If you don't have a preferred code editor, you can install Sublime Text 2. It's available for <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1.tar.bz2">32-bit machines</a> and <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1%20x64.tar.bz2">64-bit machines</a></p>
+
+<p>Check <a href="http://www.sublimetext.com/2">http://www.sublimetext.com/2</a> for the latest version.</p>
+</div>
+<div class="message tip vertical-centerer">
+<i class="fa fa-info-circle fa-3x"></i><div class="vertically-centered">
+<p><strong>How many bits?</strong></p>
+<div class="message">
+<p>If you're not sure, you're probably 32-bit. Run <code>uname -i</code> and see. "x86" in the filename means 32-bit, and "x86_64" means 64-bit.</p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<div class="step next_step">
+<h1><span class="prefix">Next Step:</span></h1>
+<p class="link">Go on to <a class="link" href="configure_git">Configure Git</a></p>
+</div>
+</div>
+<div class="back">Back to <a class="back" href="choose_your_operating_system">Choose Your Operating System</a>
+</div></main><footer><p>Going through this curriculum on your own? Get help on <a href="http://discourse.bridgefoundry.org/c/railsbridge-help" target="_blank">our Discourse forum</a>, where RailsBridge volunteers can answer your questions.</p>
+<p>If you have a suggestion for improving the docs, please make a <a href="https://github.com/railsbridge/docs">pull request </a>or <a href="https://github.com/railsbridge/docs/issues/new">drop us a note </a>via GitHub Issues (no technical knowledge required).</p>
+<p>Source: <a href="https://github.com/railsbridge/docs">https://github.com/railsbridge/docs</a></p></footer>
+</body>
+</html>
+ÏJyè      Wæ{BWøAb<—ŒBWæâR   5    :http://installfest.railsbridge.org/installfest/linux necko:classified 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 25 Aug 2016 18:59:43 GMT
+Content-Type: text/html;charset=utf-8
+Cache-Control: public, max-age=3600
+Expires: Thu, 25 Aug 2016 19:59:43 GMT
+Content-Length: 15053
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+X-Frame-Options: SAMEORIGIN
+Server: thin
+Via: 1.1 vegur
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 6 predictor::http://installfest.railsbridge.org/assets/application.js 1,1,1472101186,0 predictor::http://installfest.railsbridge.org/assets/application.css 1,1,1472101186,0 predictor::http://installfest.railsbridge.org/installfest/img/railsbridge_ubuntu12-checkbox.png 1,1,1472101186,0 predictor::http://www.google-analytics.com/analytics.js 1,1,1472101186,0 predictor::http://www.google-analytics.com/collect?v=1&_v=j46&a=695315017&t=pageview&_s=1&dl=http%3A%2F%2Finstallfest.railsbridge.org%2Finstallfest%2Flinux&ul=en-us&de=UTF-8&dt=Linux%20-%20Installfest&sd=24-bit&sr=1920x1080&vp=1270x879&je=0&_u=AACAAEABI~&jid=&cid=854949526.1472101155&tid=UA-40977319-4&z=1638950675 1,1,1472101186,0 predictor::http://installfest.railsbridge.org/img/check-dim.png 1,1,1472101186,0   :Õ
